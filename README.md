@@ -1,4 +1,4 @@
-# FirstAirline-core (2nd Team Project)
+# ✈️ FirstAirline-core (2nd Team Project)
 ## 🌊 프로젝트 소개
 
 **FirstAirline**는 Azure 환경에서  
