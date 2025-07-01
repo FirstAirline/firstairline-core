@@ -7,7 +7,7 @@
 이 프로젝트의 목표는, 팀원이 함께 실무에 가까운 데이터 파이프라인을 구축하며  
 Python, SQL, Power BI, Databricks, Azure ML, Azure Functions, Stream-Analytics에 대한 실전 경험을 쌓는 것입니다.
 
-> **"저희 First항공사를 찾아주셔서 감사합니다. 데이터 여행의 목적지로 안전히 모시겠습니다." – First Air-Line**
+> **"저희 `FIRST` 항공사를 찾아주셔서 감사합니다. 데이터 여행의 목적지로 안전히 모시겠습니다." – First AirLine**
 
 
 ## 🏗️ 아키텍처 개요
