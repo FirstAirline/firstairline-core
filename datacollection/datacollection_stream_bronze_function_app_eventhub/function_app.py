@@ -7,7 +7,6 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 import pytz
 
-
 # FunctionApp 인스턴스를 생성
 app = func.FunctionApp()
 
@@ -29,14 +28,15 @@ def api_eventhub_departure_weather(timer: func.TimerRequest, event:func.Out[str]
 
     #3. Event Hub에 데이터 전송
     if result:
-        items = result['response']['body']['items']
+        body = result['response']['body']
+        #items = result['response']['body']['items']
         #items_json = json.dumps(items, ensure_ascii=False)
-        items_as_dict = {str(i): item for i, item in enumerate(items)}
-        logging.info(f"전체 데이터 전송 준비 완료: {items[0]}")
+        #items_as_dict = {str(i): item for i, item in enumerate(items)}
+        logging.info(f"전체 데이터 전송 준비 완료: {body}")
         payload = {
             "source": "api_bronze_departure_weather",
-            "timestamp" : timestamp_now,
-            "data" : items_as_dict #json 딕셔너리 형태로 바꾼 데이터 보내기
+            "event_timestamp" : timestamp_now,
+            "data" : body
         }
         event.set(json.dumps(payload))
 
@@ -58,13 +58,12 @@ def api_eventhub_parkinglot(timer: func.TimerRequest, event:func.Out[str]) -> No
 
     #3. Event Hub에 데이터 전송
     if result:
-        items = result['response']['body']['items']
-        items_as_dict = {str(i): item for i, item in enumerate(items)}
-        logging.info(f"데이터 전송 준비 완료: {items[0]}")
+        body = result['response']['body']
+        logging.info(f"데이터 전송 준비 완료: {body}")
         payload = {
             "source": "api_bronze_parkinglot",
             "timestamp": timestamp_now,
-            "data": items_as_dict 
+            "data": body 
         }
         event.set(json.dumps(payload))
 
@@ -86,16 +85,14 @@ def api_eventhub_indoorair_quality(timer: func.TimerRequest, event:func.Out[str]
 
     #3. Event Hub에 데이터 전송
     if result:
-        items = result['response']['body']['items']
-        items_as_dict = {str(i): item for i, item in enumerate(items)}
-        logging.info(f"데이터 전송 준비 완료: {items[0]}")
+        body = result['response']['body']
+        logging.info(f"데이터 전송 준비 완료: {body}")
         payload = {
             "source": "api_bronze_indoorair_quality",
             "timestamp": timestamp_now,
-            "data": items_as_dict 
+            "data": body 
         }
         event.set(json.dumps(payload))
-
 
 
 #승수: 기상청 API
@@ -138,6 +135,7 @@ def timer_trigger_weather(timer: func.TimerRequest, event: func.Out[str]) -> Non
 
 
 
+
 #상원: 인천국제공항공사_출입국별 승객 예고 정보 API
 #@app.timer_trigger(schedule="0 */5 * * * *", arg_name="timer", run_on_startup=True, use_monitor=False) 이거 5분
 @app.timer_trigger(schedule="0 10 17 * * *", arg_name="timer", run_on_startup=True, use_monitor=False) # 이건 17시 10분에 하루한번
@@ -154,14 +152,15 @@ def api_eventhub_departure_forecast(timer: func.TimerRequest, event:func.Out[str
     items = result.get('response', {}).get('body', {}).get('items', []) if result else []
 
     if items:
-        items_as_dict = {str(i): item for i, item in enumerate(items)}
-        logging.info(f"데이터 전송 준비 완료: {items[0]}")
+        body = result['response']['body']
+        items_as_dict = {str(i): item for i, item in enumerate(items)} # 배열 → 딕셔너리
+        logging.info(f"데이터 전송 준비 완료: {body}")
         payload = {
             "source": "api_bronze_departure_forecast",
             "timestamp": timestamp_now,
-            "data": items_as_dict  # 배열 → 딕셔너리
+            "data": body
         }
         event.set(json.dumps(payload))
-        text = f"[알림] {timestamp_now} 기준 departure_forecast API 수집 완료.\n 예시 데이터: {items[0]}"
+        text = f"[알림] {timestamp_now} 기준 departure_forecast API 수집 완료.\n 예시 데이터: {body}"
     else:
         text = f"[경고] {timestamp_now} 기준 departure_forecast API 응답에 데이터가 없습니다."
