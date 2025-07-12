@@ -35,7 +35,7 @@ def api_eventhub_departure_weather(timer: func.TimerRequest, event:func.Out[str]
         logging.info(f"전체 데이터 전송 준비 완료: {body}")
         payload = {
             "source": "api_bronze_departure_weather",
-            "event_timestamp" : timestamp_now,
+            "timestamp" : timestamp_now,
             "data" : body
         }
         event.set(json.dumps(payload))
@@ -99,7 +99,7 @@ def api_eventhub_indoorair_quality(timer: func.TimerRequest, event:func.Out[str]
 # time trigger 부분
 # @app.timer_trigger 데코레이터를 사용하여 시간 트리거 함수를 정의합니다.
 @app.timer_trigger(schedule="0 1,11,21,31,41,51 * * * *", arg_name="timer", run_on_startup=True, use_monitor=False)
-@app.event_hub_output(arg_name="event", event_hub_name= os.environ["Team1EventHubName"], connection="Team1EventHubConnectionString")
+@app.event_hub_output(arg_name="event", event_hub_name= os.environ["Team1EventHubName2"], connection="Team1EventHubConnectionString")
 def timer_trigger_weather(timer: func.TimerRequest, event: func.Out[str]) -> None:
 
     utc_timestamp = datetime.now(timezone.utc).isoformat()
@@ -139,7 +139,7 @@ def timer_trigger_weather(timer: func.TimerRequest, event: func.Out[str]) -> Non
 #상원: 인천국제공항공사_출입국별 승객 예고 정보 API
 #@app.timer_trigger(schedule="0 */5 * * * *", arg_name="timer", run_on_startup=True, use_monitor=False) 이거 5분
 @app.timer_trigger(schedule="0 10 17 * * *", arg_name="timer", run_on_startup=True, use_monitor=False) # 이건 17시 10분에 하루한번
-@app.event_hub_output(arg_name="event", event_hub_name= os.environ["Team1EventHubName"], connection="Team1EventHubConnectionString")
+@app.event_hub_output(arg_name="event", event_hub_name= os.environ["Team1EventHubName2"], connection="Team1EventHubConnectionString")
 def api_eventhub_departure_forecast(timer: func.TimerRequest, event:func.Out[str]) -> None:
     logging.info("API 수집 시작: _departure_forecast")
 
