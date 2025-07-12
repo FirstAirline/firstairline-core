@@ -22,7 +22,7 @@ def api_eventhub_departure_weather(timer: func.TimerRequest, event:func.Out[str]
     utc_now = datetime.now(tz=timezone.utc) #현재UTC시간
     kst_now = utc_now.astimezone(pytz.timezone("Asia/Seoul")) #한국시간
     timestamp_now = kst_now.strftime("%Y-%m-%d %H:%M:%S")
-    
+
     #2. API 요청
     from helper.api_collector import get_departure_weather_data
     result = get_departure_weather_data()
@@ -30,34 +30,19 @@ def api_eventhub_departure_weather(timer: func.TimerRequest, event:func.Out[str]
     #3. Event Hub에 데이터 전송
     if result:
         items = result['response']['body']['items']
-        logging.info(f"데이터 전송 준비 완료: {items[0]}")
+        #items_json = json.dumps(items, ensure_ascii=False)
+        items_as_dict = {str(i): item for i, item in enumerate(items)}
+        logging.info(f"전체 데이터 전송 준비 완료: {items[0]}")
         payload = {
-            "source": "api_bronze_departure_weather",
+            "source": "api_bronze_parkinglot",
             "timestamp" : timestamp_now,
-            "data" : items
+            "data" : items_as_dict #json 딕셔너리 형태로 바꾼 데이터 보내기
         }
         event.set(json.dumps(payload))
 
-    #4. 웹훅요청 (Slack)
-    webhook_url = "https://hooks.slack.com/services/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"
-    text = f"[알림] {timestamp_now} 기준 departure_weather API 수집 완료.\n 예시 데이터: {items[0]}"
 
-    payload = {
-        "text": text,
-        "username": "API 알림봇",
-        "icon_emoji": ":rocket:"
-    }
-
-    response = requests.post(webhook_url, data=json.dumps(payload), headers={"Content-Type": "application/json"})
-    
-    if response.status_code == 200:
-        logging.info("Slack 전송 성공")
-    else:
-        logging.info(f"Slack 전송 실패: {response.status_code} / {response.text}")
-
-        
 #누림: 인천국제공항공사_주차 정보 API
-@app.timer_trigger(schedule="0 */10 * * * *", arg_name="timer", run_on_startup=True, use_monitor=False)
+@app.timer_trigger(schedule="0 */5 * * * *", arg_name="timer", run_on_startup=True, use_monitor=False)
 @app.event_hub_output(arg_name="event", event_hub_name= os.environ["Team1EventHubName"], connection="Team1EventHubConnectionString")
 def api_eventhub_parkinglot(timer: func.TimerRequest, event:func.Out[str]) -> None:
     logging.info("API 수집 시작: parkinglot")
@@ -66,7 +51,7 @@ def api_eventhub_parkinglot(timer: func.TimerRequest, event:func.Out[str]) -> No
     utc_now = datetime.now(tz=timezone.utc) #현재UTC시간
     kst_now = utc_now.astimezone(pytz.timezone("Asia/Seoul")) #한국시간
     timestamp_now = kst_now.strftime("%Y-%m-%d %H:%M:%S")
-    
+
     #2. API 요청
     from helper.api_collector import get_parkinglot_data
     result = get_parkinglot_data()
@@ -74,34 +59,18 @@ def api_eventhub_parkinglot(timer: func.TimerRequest, event:func.Out[str]) -> No
     #3. Event Hub에 데이터 전송
     if result:
         items = result['response']['body']['items']
+        items_as_dict = {str(i): item for i, item in enumerate(items)}
         logging.info(f"데이터 전송 준비 완료: {items[0]}")
         payload = {
             "source": "api_bronze_parkinglot",
-            "timestamp" : timestamp_now,
-            "data" : items
+            "timestamp": timestamp_now,
+            "data": items_as_dict 
         }
         event.set(json.dumps(payload))
 
-    #4. 웹훅요청 (Slack)
-    webhook_url = "https://hooks.slack.com/services/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"
-    text = f"[알림] {timestamp_now} 기준 parkinglot API 수집 완료.\n 예시 데이터: {items[0]}"
-
-    payload = {
-        "text": text,
-        "username": "API 알림봇",
-        "icon_emoji": ":rocket:"
-    }
-
-    response = requests.post(webhook_url, data=json.dumps(payload), headers={"Content-Type": "application/json"})
-    
-    if response.status_code == 200:
-        logging.info("Slack 전송 성공")
-    else:
-        logging.info(f"Slack 전송 실패: {response.status_code} / {response.text}")
-
 
 #누림: 인천국제공항공사_실내대기질 정보 API
-@app.timer_trigger(schedule="0 */10 * * * *", arg_name="timer", run_on_startup=True, use_monitor=False)
+@app.timer_trigger(schedule="0 0 * * * *", arg_name="timer", run_on_startup=True, use_monitor=False)
 @app.event_hub_output(arg_name="event", event_hub_name= os.environ["Team1EventHubName"], connection="Team1EventHubConnectionString")
 def api_eventhub_indoorair_quality(timer: func.TimerRequest, event:func.Out[str]) -> None:
     logging.info("API 수집 시작: indoorair_quality")
@@ -110,7 +79,7 @@ def api_eventhub_indoorair_quality(timer: func.TimerRequest, event:func.Out[str]
     utc_now = datetime.now(tz=timezone.utc) #현재UTC시간
     kst_now = utc_now.astimezone(pytz.timezone("Asia/Seoul")) #한국시간
     timestamp_now = kst_now.strftime("%Y-%m-%d %H:%M:%S")
-    
+
     #2. API 요청
     from helper.api_collector import get_indoorair_quality_data
     result = get_indoorair_quality_data()
@@ -118,30 +87,14 @@ def api_eventhub_indoorair_quality(timer: func.TimerRequest, event:func.Out[str]
     #3. Event Hub에 데이터 전송
     if result:
         items = result['response']['body']['items']
+        items_as_dict = {str(i): item for i, item in enumerate(items)}
         logging.info(f"데이터 전송 준비 완료: {items[0]}")
         payload = {
             "source": "api_bronze_indoorair_quality",
-            "timestamp" : timestamp_now,
-            "data" : items
+            "timestamp": timestamp_now,
+            "data": items_as_dict 
         }
         event.set(json.dumps(payload))
-
-    #4. 웹훅요청 (Slack)
-    webhook_url = "https://hooks.slack.com/services/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"
-    text = f"[알림] {timestamp_now} 기준 indoorair_quality API 수집 완료.\n 예시 데이터: {items[0]}"
-
-    payload = {
-        "text": text,
-        "username": "API 알림봇",
-        "icon_emoji": ":rocket:"
-    }
-
-    response = requests.post(webhook_url, data=json.dumps(payload), headers={"Content-Type": "application/json"})
-    
-    if response.status_code == 200:
-        logging.info("Slack 전송 성공")
-    else:
-        logging.info(f"Slack 전송 실패: {response.status_code} / {response.text}")
 
 
 
@@ -153,7 +106,7 @@ def api_eventhub_indoorair_quality(timer: func.TimerRequest, event:func.Out[str]
 def timer_trigger_weather(timer: func.TimerRequest, event: func.Out[str]) -> None:
 
     utc_timestamp = datetime.now(timezone.utc).isoformat()
-    
+
     try:
         logging.info("기상 데이터 조회를 시작합니다. %s", utc_timestamp)
         # 페이지 번호 1, 행 수 10으로 데이터 조회 함수 호출
@@ -161,7 +114,7 @@ def timer_trigger_weather(timer: func.TimerRequest, event: func.Out[str]) -> Non
         weather_info = get_area_weather_data(pageNo=1, numOfRows=10)
 
         event.set(json.dumps(weather_info))
-            
+
         if weather_info:
             # 조회된 데이터를 보기 좋게 로깅합니다.
             logging.info("=== 조회된 기상 정보 ===")
@@ -185,9 +138,9 @@ def timer_trigger_weather(timer: func.TimerRequest, event: func.Out[str]) -> Non
 
 
 
-
 #상원: 인천국제공항공사_출입국별 승객 예고 정보 API
-@app.timer_trigger(schedule="0 */5 * * * *", arg_name="timer", run_on_startup=True, use_monitor=False)
+#@app.timer_trigger(schedule="0 */5 * * * *", arg_name="timer", run_on_startup=True, use_monitor=False) 이거 5분
+@app.timer_trigger(schedule="0 10 17 * * *", arg_name="timer", run_on_startup=True, use_monitor=False) # 이건 17시 10분에 하루한번
 @app.event_hub_output(arg_name="event", event_hub_name= os.environ["Team1EventHubName"], connection="Team1EventHubConnectionString")
 def api_eventhub_departure_forecast(timer: func.TimerRequest, event:func.Out[str]) -> None:
     logging.info("API 수집 시작: _departure_forecast")
@@ -201,25 +154,14 @@ def api_eventhub_departure_forecast(timer: func.TimerRequest, event:func.Out[str
     items = result.get('response', {}).get('body', {}).get('items', []) if result else []
 
     if items:
+        items_as_dict = {str(i): item for i, item in enumerate(items)}
         logging.info(f"데이터 전송 준비 완료: {items[0]}")
         payload = {
             "source": "api_bronze_departure_forecast",
             "timestamp": timestamp_now,
-            "data": items
+            "data": items_as_dict  # 배열 → 딕셔너리
         }
         event.set(json.dumps(payload))
         text = f"[알림] {timestamp_now} 기준 departure_forecast API 수집 완료.\n 예시 데이터: {items[0]}"
     else:
         text = f"[경고] {timestamp_now} 기준 departure_forecast API 응답에 데이터가 없습니다."
-
-    webhook_url = os.environ.get("SLACK_WEBHOOK_URL", "https://hooks.slack.com/services/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")
-    payload = {
-        "text": text,
-        "username": "API 알림봇",
-        "icon_emoji": ":rocket:"
-    }
-    response = requests.post(webhook_url, data=json.dumps(payload), headers={"Content-Type": "application/json"})
-    if response.status_code == 200:
-        logging.info("Slack 전송 성공")
-    else:
-        logging.error(f"Slack 전송 실패: {response.status_code} / {response.text}")
