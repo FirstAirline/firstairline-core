@@ -34,7 +34,7 @@ def api_eventhub_departure_weather(timer: func.TimerRequest, event:func.Out[str]
         items_as_dict = {str(i): item for i, item in enumerate(items)}
         logging.info(f"전체 데이터 전송 준비 완료: {items[0]}")
         payload = {
-            "source": "api_bronze_parkinglot",
+            "source": "api_bronze_departure_weather",
             "timestamp" : timestamp_now,
             "data" : items_as_dict #json 딕셔너리 형태로 바꾼 데이터 보내기
         }
