@@ -1,12 +1,13 @@
 {
-    "IsEncrypted": false,
-    "Values": {
-        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-        "FUNCTIONS_WORKER_RUNTIME": "python",
-        "Team1EventHubName": "***보안이슈로대체***",
-        "Team1EventHubName2": "***보안이슈로대체***",
-        "Team1EventHubConnectionString": "***보안이슈로대체***",
-        "AzureWebHookUrl": "",
-        "kma_api": "***보안이슈로대체***"
-    }
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "Team1EventHubName": "***보안이슈로대체***",
+    "Team1EventHubName2": "***보안이슈로대체***",
+    "Team1EventHubConnectionString": "***보안이슈로대체***",
+    "AzureWebHookUrl": "",
+    "kma_api": "***보안이슈로대체***"
+  },
+  "ConnectionStrings": {}
 }

@@ -28,17 +28,31 @@ def api_eventhub_departure_weather(timer: func.TimerRequest, event:func.Out[str]
 
     #3. Event Hub에 데이터 전송
     if result:
-        body = result['response']['body']
-        #items = result['response']['body']['items']
+        body = result.get("response", {}).get("body", {})
+        items = body['items']
         #items_json = json.dumps(items, ensure_ascii=False)
         #items_as_dict = {str(i): item for i, item in enumerate(items)}
-        logging.info(f"전체 데이터 전송 준비 완료: {body}")
-        payload = {
-            "source": "api_bronze_departure_weather",
-            "timestamp" : timestamp_now,
-            "data" : body
-        }
-        event.set(json.dumps(payload))
+
+        # 크기 기준으로 item 분할
+        from helper.eventhub_batch import split_items_by_size
+        item_chunks = split_items_by_size(items)
+
+        event_payloads = []
+        for chunk in item_chunks:
+            payload = {
+                "source": "api_bronze_departure_weather",
+                "timestamp": timestamp_now,
+                "data": {
+                    "numOfRows": body.get("numOfRows"),
+                    "pageNo": body.get("pageNo"),
+                    "totalCount": body.get("totalCount"),
+                    "items": chunk
+                }
+            }
+            event_payloads.append(json.dumps(payload, ensure_ascii=False))
+
+        logging.info(f"총 {len(event_payloads)}개 이벤트로 분할하여 전송")
+        event.set(event_payloads)
 
 
 #누림: 인천국제공항공사_주차 정보 API
