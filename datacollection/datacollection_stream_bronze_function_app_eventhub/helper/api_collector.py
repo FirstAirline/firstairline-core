@@ -13,7 +13,7 @@ import re
 def get_departure_weather_data():
     url = 'http://apis.data.go.kr/B551177/StatusOfPassengerWorldWeatherInfo/getPassengerDeparturesWorldWeather'
     params = {
-        "serviceKey": "ZD3OIVINNmYvDgo1FjLk8/82/beKJKJhGNRb61laL+jH9rK6Ei0419SnoUBsvXd2/e+UO/bLHa6Pq21D1CZpLA==",
+        "serviceKey": os.environ.get("nurim_publicdata_api"),
         "numOfRows": "10",
         "pageNo": "1",
         "from_time": "0000",
@@ -46,7 +46,7 @@ def get_departure_weather_data():
 def get_parkinglot_data():
     url = 'http://apis.data.go.kr/B551177/StatusOfParking/getTrackingParking'
     params ={
-        'serviceKey' : 'ZD3OIVINNmYvDgo1FjLk8/82/beKJKJhGNRb61laL+jH9rK6Ei0419SnoUBsvXd2/e+UO/bLHa6Pq21D1CZpLA==',
+        'serviceKey' : os.envrion.get("nurim_publicdata_api"),
         'numOfRows' : '100',
         'pageNo' : '1',
         'type' : 'json' }
@@ -73,7 +73,7 @@ def get_parkinglot_data():
 def get_indoorair_quality_data():
     url = "http://apis.data.go.kr/B551177/IndoorAirQualityInformation/getIndoorAirQs"
     params = {
-        'serviceKey': 'ZD3OIVINNmYvDgo1FjLk8/82/beKJKJhGNRb61laL+jH9rK6Ei0419SnoUBsvXd2/e+UO/bLHa6Pq21D1CZpLA==',
+        'serviceKey': os.environ.get("nurim_publicdata_api"),
         'type': 'json',
         'pageNo': '1',
         'numOfRows': '100'
@@ -211,7 +211,7 @@ def get_area_weather_data(pageNo, numOfRows):
 #상원: 인천국제공항공사_출입국별 승객 예고 정보 API
 def get_departure_forecast_data():
     url = 'http://apis.data.go.kr/B551177/PassengerNoticeKR/getfPassengerNoticeIKR'
-    params ={'serviceKey' : 'ZD3OIVINNmYvDgo1FjLk8/82/beKJKJhGNRb61laL+jH9rK6Ei0419SnoUBsvXd2/e+UO/bLHa6Pq21D1CZpLA==', 'selectdate' : '0', 'type' : 'json' }
+    params ={'serviceKey' : os.environ.get("sangwon_publicdata_api"), 'selectdate' : '0', 'type' : 'json' }
     try:
         response = requests.get(url, params=params)
         response.raise_for_status()
