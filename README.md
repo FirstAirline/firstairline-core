@@ -15,11 +15,11 @@
 ```plaintext
 📦 외부 데이터 소스 (API / 웹 / CSV)
     ↓
-🐍 데이터 수집 및 정제 (Python, ADF, AF)
+🐍 데이터 수집 및 정제 (Python, ADF, Databricks)
     ↓
 💾 Azure PostgreSQL 저장소 (PostgreSQL)
     ↓
-🧠 데이터 분석 (SQL, AML) 
+🧠 데이터 분석 (SQL, Databricks) 
     ↓
 📊 Power BI 대시보드 연결 및 시각화
 ```
@@ -29,7 +29,7 @@
 | 구분           | 사용 기술                                       |
 |----------------|------------------------------------------------|
 | 데이터 수집     | Python, Azure Functions, Event Hub, Stream Analytics, Postgresql  |
-| 데이터 처리     | Python, Azure Data Factory             |
+| 데이터 처리     | Python, Databricks, Azure Data Factory             |
 | 저장 및 분산처리 | Databricks, PostgreSQL                |
 | 시각화         | Power BI, Flask                                       |
 | 버전관리       | Git + GitHub                                   |
@@ -44,14 +44,12 @@ FirstAirline-core/
 
 | 이름 | 역할            | 담당 업무                                  |
 |------|-----------------|---------------------------------------------|
-| 김진우   | Data Engineer  |                 |
-| 박상필   | Data Engineer   |              |
-| 박형진    | Data Engineer         |               |
-| 서상원    | Data Engineer    |                    |
-| 송누림    | Data Engineer         |            |
-| 임승수    | Data Engineer         |                 |
-
-> 역할은 유동적으로 조정될 수 있으며, 전원 데이터 분석 전반을 경험합니다.
+| 김진우   | Data Engineer  |  프로젝트 관리, 데이터 수집/정제, 시각화 구현               |
+| 박상필   | Data Engineer   |   데이터 수집/정제, 웹 전체 구현           |
+| 박형진    | Data Engineer         |  데이터 수집/정제,관리             |
+| 서상원    | Data Engineer    |   데이터 수집/정제, ML분석                 |
+| 송누림    | Data Engineer         |  프로젝트 관리, 데이터 수집/정제, 시각화 구현          |
+| 임승수    | Data Engineer         |   데이터 수집/정제, ML분석               |
 
 
 ## 📈 결과물 요약

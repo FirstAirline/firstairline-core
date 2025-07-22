@@ -5,78 +5,624 @@
     <title>인천공항 항공편 정보 조회</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .page-layout {
+            display: flex;
+            gap: 2rem;
+            align-items: flex-start;
+            margin-left: 2rem;
+        }
+        .weather-side {
+            width: auto;
+            min-width: 240px;
+            margin-left: 0.7rem;
+            display: block;
+        }
+        .weather-card2 {
+            background: #f6fbff;
+            border-radius: 1.1rem;
+            box-shadow: 0 0.15rem 0.9rem rgba(50,90,180,0.10);
+            padding: 1.3rem 2.2rem 1.4rem 2.2rem;
+            color: #154274;
+            font-size: 1.07rem;
+            min-width: 230px;
+            max-width: 350px;
+            margin-bottom: 1.3rem;
+            margin-top: 2.2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.35rem;
+        }
+        .weather-title2 { font-size: 1.13rem; font-weight: bold; color: #1766cf; margin-bottom: 0.18rem; letter-spacing: 0.04em;}
+        .weather-date2 { font-size: 1.07rem; color: #143369; font-weight: 600; margin-bottom: 0.08rem;}
+        .weather-temp2 { font-size: 2.1rem; font-weight: 700; color: #1766cf; display: flex; align-items: center; gap: 0.65rem;}
+        .weather-emoji2 { font-size: 2.2rem; margin-left: 0.42rem;}
+        .weather-wind2 { display: flex; align-items: center; margin: 0.42rem 0 0.22rem 0; gap: 0.7rem;}
+        .compass-wrap2 { display: flex; flex-direction: column; align-items: center; margin-right: 0.45rem;}
+        .compass-label2 { font-size: 0.94rem; color: #226;}
+        .wind-speed2 { font-size: 1.01rem;}
+        .weather-etc2 { color: #355; font-size: 0.97rem; margin-top: 0.28rem; text-align: left; line-height: 1.5;}
+        .weather-bottom-wrap { display: none; }
+        .container { margin-top: 2.7rem !important; }
+        @media (max-width: 1300px) {
+            .flight-form { margin-top: 2.3rem !important; }
+        }
+        @media (max-width: 700px) {
+            .weather-side, .weather-bottom-wrap { display: none !important; }
+            body, html {
+                width: 100vw !important;
+                min-width: 0 !important;
+                margin: 0 auto !important;
+                padding: 0 !important;
+                box-sizing: border-box;
+            }
+            .page-layout, .container, main, .flight-main {
+                margin: 0 auto !important;
+                padding: 0 !important;
+                width: 100vw !important;
+                max-width: 100vw !important;
+                display: flex;
+                flex-direction: column;
+                align-items: center !important;
+                justify-content: flex-start;
+                box-sizing: border-box;
+            }
+            table {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+            .flight-form { margin-top: 2.3rem !important; }
+        }
+        @media (max-width: 1300px) and (min-width: 701px) {
+            .page-layout { flex-direction: column; gap: 0.8rem; margin-left: 0; align-items: center; }
+            .weather-side { display: none !important; }
+            .weather-bottom-wrap {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 2.2rem;
+                width: 100vw;
+                margin-left: 0;
+                margin-right: 0;
+            }
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center !important;
+                justify-content: center !important;
+                width: 100vw;
+                margin: 0 auto !important;
+                padding: 0 !important;
+                margin-top: 2.7rem !important;
+            }
+            table { margin: 0 auto !important; }
+            .flight-form { margin-top: 2.3rem !important; }
+        }
+        @media (max-width: 1000px) and (min-width: 701px) {
+            .page-layout { align-items: center; }
+            .container { align-items: center; }
+        }
+        @media (max-width: 800px) {
+            .weather-bottom-wrap { margin-top: 0.5rem; }
+            .weather-card2 { flex-direction: column; align-items: center; gap: 0.35rem; }
+            .weather-split-left, .weather-split-right { align-items: center; text-align: center; margin-left: 0; }
+            .weather-split-right { margin-top: 0.7rem;}
+            .weather-etc2 { text-align: center;}
+        }
+        .arrival-info-card {
+            background: #f7fbff;
+            border-radius: 1.1rem;
+            box-shadow: none !important;
+            padding: 1.1rem 2rem 1.3rem 2rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0.9rem;
+            max-width: 440px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.2rem 2.6rem;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex: 0 0 30%;
+            min-width: 210px;
+            max-width: 320px;
+            flex-direction: column !important;
+        }
+        .arrival-info-label {
+            color: #1766cf;
+            font-weight: 600;
+            font-size: 1.07rem;
+            min-width: 6.2em;
+            margin-bottom: 0.25rem;
+        }
+        .arrival-info-value {
+            color: #253858;
+            font-size: 1.05rem;
+            font-weight: 400;
+            margin-bottom: 0.18rem;
+            min-width: 5.3em;
+            word-break: keep-all;
+        }
+        .arrival-info-col {
+            flex: 1 1 36%;
+            min-width: 130px;
+            max-width: 46%;
+            margin-bottom: 0.15rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.07em;
+        }
+        .arrival-info-img-col {
+            flex: 0 0 68px;
+            min-width: 68px;
+            max-width: 90px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            margin-right: 0.15rem;
+            margin-bottom: 0.1rem;
+        }
+        .arrival-info-img {
+            width: 66px;
+            height: 66px;
+            border-radius: 1rem;
+            object-fit: contain;
+            box-shadow: 0 0.1rem 0.32rem rgba(80,110,200,0.10);
+            background: #fff;
+            margin-bottom: 0.38rem;
+            border: none;
+            display: block;
+        }
+        .arrival-flex-wrap {
+            display: flex;
+            gap: 0.0rem;
+            align-items: flex-start;
+            justify-content: center;
+            margin-top: 2.2rem;
+        }
+        .powerbi-iframe-wrap {
+            width: 100%;
+            min-width: 0;
+            max-width: 100%;
+            flex: 1 1 100%;
+        }
+        @media (max-width: 950px) {
+            .arrival-flex-wrap { flex-direction: column; align-items: stretch; }
+            .powerbi-iframe-wrap, .arrival-info-card { max-width: 100%; }
+        }
+        @media (max-width: 700px) {
+            .arrival-info-card {
+                padding: 0.8rem 0.6rem 0.8rem 0.6rem;
+                margin-top: 1.2rem;
+                max-width: 97vw;
+                flex-direction: column;
+                gap: 0.2rem 0.8rem;
+            }
+            .arrival-info-img-col { margin-right: 0; }
+        }
+        /* 페이지네이션 버튼 고유 스타일 추가(선택사항, 공통 스타일과 겹치지 않게) */
+        .btn-pagination-prev, .btn-pagination-next {
+            background: linear-gradient(90deg, #aedbff 0%, #78c7ff 50%, #4699ff 100%);
+            color: #000000;
+            font-size: 1.04rem;
+            font-weight: 700;
+            border: none;
+            border-radius: 0.9rem;
+            padding: 0.53rem 1.4rem;
+            margin: 0 0.5em;
+            cursor: pointer;
+            box-shadow: 0 0.07rem 0.13rem rgba(23,102,207,0.07);
+            transition: background 0.17s, color 0.17s;
+        }
+        .btn-pagination-prev:disabled, .btn-pagination-next:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        .pagination-wrap { margin-bottom: 2.5rem; }
+        /* ======= 여기 아래 추가하세요 ======= */
+        .two-col-flex {
+            display: flex;
+            gap: 2.2rem;
+            margin-top: 0.2rem;
+            align-items: flex-start;
+            width: 100%;        /* 이거 추가 */
+        }
+        .info-block {
+            min-width: 230px;
+            max-width: 370px;
+            flex: 1 1 320px;
+        }
+        @media (max-width: 900px) {
+            .two-col-flex { flex-direction: column; gap: 1.1rem; }
+            .info-block, .arrival-info-card { max-width: 97vw; width: 100%; }
+            .powerbi-iframe-wrap { max-width: 97vw; }
+        }
+        /* ======= 여기까지 ======= */
+        .arrival-weather-card {
+            padding: 1.23rem 2.1rem 1.1rem 2.1rem;
+            background: #f7fbff;
+            border-radius: 1.1rem;
+            box-shadow: 0 0.13rem 0.7rem rgba(50,90,180,0.09);
+            min-width: 270px;
+            max-width: 410px;
+            margin-top: 2.2rem;
+            margin-bottom: 1.1rem;
+        }
+        .arrival-info-title {
+            font-size: 1.23rem;
+            font-weight: 800;
+            color: #1766cf;
+            margin-bottom: 0.38em;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.04em;
+        }
+        .arrival-info-time-block { margin-bottom: 0.08em;}
+        .arrival-info-time-label { font-weight: 600; color: #154274;}
+        .arrival-info-time-value { font-size: 1.07em; color: #154274;}
+        .arrival-info-divider {
+            border: none;
+            border-top: 1.5px solid #e3e7ef;
+            margin: 0.04em 0 0.07em 0;  /* 위아래 margin 최소화 */
+        }
+        .arrival-info-2col {
+            display: flex;
+            gap: 2.2em;
+            justify-content: flex-start;
+        }
+        .arrival-info-2col > div {
+            display: flex;
+            flex-direction: column;
+            gap: 0.22em;
+        }
+        @media (max-width: 700px) {
+            .arrival-weather-card { max-width: 97vw; padding: 1.1rem 0.6rem 1.1rem 0.6rem;}
+            .arrival-info-2col { flex-direction: column; gap: 0.66em; }
+        }
+        .arrival-info-card.arrival-shadow {
+            box-shadow: 0 0.13rem 0.7rem rgba(50,90,180,0.09) !important;
+        }
+    </style>
 </head>
 <body>
-<div class="container">
-    <h2>인천공항 항공편 정보 조회</h2>
-    <form method="post">
-        <div class="form-group">
-            <label for="flight_no">편명</label>
-            <input type="text" name="flight_no" id="flight_no" placeholder="예: KE123" required>
+<nav class="navbar">
+    <div class="navbar-title" onclick="goToFlightSearch()" style="cursor:pointer;">
+        <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Airport Logo" class="navbar-logo">
+        FirstAirline
+    </div>
+    <div class="navbar-lang-toggle">
+        <button class="lang-btn active">한국어</button>
+        <span class="lang-sep">|</span>
+        <button class="lang-btn">English</button>
+    </div>
+</nav>
+<div class="page-layout">
+    <aside class="weather-side">
+        {% for weather in weather_list %}
+        <div class="weather-card2">
+            <div class="weather-title2">인천공항 날씨</div>
+            <div class="weather-date2">
+                {{ weather.observe_date[:4] }}년 {{ weather.observe_date[4:6] }}월 {{ weather.observe_date[6:8] }}일
+            </div>
+            <div class="weather-temp2">
+                {{ weather.temperature }}°C
+                {{ weather.weather_label }}
+                <span class="weather-emoji2">{{ weather_icon(weather.weather_label) }}</span>
+            </div>
+            <div class="weather-wind2">
+                <div class="compass-wrap2">
+                    <svg width="34" height="34">
+                        <circle cx="17" cy="17" r="14" fill="#eaf3fc" stroke="#1766cf" stroke-width="1.2"/>
+                        <polygon points="17,5 14,19 20,19"
+                            fill="#1766cf"
+                            style="transform: rotate({{ weather.mean_wind_direction }}deg); transform-origin: 17px 17px;" />
+                    </svg>
+                    <div class="compass-label2">{{ weather.mean_wind_dir_text }}</div>
+                </div>
+                <div class="wind-speed2">
+                    평균풍속: {{ weather.mean_wind_speed }} kt&nbsp;&nbsp;최대: {{ weather.max_wind_speed }} kt
+                </div>
+            </div>
+            <div class="airquality-section" style="margin:0.35em 0 0.25em 0;">
+                <div class="airquality-title"
+                    style="font-weight:700; color:#1766cf; font-size:1.03em; margin-bottom:0.13em;">
+                    [실내 대기질]
+                </div>
+                <div style="display:flex; align-items:center;">
+                    {% for air in t_air_list %}
+                        <span class="airquality-label" style="display:inline-flex; align-items:center; font-weight:700; color:#253858;">
+                            {{ air.terminalid }}:<span style="margin-left:0.18em; margin-right:0.09em;">{{ air.total_label }}</span>
+                            <svg width="16" height="16" style="vertical-align:middle; margin-left:0.18em;">
+                                <circle cx="8" cy="8" r="7" fill="{% if air.total_label == '좋음' %}#27c26d{% elif air.total_label == '보통' %}#ffbb22{% elif air.total_label == '나쁨' %}#ec1f1f{% else %}#bbb{% endif %}" 
+                                stroke="#ececec" stroke-width="1.1" />
+                            </svg>
+                        </span>
+                        {% if not loop.last %}
+                            <span style="display:inline-block; width:1.08em; height:1.1em; border-left:1.6px dashed #b7c9d9; margin-left:0.62em; margin-right:0.06em; vertical-align:middle; opacity:0.72;"></span>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="weather-etc2">
+                이슬점온도: {{ weather.dew_point_temperature }}°C<br>
+                기압: {{ weather.qnh }} hPa
+            </div>
         </div>
-        <div class="form-group">
-            <label for="flight_date">날짜</label>
-            <input type="date" name="flight_date" id="flight_date" required>
+        {% endfor %}
+        <a href="{{ url_for('parking') }}" class="btn-parking-info">
+            <img src="{{ url_for('static', filename='img/parking.png') }}" alt="Parking" style="height:2.5em;vertical-align:middle;margin-right:0.8em;">
+            주차정보
+        <!--
+        <a href="{{ url_for('map_page') }}" class="btn-map-info">
+            <img src="{{ url_for('static', filename='img/map.png') }}" alt="Map" style="height:2.5em;vertical-align:middle;margin-right:0.8em;">
+            지도보기
+        </a>
+        -->
+        <a href="{{ url_for('gptchat_page') }}" class="btn-bus-info">
+            <img src="{{ url_for('static', filename='img/chat.png') }}" alt="Chatbot" style="height:2.5em;vertical-align:middle;margin-right:0.8em;">
+            공항 챗봇
+        </a>
+        <a href="{{ url_for('restricted_page') }}" class="btn-restricted-info">
+            <img src="{{ url_for('static', filename='img/restricted.png') }}" alt="Restricted" style="height:2.5em;vertical-align:middle;margin-right:0.8em;">
+            제한물품
+        </a>
+    </aside>
+    <main class="flight-main" style="flex:1;">
+        <div class="container">
+            {% if flight_no %}
+                <button class="btn-prev-search-container" onclick="goToFlightSearch()">처음으로</button>
+            {% endif %}
+            {% if not flight_no %}
+                <!-- 안내문구 START -->
+                <div class="intro-wrap">
+                    <div class="intro-title">
+                        기분 좋은 여행의 시작 <span class="intro-title-airline">FirstAirline</span>이 책임질게요.
+                    </div>
+                    <div class="intro-desc">당신은 그냥 항공편만 입력하세요.</div>
+                </div>
+                <!-- 안내문구 END -->
+                <form method="post" class="flight-form">
+                    <div class="form-group-row">
+                        <input type="text" name="flight_no" id="flight_no" class="uppercase"
+                            placeholder="예: KE123" required oninput="this.value = this.value.toUpperCase()"
+                            value="{{ flight_no if flight_no else '' }}">
+                    </div>
+                    <button type="submit" class="btn-search">조회</button>
+                </form>
+            {% endif %}
+            {% if error %}
+                <div class="error">{{ error }}</div>
+            {% endif %}
+            {% if result and show_multi %}
+                <table>
+                    <tr>
+                        <th>출발일</th>
+                        <th>항공사</th>
+                        <th>편명</th>
+                        <th>도착지</th>
+                        <th>터미널</th>
+                        <th>체크인 카운터</th>
+                        <th>탑승구</th>
+                        <th>출발예정시간</th>
+                        <th>출발변경시간</th>
+                    </tr>
+                    {% for row in result %}
+                    <tr data-flight-no="{{ row[2] }}">
+                        <td>{{ row[0] if row[0] else '-' }}</td>
+                        <td>{{ row[1] if row[1] else '-' }}</td>
+                        <td>{{ row[2] if row[2] else '-' }}</td>
+                        <td>{{ row[3] if row[3] else '-' }}</td>
+                        <td>{{ row[4] if row[4] else '-' }}</td>
+                        <td>{{ row[5] if row[5] else '-' }}</td>
+                        <td>{{ row[6] if row[6] else '-' }}</td>
+                        <td>{{ row[7] if row[7] else '-' }}</td>
+                        <td>{{ row[8] if row[8] else '-' }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+                <div class="pagination-wrap" style="text-align:center; margin-top:1.3rem;">
+                    {% set prev_page = page - 1 if page > 1 else 1 %}
+                    {% set next_page = page + 1 %}
+                    <form method="get" style="display:inline;">
+                        <input type="hidden" name="page" value="{{ prev_page }}">
+                        <button type="submit" class="btn-pagination-prev" {% if page == 1 %}disabled{% endif %}>이전</button>
+                    </form>
+                    <span style="display:inline-block; min-width:4em; font-weight:600; color:#1a3699;">{{ page }}</span>
+                    <form method="get" style="display:inline;">
+                        <input type="hidden" name="page" value="{{ next_page }}">
+                        <button type="submit" class="btn-pagination-next">다음</button>
+                    </form>
+                </div>
+            {% elif result %}
+                {% if result_arrival %}
+                    <!-- 혼잡/지연/추천 두줄 안내문구(테이블 위로 이동) -->
+                    <div class="arrival-info-card two-col-info" style="margin-bottom:1.1rem;">
+                        {% if congestion_info and expected_delay %}
+                            <div class="congestion-guide" style="margin:1.1em 0 0.4em 0; font-size:1.3em; color:#1966b7; font-weight:700; letter-spacing:0.01em;">
+                                현재 {{ congestion_info.terminal }}의 비행 출발 1시간 전 
+                                <span style="color:#dc4747;">
+                                    예상 혼잡도는 <span class="congestion-value-em">{{ congestion_info.level }}</span>
+                                </span>
+                                이며 
+                                <span style="color:#dc4747;">
+                                    지연 예상시간은 약 <span class="delay-value-em">{{ expected_delay|float|round|int }}분</span>
+                                </span>
+                                입니다.
+                            </div>
+                            <div class="delay-guide"
+                                style="margin-bottom:0.2em; font-size:1.55em; color:#1966b7; font-weight:600; letter-spacing:0.01em; white-space:pre-line; line-height:1;">
+                                예상 혼잡도와 지연시간으로 보아 공항에는 <span style="color:#dc4747; font-weight:700;">"{{ rec_arrival_time }}"</span>까지 도착하길 추천드립니다.
+                            </div>
+                        {% elif congestion_info %}
+                            <div class="congestion-guide"
+                                style="margin:1.1em 0 0.4em 0; font-size:1.3em; color:#1966b7; font-weight:700; letter-spacing:0.01em;">
+                                현재 {{ congestion_info.terminal }}의 비행 출발 1시간 전<br>
+                                <span style="color:#dc4747;">
+                                    예상 혼잡도는 <span class="congestion-value-em">{{ congestion_info.level }}</span>
+                                </span>
+                                입니다.
+                            </div>
+                        {% elif expected_delay %}
+                            <div class="delay-guide"
+                                style="margin-bottom:0.6em; font-size:1.7em; color:#1966b7; font-weight:700; letter-spacing:0.01em;">
+                                <span style="color:#dc4747;">
+                                    지연 예상시간은 약 <span class="delay-value-em">{{ expected_delay|float|round|int }}분</span>
+                                </span>
+                                입니다.
+                            </div>
+                        {% endif %}
+                    </div>
+                {% endif %}
+                <table>
+                    <tr>
+                        <th>출발일</th>
+                        <th>항공사</th>
+                        <th>편명</th>
+                        <th>도착지</th>
+                        <th>터미널</th>
+                        <th>체크인 카운터</th>
+                        <th>탑승구</th>
+                        <th>출발예정시간</th>
+                        <th>출발변경시간</th>
+                    </tr>
+                    <tr>
+                        <td>{{ result[0][0] if result[0][0] else '-' }}</td>
+                        <td>{{ result[0][1] if result[0][1] else '-' }}</td>
+                        <td>{{ result[0][2] if result[0][2] else '-' }}</td>
+                        <td>{{ result[0][3] if result[0][3] else '-' }}</td>
+                        <td>{{ result[0][4] if result[0][4] else '-' }}</td>
+                        <td>{{ result[0][5] if result[0][5] else '-' }}</td>
+                        <td>{{ result[0][6] if result[0][6] else '-' }}</td>
+                        <td>{{ result[0][7] if result[0][7] else '-' }}</td>
+                        <td>{{ result[0][8] if result[0][8] else '-' }}</td>
+                    </tr>
+                </table>
+                {% if result_arrival %}
+                    <!-- 도착지 날씨카드만 테이블 아래에 위치 -->
+                    <div class="arrival-info-card two-col-arrival arrival-shadow">
+                        <div class="arrival-info-title">
+                            {{ result_arrival.arrival_city_name if result_arrival.arrival_city_name != "-" else "도착지" }}의 날씨
+                            {% if result_arrival.wimage %}
+                            <img class="arrival-info-img" src="{{ result_arrival.wimage }}" alt="도착지 날씨"
+                                style="width:38px; height:38px; border-radius:0.7em; margin-bottom:-6px; margin-left:0.55em; vertical-align:middle;">
+                            {% endif %}
+                        </div>
+                        <div class="arrival-row-flex">
+                            <div class="arrival-info-time-block">
+                                <div class="arrival-info-time-label">{{ result_arrival.arrival_city_name if result_arrival.arrival_city_name != "-" else "-" }}의 현재 시간:</div>
+                                <div class="arrival-info-time-value">{{ result_arrival.arrival_city_time if result_arrival.arrival_city_time != "-" else "-" }}</div>
+                            </div>
+                            <div class="arrival-info-2col">
+                                <div>
+                                    <div>기온 : {{ result_arrival.temp if result_arrival.temp else '-' }} ℃
+                                        <span>(습도 {{ result_arrival.himidity if result_arrival.himidity else '-' }}%)</span>
+                                    </div>
+                                    <div>체감온도 : {{ result_arrival.senstemp if result_arrival.senstemp else '-' }} ℃</div>
+                                </div>
+                                <div>
+                                    <div>바람 : {{ result_arrival.wind if result_arrival.wind else '-' }} m/s</div>
+                                    <div>비행상태 : {{ result_arrival.remark if result_arrival.remark else '-' }}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PowerBI(파워비아이)는 도착지 날씨카드 아래에 단독 위치 -->
+                    <div class="powerbi-iframe-wrap" style="margin-top:2.2rem;">
+                        {% if result[0][4] == "제1 터미널" %}
+                        <iframe 
+                            title="제1터미널 PowerBI"
+                            width="625"
+                            height="532"
+                            src="https://app.powerbi.com/view?r=eyJrIjoiOTE1MDcyYTgtOTIxMi00Y2E2LWI5NjMtZjEzMTNlNGFmNGQ4IiwidCI6IjhmOTE5MDBlLWRmZTUtNDgwYS05YTkyLTU2MjM5Zjk4OTQ1NCJ9"
+                            frameborder="0"
+                            allowFullScreen="true"
+                            style="width:980px; min-width:0; max-width:100%; height:800px; border-radius:1.2rem; box-shadow:0 0.13rem 0.7rem rgba(50,90,180,0.08); background:#f8fafc; display:block; margin:0 auto;">
+                        </iframe>
+                        {% elif result[0][4] == "제2 터미널" %}
+                        <iframe 
+                            title="제2터미널 PowerBI"
+                            width="625"
+                            height="532"
+                            src="https://app.powerbi.com/view?r=eyJrIjoiOTNiZGJmZmEtMGEwNi00N2ZlLWIwZGItZmVlMGFlMmVkZGYyIiwidCI6IjhmOTE5MDBlLWRmZTUtNDgwYS05YTkyLTU2MjM5Zjk4OTQ1NCJ9"
+                            frameborder="0"
+                            allowFullScreen="true"
+                            style="width:980px; min-width:0; max-width:100%; height:800px; border-radius:1.2rem; box-shadow:0 0.13rem 0.7rem rgba(50,90,180,0.08); background:#f8fafc; display:block; margin:0 auto;">
+                        </iframe>
+                        {% endif %}
+                    </div>
+                {% endif %}
+            {% endif %}
         </div>
-        <button type="submit">조회</button>
-    </form>
-    {% if error %}
-        <div class="error">{{ error }}</div>
-    {% endif %}
-
-    {% if result and show_multi %}
-        <table>
-            <tr>
-                <th>날짜</th>
-                <th>요일</th>
-                <th>항공사</th>
-                <th>편명</th>
-                <th>도착지</th>
-                <th>계획시간</th>
-                <th>출발시간</th>
-                <th>지연원인</th>
-                <th>지연시간(분)</th>
-            </tr>
-            {% for row in result %}
-            <tr>
-                <td>{{ row[0] if row[0] else '-' }}</td>
-                <td>{{ row[4] if row[4] else '-' }}</td>
-                <td>{{ row[5] if row[5] else '-' }}</td>
-                <td>{{ row[6] if row[6] else '-' }}</td>
-                <td>{{ row[7] if row[7] else '-' }}</td>
-                <td>{{ row[8] if row[8] else '-' }}</td>
-                <td>{{ row[9] if row[9] else '-' }}</td>
-                <td>{{ row[10] if row[10] else '-' }}</td>
-                <td>{{ row[11] if row[11] else '-' }}</td>
-            </tr>
+        <div class="weather-bottom-wrap">
+            {% for weather in weather_list %}
+            <div class="weather-card2">
+                <div class="weather-split-left">
+                    <div class="weather-title2">인천공항 날씨</div>
+                    <div class="weather-date2">{{ weather.datetime }}</div>
+                    <div class="weather-temp2">
+                        {{ weather.temperature }}°C
+                        <span class="weather-emoji2">{{ weather_icon(weather.weather_phenomenon) }}</span>
+                    </div>
+                    <div class="weather-wind2">
+                        <div class="compass-wrap2">
+                            <svg width="34" height="34">
+                                <circle cx="17" cy="17" r="14" fill="#eaf3fc" stroke="#1766cf" stroke-width="1.2"/>
+                                <polygon points="17,5 14,19 20,19"
+                                    fill="#1766cf"
+                                    style="transform: rotate({{ weather.wind_deg }}deg); transform-origin: 17px 17px;" />
+                            </svg>
+                            <div class="compass-label2">{{ weather.dotw }}</div>
+                        </div>
+                        <div class="wind-speed2">
+                            풍속: {{ weather.wind_speed }} m/s
+                        </div>
+                    </div>
+                </div>
+                <div class="weather-split-right">
+                    <div class="weather-etc2">
+                        강수량: {{ weather.precipitation }}mm<br>
+                        시정: {{ weather.visibillity }}km<br>
+                        해면기압: {{ weather.sea_level_pressure }} hPa<br>
+                        이슬점온도: {{ weather.dew_point_temp }}°C<br>
+                        현지기압: {{ weather.spot_atmos_pressure }} hPa
+                    </div>
+                </div>
+            </div>
             {% endfor %}
-        </table>
-    {% elif result %}
-        <table>
-            <tr>
-                <th>날짜</th>
-                <th>요일</th>
-                <th>항공사</th>
-                <th>편명</th>
-                <th>도착지</th>
-                <th>계획시간</th>
-                <th>출발시간</th>
-                <th>지연원인</th>
-                <th>지연시간(분)</th>
-            </tr>
-            <tr>
-                <td>{{ result[0][0] if result[0][0] else '-' }}</td>
-                <td>{{ result[0][4] if result[0][4] else '-' }}</td>
-                <td>{{ result[0][5] if result[0][5] else '-' }}</td>
-                <td>{{ result[0][6] if result[0][6] else '-' }}</td>
-                <td>{{ result[0][7] if result[0][7] else '-' }}</td>
-                <td>{{ result[0][8] if result[0][8] else '-' }}</td>
-                <td>{{ result[0][9] if result[0][9] else '-' }}</td>
-                <td>{{ result[0][10] if result[0][10] else '-' }}</td>
-                <td>{{ result[0][11] if result[0][11] else '-' }}</td>
-            </tr>
-        </table>
-    {% endif %}
+        </div>
+    </main>
 </div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('table tr[data-flight-no]').forEach(function(tr) {
+        tr.style.cursor = "pointer";
+        tr.addEventListener('click', function() {
+            var flightNo = tr.getAttribute('data-flight-no');
+            if (!flightNo) return;
+            var form = document.createElement('form');
+            form.method = 'POST';
+            form.style.display = 'none';
+            var input = document.createElement('input');
+            input.name = 'flight_no';
+            input.value = flightNo;
+            form.appendChild(input);
+            document.body.appendChild(form);
+            form.submit();
+        });
+        tr.addEventListener('mouseover', function() {
+            tr.style.background = "#eaf1fb";
+        });
+        tr.addEventListener('mouseout', function() {
+            tr.style.background = "";
+        });
+    });
+});
+function goToFlightSearch() {
+    // 입력폼 상태(index)로 강제 이동
+    window.location.href = "{{ url_for('index') }}";
+}
+</script>
 </body>
 </html>
