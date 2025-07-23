@@ -251,7 +251,7 @@
             margin-bottom: 1.1rem;
         }
         .arrival-info-title {
-            font-size: 1.23rem;
+            font-size: 1.4rem;
             font-weight: 800;
             color: #1766cf;
             margin-bottom: 0.38em;
@@ -378,7 +378,7 @@
                 <!-- 안내문구 START -->
                 <div class="intro-wrap">
                     <div class="intro-title">
-                        기분 좋은 여행의 시작 <span class="intro-title-airline">FirstAirline</span>이 책임질게요.
+                        기분 좋은 출발, <span class="intro-title-airline">FirstAirline</span>과 함께
                     </div>
                     <div class="intro-desc">당신은 그냥 항공편만 입력하세요.</div>
                 </div>
@@ -455,6 +455,10 @@
                                 style="margin-bottom:0.2em; font-size:1.55em; color:#1966b7; font-weight:600; letter-spacing:0.01em; white-space:pre-line; line-height:1;">
                                 예상 혼잡도와 지연시간으로 보아 공항에는 <span style="color:#dc4747; font-weight:700;">"{{ rec_arrival_time }}"</span>까지 도착하길 추천드립니다.
                             </div>
+                            <div class="flight-status-guide" style="margin-top:0.3em; font-size:1.3em; color:#1966b7; font-weight:600;">
+                                ✈️현재 항공편 <span style="color:#dc4747;">{{ result[0][2] }}</span> 은 
+                                <span style="color:#dc4747;">{{ result_arrival.remark if result_arrival.remark else '-' }}</span> 상태 입니다.
+                            </div>
                         {% elif congestion_info %}
                             <div class="congestion-guide"
                                 style="margin:1.1em 0 0.4em 0; font-size:1.3em; color:#1966b7; font-weight:700; letter-spacing:0.01em;">
@@ -503,7 +507,7 @@
                     <!-- 도착지 날씨카드만 테이블 아래에 위치 -->
                     <div class="arrival-info-card two-col-arrival arrival-shadow">
                         <div class="arrival-info-title">
-                            {{ result_arrival.arrival_city_name if result_arrival.arrival_city_name != "-" else "도착지" }}의 날씨
+                            {{ result_arrival.arrival_city_name if result_arrival.arrival_city_name != "-" else "도착지" }}의 현지상황을 알려드립니다!
                             {% if result_arrival.wimage %}
                             <img class="arrival-info-img" src="{{ result_arrival.wimage }}" alt="도착지 날씨"
                                 style="width:38px; height:38px; border-radius:0.7em; margin-bottom:-6px; margin-left:0.55em; vertical-align:middle;">
@@ -523,7 +527,7 @@
                                 </div>
                                 <div>
                                     <div>바람 : {{ result_arrival.wind if result_arrival.wind else '-' }} m/s</div>
-                                    <div>비행상태 : {{ result_arrival.remark if result_arrival.remark else '-' }}</div>
+                                    <!-- <div>비행상태 : {{ result_arrival.remark if result_arrival.remark else '-' }}</div> -->
                                 </div>
                             </div>
                         </div>
@@ -594,6 +598,13 @@
         </div>
     </main>
 </div>
+<footer class="main-footer-info">
+    <div>
+        ※ 본서비스는 인천공항에서 제공하는 승객예고 정보(항공사 예약승객 정보 기반의 시간대별 출∙입국장별 예상승객 수 정보)를 활용해 개발한 서비스입니다.<br>
+        ※ 실측데이터가 아닌 예측데이터로 실시간 공항 혼잡 상황과 차이가 있을 수 있습니다.<br>
+        ※ 혼잡도 기준은 FirstAirline에서 선정한 기준이며, 인천국제공항공사 혼잡도 기준과는 차이가 있을 수 있습니다.
+    </div>
+</footer>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('table tr[data-flight-no]').forEach(function(tr) {
