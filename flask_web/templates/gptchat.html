@@ -99,7 +99,7 @@
 </head>
 <body>
 <nav class="navbar">
-    <div class="navbar-title">
+    <div class="navbar-title" onclick="goToFlightSearch()" style="cursor:pointer;">
         <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Airport Logo" class="navbar-logo">
         FirstAirline
     </div>
@@ -114,28 +114,35 @@
         <div class="chatbot-title">공항 안내 챗봇</div>
         <div class="chatbot-messages" id="chatbotMessages"></div>
         <form class="chatbot-form" id="chatbotForm" autocomplete="off">
-            <input type="text" class="chatbot-input" id="chatbotInput" placeholder="궁금한 점을 입력하세요..." required>
+            <input type="text" class="chatbot-input" id="chatbotInput" placeholder="챗봇이 비용 문제로 잠시 쉬어갑니다..." required>
             <button type="submit" class="chatbot-send-btn">전송</button>
         </form>
     </div>
 </div>
+<footer class="main-footer-info">
+    <div>
+        ※ 본서비스는 인천공항에서 제공하는 승객예고 정보(항공사 예약승객 정보 기반의 시간대별 출∙입국장별 예상승객 수 정보)를 활용해 개발한 서비스입니다.<br>
+        ※ 실측데이터가 아닌 예측데이터로 실시간 공항 혼잡 상황과 차이가 있을 수 있습니다.<br>
+        ※ 혼잡도 기준은 FirstAirline에서 선정한 기준이며, 인천국제공항공사 혼잡도 기준과는 차이가 있을 수 있습니다.
+    </div>
+</footer>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const chatDiv = document.getElementById('chatbotMessages');
     chatDiv.innerHTML += `
-      <div style="text-align:left; margin-bottom:0.5em;">
-        <b style="color:#226;">챗봇</b>: 
-        안녕하세요! 저는 인천공항 AI 도우미입니다.<br>
-        아래와 같은 질문을 해보세요.<br>
-        <span style="color:#226; font-size:0.98em;">
-        - 지금 어디 주차장이 가장 여유 있어요?<br>
-        - 장기 주차장 중 추천 구역은?<br>
-        - 터미널별 승객이 많은 시간대는?<br>
-        - 현재 터미널1이 혼잡한가요?<br>
-        - 지난주와 비교해 더 붐비나요?<br>
-        - 언제 도착해야 혼잡을 피할 수 있나요?<br>
-        </span>
-      </div>
+        <div style="text-align:left; margin-bottom:0.5em;">
+            <b style="color:#226;">Chatbot</b>: 
+            <b>You can ask in any language.</b><br>
+            Hello! I am the Incheon Airport AI assistant.<br>
+            Try asking questions like these:<br>
+            <span style="color:#226; font-size:0.98em;">
+            - Which parking lot has the most available spaces right now?<br>
+            - What time is each terminal the most crowded?<br>
+            - Is Terminal 1 crowded at the moment?<br>
+            - How is the indoor air quality in the terminals?<br>
+            - My flight is scheduled around n o’clock. Is there a delay expected?<br>
+            </span>
+        </div>
     `;
 });
 
@@ -168,6 +175,9 @@ document.getElementById('chatbotForm').addEventListener('submit', async function
         chatDiv.innerHTML += '<div style="color:red;">서버 오류, 다시 시도해주세요.</div>';
     }
 });
+function goToFlightSearch() {
+    window.location.href = "{{ url_for('index') }}";
+}
 </script>
 </body>
 </html>
