@@ -677,3 +677,20 @@ tr:hover td {
     font-weight: 700;
     vertical-align: baseline;
 }
+.main-footer-info {
+    background: #f7f7fa;
+    color: #4b4c51;
+    font-size: 0.98rem;
+    text-align: center;
+    line-height: 1.55;
+    border-top: 1px solid #d5d6da;
+    padding: 1.3em 0 1.1em 0;
+    margin-top: 2.2em;
+    width: 100vw;
+}
+@media (max-width: 700px) {
+    .main-footer-info {
+        font-size: 0.92rem;
+        padding: 0.9em 0 0.7em 0;
+    }
+}
