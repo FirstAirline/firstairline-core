@@ -182,7 +182,7 @@
 </head>
 <body>
     <nav class="navbar">
-        <div class="navbar-title">
+        <div class="navbar-title" onclick="goToFlightSearch()" style="cursor:pointer;">
             <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Airport Logo" class="navbar-logo">
             FirstAirline
         </div>
@@ -230,6 +230,13 @@
             </div>
         </div>
     </main>
+    <footer class="main-footer-info">
+        <div>
+            ※ 본서비스는 인천공항에서 제공하는 승객예고 정보(항공사 예약승객 정보 기반의 시간대별 출∙입국장별 예상승객 수 정보)를 활용해 개발한 서비스입니다.<br>
+            ※ 실측데이터가 아닌 예측데이터로 실시간 공항 혼잡 상황과 차이가 있을 수 있습니다.<br>
+            ※ 혼잡도 기준은 FirstAirline에서 선정한 기준이며, 인천국제공항공사 혼잡도 기준과는 차이가 있을 수 있습니다.
+        </div>
+    </footer>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const cards = document.querySelectorAll('.restricted-card');
@@ -248,6 +255,9 @@
                 });
             });
         });
+        function goToFlightSearch() {
+            window.location.href = "{{ url_for('index') }}";
+        }
     </script>
 </body>
 </html>
