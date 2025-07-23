@@ -534,13 +534,35 @@ def restricted_page():
 def api_gptchat():
     import os
     from openai import AzureOpenAI
+    import json
 
     data = request.get_json()
     user_message = data.get('message', '').strip()
     if not user_message:
         return jsonify({'answer': '질문이 입력되지 않았습니다.'})
 
-    # AzureOpenAI 최신 버전(1.x) 방식으로 인증 및 클라이언트 생성
+    # [1] DB에서 4개 데이터 자동 추출 함수
+    def fetch_all_rows(query):
+        conn = get_db_connection()
+        cur = conn.cursor()
+        cur.execute(query)
+        colnames = [desc[0] for desc in cur.description]
+        rows = [dict(zip(colnames, row)) for row in cur.fetchall()]
+        cur.close()
+        conn.close()
+        return rows
+
+    # [2] 실시간 데이터 → JSON 문자열
+    parking_data = fetch_all_rows('SELECT * FROM gold.vw_parkinglot_labeled')
+    terminal_data = fetch_all_rows('SELECT * FROM gold.vw_today_vs_lastweek_congestion')
+    airquality_data = fetch_all_rows('SELECT * FROM gold.api_gold_indoorair_quality')
+    delay_data = fetch_all_rows('SELECT * FROM gold.df_final_predic')
+    parking_json = json.dumps(parking_data, ensure_ascii=False)
+    terminal_json = json.dumps(terminal_data, ensure_ascii=False)
+    airquality_json = json.dumps(airquality_data, ensure_ascii=False)
+    delay_json = json.dumps(delay_data, ensure_ascii=False)
+
+    # [3] GPT 인증/클라이언트 생성
     client = AzureOpenAI(
         api_key=os.getenv("AZURE_OPENAI_KEY"),
         api_version=os.getenv("AZURE_OPENAI_VERSION"),
@@ -548,48 +570,52 @@ def api_gptchat():
     )
     deployment = os.getenv("AZURE_OPENAI_DEPLOYMENT")
 
+    # 반드시 매번 system+user만 전달 (이전 대화 내역 포함X)
+    prompt_system = (
+        "절대 반드시! '사용자가 질문한 언어'로만 답변해라. '사용자가 입력한 언어'를 반드시 100% 따라야 한다.\n"
+        "==> 만약 질문이 영어면 영어로, 일본어면 일본어로, 중국어면 중국어로, 러시아어면 러시아어로 답변해라.\n"
+        "==> 심지어 한글 한 글자라도 섞이면 절대 안 된다. 번역이 어려운 항목(혼잡도 라벨 등)만 설명과 함께 원어를 남겨도 된다.\n"
+        "==> 반드시, 반드시, 반드시! 사용자가 쓴 언어로, 한글이 섞이면 틀린 답변이다!\n\n"
+        "You MUST ALWAYS reply in exactly the same language as the user's question. NO EXCEPTIONS.\n"
+        "If you reply in Korean when the user wrote in English or any other language, it is WRONG and will be rejected.\n"
+        "Even ONE Korean word in your answer, when not present in the user's question, is a critical error.\n"
+        "If a term cannot be translated (e.g. congestion levels like '여유', '혼잡'), keep the original and provide an explanation in the user's language.\n"
+        "Units (명, 대) must also be translated to the user's language.\n"
+        "NEVER include Korean in your reply unless the user's question also used Korean.\n\n"
+        "Examples:\n"
+        "- User asks in Japanese → Reply in Japanese ONLY.\n"
+        "- User asks in English → Reply in English ONLY.\n"
+        "- User asks in Chinese → Reply in Chinese ONLY.\n"
+        "- User asks in Korean → Reply in Korean ONLY.\n"
+        "- User asks in Spanish → Reply in Spanish ONLY.\n"
+        "If mixed, follow the main language, or English if ambiguous.\n\n"
+        "- 실시간 데이터, 혼잡도, 대기질, 주차, 승객수, 지연 등 모든 항목 동일 적용.\n"
+        "- 이 조건을 어기면 치명적 오류임.\n"
+        "- 아래는 실시간 데이터임:\n"
+        f"[주차장 JSON 데이터]\n{parking_json}\n"
+        f"[터미널별 승객 JSON 데이터]\n{terminal_json}\n"
+        f"[실내대기질 JSON 데이터]\n{airquality_json}\n"
+        f"[지연시각예측 JSON 데이터]\n{delay_json}\n"
+    )
+
     chat_prompt = [
-        {
-            "role": "system",
-            "content":
-                "너는 인천공항의 실시간 정보를 제공하는 AI 도우미야.\n\n"
-                "사용자가 아래와 같은 질문을 하면, 주차 데이터와 터미널 승객 데이터를 종합해서 응답해줘:\n\n"
-                "- 지금 어디 주차장이 가장 여유 있어요?\n"
-                "- 장기 주차장 중 추천 구역은?\n"
-                "- 터미널별 승객이 많은 시간대는 언제인가요?\n"
-                "- 현재 터미널1이 혼잡한가요?\n"
-                "- 지난주 같은 시간대와 비교해서 더 붐비나요?\n"
-                "- 언제 터미널에 도착해야 혼잡시간을 피할 수 있나요?\n\n"
-                "출력 조건:\n"
-                "- 숫자는 '대' 또는 '명' 단위로 표현\n"
-                "- 혼잡도는 그대로 (여유, 보통, 혼잡, 매우 혼잡)\n"
-                "- 주차장 정보와 승객 정보 모두 비교/설명할 것\n"
-                "- 1~2문장 또는 표로 명확하게 응답\n\n"
-                "다음은 실시간 데이터야:\n"
-                "[주차장 JSON 데이터 삽입]\n"
-                "[터미널별 승객 JSON 데이터 삽입]\n"
-        },
-        {
-            "role": "user",
-            "content": user_message
-        }
+        {"role": "system", "content": prompt_system},
+        {"role": "user", "content": user_message}
     ]
 
     try:
-        completion = client.chat.completions.create(
+        response = client.chat.completions.create(
             model=deployment,
             messages=chat_prompt,
-            max_tokens=800,
-            temperature=0.7,
-            top_p=0.95,
-            frequency_penalty=0,
-            presence_penalty=0,
+            temperature=0.3,
+            max_tokens=512,
+            top_p=1,
+            stop=None
         )
-        answer = completion.choices[0].message.content.strip() if completion and completion.choices else "답변 생성 실패"
+        answer = response.choices[0].message.content.strip()
         return jsonify({'answer': answer})
     except Exception as e:
-        print("GPT API ERROR:", e)
-        return jsonify({'answer': f'에러 발생: {str(e)}'})
+        return jsonify({'answer': f'오류 발생: {e}'})
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
