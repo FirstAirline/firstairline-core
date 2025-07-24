@@ -29,7 +29,7 @@
 
 | 구분           | 사용 기술                                       |
 |---------------|--------------------------------------------------|
-| 데이터 수집     | Python, Azure Functions, Event Hub, Stream Analytics, Postgresql  |
+| 데이터 수집     | Python, Azure Functions, Event Hub, Stream Analytics, PostgreSQL  |
 | 데이터 처리     | Python, Databricks, Azure Data Factory             |
 | 저장 및 분산처리 | Databricks, Azure Data Factory, PostgreSQL                |
 | 시각화         | Power BI, Flask                                       |
@@ -41,31 +41,31 @@
 ├── README.md               # 프로젝트 소개
 ├── LICENSE                  # 라이선스 파일
 ├── .gitignore               # Git 무시 파일 설정
-
+│
 ├── data/                    # 데이터 파일
 │   ├── raw/                 # 원본 데이터
 │   ├── processed/           # 전처리/가공 데이터(중간 결과)
 │   ├── realTime_data/       # 실시간 데이터
 │   └── docs/                # 데이터 테이블 명세서 
-
+│
 ├── notebooks/               # 분석/실험용 주피터 노트북
-
+│
 ├── src/                     # 파이프라인, 모델, 앱 등 실제 코드
 │   ├── data_pipeline/       # 데이터 수집/정제/적재 파이프라인
 │   ├── ml/                  # 머신러닝 관련 코드
 │   ├── webapp/              # Flask 웹앱/서비스 코드
 │   └── utils/               # 보조 함수/모듈
-
+│
 ├── dashboard/               # Power BI/Fabric 등 대시보드 파일
 │   └── *.pbix
-
+│
 ├── scripts/                 # 일괄 실행 가능한 파이썬/SQL/셸 스크립트
 │   └── run_etl.py
 │   └── update_gold_table.sql
-
+│
 ├── docs/                    # 발표자료, 회의록 등
 │   └── architecture.png
-
+│
 └── requirements.txt         # Python 패키지 의존성
 ```
 
@@ -73,12 +73,12 @@
 
 | 이름 | 역할            | 담당 업무                                  |
 |------|-----------------|--------------------------------------------|
-| 김진우   | Data Engineer  |  프로젝트 관리, 데이터 수집/정제, 시각화 구현               |
-| 박상필   | Data Engineer   |   데이터 수집/정제, 웹 구현           |
-| 박형진    | Data Engineer         |  데이터 수집/정제, 데이터 품질 관리             |
-| 서상원    | Data Engineer    |   데이터 수집/정제, ML분석                 |
-| 송누림    | Data Engineer         |  데이터 파이프라인 설계, 데이터 수집/정제, 시각화 구현          |
-| 임승수    | Data Engineer         |   데이터 수집/정제, ML분석, 트러블 슈팅 관리               |
+| 김진우   | Data Engineer  |  데이터 프로세스 개발, 시각화 구현, 프로젝트 관리               |
+| 박상필   | Data Engineer   |   데이터 프로세스 개발, 웹 구현           |
+| 박형진    | Data Engineer         |  데이터 프로세스 개발, 데이터 품질 관리             |
+| 서상원    | Data Engineer    |   데이터 프로세스 개발, ML분석                 |
+| 송누림    | Data Engineer         |  데이터 프로세스 개발, 데이터 파이프라인 설계, 시각화 구현          |
+| 임승수    | Data Engineer         |   데이터 프로세스 개발, ML분석, 트러블 슈팅 관리               |
 
 
 ## 📈 결과 요약
