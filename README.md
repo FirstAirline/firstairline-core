@@ -41,13 +41,13 @@
 ``` bash
 ├── README.md               # 프로젝트 소개. 구조도사진, 웹구현GIF 포함
 ├── LICENSE                  # 라이선스 파일
- 
+│ 
 ├── data/                    # 데이터 파일
 │   ├── bronze/              # 메달리온 아키텍처 (브론즈)
 │   ├── silver/              # 메달리온 아키텍처 (실버)
 │   ├── gold/                # 메달리온 아키텍처 (골드)
 │   └── docs/                # 데이터 테이블 명세서
- 
+│ 
 ├── src/                     # 파이프라인, 모델, 앱 등 실제 코드
 │   ├── data_pipeline/       # 데이터 수집/정제/적재 파이프라인
 │         ├── realTime_data
@@ -60,7 +60,7 @@
 │         	  ├── DataFactory
 │         ├──── processed_gold/
 │         	  ├── PostgreSQLTrigger #쿼리 .txt파일
- 
+│ 
 │         ├── batch_data
 │         ├──── datacollection/
 │         ├──── processed_bronze
@@ -70,16 +70,16 @@
 │         	  ├── Databricks_notebook
 │         	  ├── DataFactory #캡처사진, 서포트파일
 │         ├──── processed_gold/
- 
+│ 
 │  ├── ML/                  # 머신러닝 관련 코드
 │         ├── MLstudio
 │         ├── Databricks_notebook
-│   ├── webapp/              # Flask 웹앱/서비스 코드
- 
+│  ├── webapp/              # Flask 웹앱/서비스 코드
+│ 
 ├── dashboard/               # Power BI/Fabric 등 대시보드 파일
 │   └── *.gif
-  |   └── *.pdf
- 
+|   └── *.pdf
+│ 
 ├── docs/                    # 발표자료, 회의록 등
 │   └── architecture.png
 │   └── images/
