@@ -1,0 +1,101 @@
+"Code","Description","Description_KR"
+0,Cloud development not observed or not observable,관측되지 않았거나 관측 불가능한 구름 발달
+1,Clouds generally dissolving or becoming less developed,구름이 일반적으로 소산되거나 약해짐
+2,State of sky on the whole unchanged,하늘 상태 전반적으로 변화 없음
+3,Clouds generally forming or developing,구름이 전반적으로 발달하거나 형성 중
+4,"Visibility reduced by smoke, volcanic ash, or dust in suspension","연기, 화산재 또는 먼지로 인한 시정 저하"
+5,Haze,연무
+6,Widespread dust in suspension in the air,공기 중에 퍼진 광범위한 먼지
+7,Dust or sand raised by wind at or near the station,관측소 근처 또는 그 부근에서 바람에 의해 먼지/모래가 상승
+8,Well-developed dust or sand whirls,잘 발달된 먼지 또는 모래 소용돌이
+9,"Duststorm or sandstorm within sight, not at station",관측소 주변에서 발생 중인 모래폭풍/먼지폭풍
+10,Mist,박무
+11,Patches of shallow fog,얕은 안개 조각
+12,More or less continuous shallow fog,지속적인 얕은 안개
+13,"Lightning visible, no thunder heard",번개는 보이나 천둥은 들리지 않음
+14,"Precipitation within sight, not reaching ground",강수가 지면에 도달하지 않고 주변에서 관측됨
+15,"Precipitation within sight, reaching the ground",강수가 지면에 도달함
+16,"Precipitation within sight, but not reaching the ground at the station",강수가 관측되지만 지면에는 도달하지 않음
+17,"Thunderstorm, no precipitation",강수 없는 뇌우
+18,Squalls,돌풍
+19,Funnel cloud(s),깔때기 구름
+20,Drizzle (not freezing) or snow grains,이슬비(어는 비 아님) 또는 싸락눈
+21,Rain (not freezing),비(어는 비 아님)
+22,Snow,눈
+23,Rain and snow or ice pellets,비와 눈 또는 싸락눈 혼합
+24,Freezing drizzle or freezing rain,어는 이슬비 또는 어는 비
+25,Shower(s) of rain,비 소나기
+26,"Shower(s) of snow, or of rain and snow",눈 또는 비와 눈의 소나기
+27,"Shower(s) of hail, or of rain and hail",우박 또는 비와 우박의 소나기
+28,Fog or ice fog,안개 또는 착빙안개
+29,Thunderstorm (with or without precipitation),뇌우 (강수 유무 무관)
+30,Slight or moderate duststorm or sandstorm,약하거나 보통의 모래폭풍 또는 먼지폭풍
+31,Severe duststorm or sandstorm,심한 모래폭풍 또는 먼지폭풍
+32,"Slight or moderate duststorm or sandstorm, decreasing",감소 중인 약하거나 보통의 모래폭풍 또는 먼지폭풍
+33,"Severe duststorm or sandstorm, decreasing",감소 중인 심한 모래폭풍 또는 먼지폭풍
+34,"Slight or moderate duststorm or sandstorm, no change",변화 없는 약하거나 보통의 모래폭풍 또는 먼지폭풍
+35,"Severe duststorm or sandstorm, no change",변화 없는 심한 모래폭풍 또는 먼지폭풍
+36,"Slight or moderate duststorm or sandstorm, increasing",증가 중인 약하거나 보통의 모래폭풍 또는 먼지폭풍
+37,"Severe duststorm or sandstorm, increasing",증가 중인 심한 모래폭풍 또는 먼지폭풍
+38,"Blowing snow, slight or moderate",약하거나 보통의 강한 바람을 동반한 눈날림
+39,"Blowing snow, heavy",강한 바람을 동반한 심한 눈날림
+40,Fog or ice fog at a distance,관측소에서 먼 거리의 안개 또는 착빙안개
+41,"Fog, sky visible, has become thinner","하늘이 보이는 안개, 점점 옅어짐"
+42,"Fog, sky invisible, has become thinner","하늘이 보이지 않는 안개, 점점 옅어짐"
+43,"Fog, sky visible, no change in amount","하늘이 보이는 안개, 변화 없음"
+44,"Fog, sky invisible, no change in amount","하늘이 보이지 않는 안개, 변화 없음"
+45,"Fog or ice fog, sky invisible",하늘이 보이지 않는 안개 또는 착빙안개
+46,"Fog, sky visible, has become thicker","하늘이 보이는 안개, 점점 짙어짐"
+47,"Fog, sky invisible, has become thicker","하늘이 보이지 않는 안개, 점점 짙어짐"
+48,"Fog, depositing rime, sky visible","서리 생성 안개, 하늘이 보임"
+49,"Fog, depositing rime, sky invisible","서리 생성 안개, 하늘이 보이지 않음"
+50,"Drizzle, not freezing, intermittent, slight","간헐적인 이슬비, 약함"
+51,"Drizzle, continuous, slight","지속적인 이슬비, 약함"
+52,"Drizzle, intermittent, moderate","간헐적인 이슬비, 보통"
+53,"Drizzle, continuous, moderate","지속적인 이슬비, 보통"
+54,"Drizzle, intermittent, heavy","간헐적인 이슬비, 강함"
+55,"Drizzle, continuous, heavy","지속적인 이슬비, 강함"
+56,"Drizzle, freezing, slight","어는 이슬비, 약함"
+57,"Drizzle, freezing, moderate or heavy","어는 이슬비, 보통 또는 강함"
+58,"Drizzle and rain, slight","이슬비와 비, 약함"
+59,"Drizzle and rain, moderate or heavy","이슬비와 비, 보통 또는 강함"
+60,"Rain, not freezing, intermittent, slight","간헐적인 비, 약함"
+61,"Rain, continuous, slight","지속적인 비, 약함"
+62,"Rain, intermittent, moderate","간헐적인 비, 보통"
+63,"Rain, continuous, moderate","지속적인 비, 보통"
+64,"Rain, intermittent, heavy","간헐적인 비, 강함"
+65,"Rain, not freezing, continuous, heavy","지속적인 비, 강함"
+66,"Rain, freezing, slight","어는 비, 약함"
+67,"Rain, freezing, moderate or heavy","어는 비, 보통 또는 강함"
+68,"Rain or drizzle and snow, slight","비 또는 이슬비와 눈, 약함"
+69,"Rain or drizzle and snow, moderate or heavy","비 또는 이슬비와 눈, 보통 또는 강함"
+70,"Intermittent fall of snowflakes, slight","간헐적인 눈, 약함"
+71,"Intermittent snow, moderate","간헐적인 눈, 보통"
+72,"Intermittent snow, heavy","간헐적인 눈, 강함"
+73,"Continuous snow, slight","지속적인 눈, 약함"
+74,"Continuous snow, moderate","지속적인 눈, 보통"
+75,"Continuous fall of snowflakes, heavy","지속적인 눈, 강함"
+76,Diamond dust (with or without fog),다이아몬드 더스트 (안개 유무와 무관)
+77,Snow grains (with or without fog),눈싸라기 (안개 동반 가능)
+78,Isolated star-like snow crystals,별 모양의 고립된 눈 결정
+79,Ice pellets,우박
+80,"Rain shower(s), slight",가벼운 비 소나기
+81,"Rain shower(s), moderate or heavy",보통 또는 강한 비 소나기
+82,"Rain showers, violent",폭우성 소나기
+83,"Shower(s) of rain and snow mixed, slight",약한 비/눈 혼합 소나기
+84,"Showers of rain and snow, moderate or heavy",비와 눈 혼합의 강한 소나기
+85,"Snow shower(s), slight",가벼운 눈 소나기
+86,"Snow showers, moderate or heavy",강한 눈 소나기
+87,"Shower(s) of snow pellets or small hail, slight","작은 우박/싸락눈 소나기, 약함"
+88,"Shower(s) of hail, with or without rain, moderate or heavy","우박 소나기, 보통 또는 강함"
+89,"Hail showers, violent",강한 우박 소나기
+90,Slight rain at time of observation,관측 시점에 약한 비
+91,Moderate or heavy rain at time of observation,관측 시점에 보통 또는 강한 비
+92,"Slight snow, rain and snow mixed or hail at observation","약한 눈/비/우박, 관측 시점"
+93,"Moderate snow, rain and snow mixed or hail",보통의 눈/비/우박
+94,Moderate or heavy snow or rain and snow mixed or hail,관측 시점에 보통 또는 강한 눈/비/우박 혼합
+95,"Thunderstorm, slight or moderate, without hail, but with rain and/or snow","뇌우, 약하거나 보통, 우박 없음, 비/눈 동반"
+96,"Thunderstorm, slight or moderate, with hail","뇌우, 약하거나 보통, 우박 있음"
+97,"Thunderstorm, heavy, with rain and/or snow","강한 뇌우, 비 또는 눈 동반"
+98,"Thunderstorm, very heavy, with hail","강한 뇌우, 먼지 또는 모래폭풍 동반"
+99,"Thunderstorm, heavy, with hail","뇌우, 강하고 우박 동반"
