@@ -10,7 +10,7 @@
 
 > **"저희 `FIRST` 항공사를 찾아주셔서 감사합니다. 데이터 여행의 목적지로 안전히 모시겠습니다." – First AirLine**
 
-![FirstAirline Demo](images/firstairline_demo.png)
+![FirstAirline Demo](docs/images/firstairline_demo.png)
 
 ## 🏗️ 아키텍처 개요
 
