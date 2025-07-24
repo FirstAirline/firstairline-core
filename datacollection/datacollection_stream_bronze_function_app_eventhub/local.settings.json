@@ -7,7 +7,9 @@
     "Team1EventHubName2": "***보안이슈로대체***",
     "Team1EventHubConnectionString": "***보안이슈로대체***",
     "AzureWebHookUrl": "",
-    "kma_api": "***보안이슈로대체***"
+    "kma_api": "***보안이슈로대체***",
+    "nurim_publicdata_api" : "***보안이슈로대체***",
+    "sangwon_publicdata_api": "***보안이슈로대체***"    
   },
   "ConnectionStrings": {}
 }

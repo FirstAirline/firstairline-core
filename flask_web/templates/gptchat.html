@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>공항 챗봇</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .chatbot-card-bus {
+            background: #fafdff;
+            border-radius: 1.2rem;
+            box-shadow: 0 0.08rem 0.33rem rgba(50,90,180,0.10);
+            max-width: 900px;   /* ★ 카드 최대 너비 넓힘(원하는 만큼 조정 가능) */
+            min-width: 300px;
+            width: 95vw;        /* 화면 거의 꽉차게 */
+            margin: 3.2rem auto 2.8rem auto;
+            padding: 2.1rem 2.1rem 1.7rem 2.1rem;
+            min-height: 530px;  
+            display: flex;
+            flex-direction: column;
+            gap: 1.1rem;
+            font-size: 1.09rem;
+        }
+        .chatbot-form {
+            display: flex;
+            gap: 0.6em;
+            align-items: center;
+            width: 100%;        /* 폼도 카드 안에서 꽉차게 */
+        }
+        .chatbot-input {
+            flex: 1;
+            min-width: 0;
+            border: 1px solid #c7e0f6;
+            border-radius: 0.5em;
+            padding: 0.7em 1.2em;
+            font-size: 1.07rem;
+            background: #fff;
+        }
+        .chatbot-send-btn {
+            border: none;
+            border-radius: 0.5em;
+            background: linear-gradient(90deg, #1766cf 60%, #2f8ee5 100%);
+            color: #fff;
+            font-size: 1.07rem;
+            font-weight: 700;
+            padding: 0.7em 1.8em;
+            cursor: pointer;
+            transition: background 0.18s;
+        }
+        .chatbot-title {
+            font-size: 1.13rem;
+            font-weight: 800;
+            color: #1766cf;
+            margin-bottom: 0.4em;
+        }
+        .chatbot-messages {
+            flex: 1;
+            min-height: 300px;   /* 높이 더 키움 */
+            max-height: 580px; 
+            overflow-y: auto;
+            background: #f6fbff;
+            border-radius: 0.7em;
+            margin-bottom: 0.6em;
+            padding: 0.5em 0.7em;
+            color: #223;
+            font-size: 0.99rem;
+        }
+        .chatbot-form {
+            display: flex;
+            gap: 0.5em;
+            align-items: center;
+        }
+        .chatbot-input {
+            flex: 1;
+            border: 1px solid #c7e0f6;
+            border-radius: 0.5em;
+            padding: 0.5em 1em;
+            font-size: 1.05rem;
+            background: #fff;
+        }
+        .chatbot-send-btn {
+            border: none;
+            border-radius: 0.5em;
+            background: linear-gradient(90deg, #1766cf 60%, #2f8ee5 100%);
+            color: #fff;
+            font-size: 1.01rem;
+            font-weight: 700;
+            padding: 0.52em 1.1em;
+            cursor: pointer;
+            transition: background 0.18s;
+        }
+        .chatbot-send-btn:hover {
+            background: linear-gradient(90deg, #155cba 60%, #2170b8 100%);
+        }
+        @media (max-width: 700px) {
+            .chatbot-card-bus { max-width: 97vw; min-width: 0; margin: 1.7rem auto 1rem auto; }
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar">
+    <div class="navbar-title" onclick="goToFlightSearch()" style="cursor:pointer;">
+        <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Airport Logo" class="navbar-logo">
+        FirstAirline
+    </div>
+    <div class="navbar-lang-toggle">
+        <button class="lang-btn active">한국어</button>
+        <span class="lang-sep">|</span>
+        <button class="lang-btn">English</button>
+    </div>
+</nav>
+<div class="container" style="margin-top: 2.7rem; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:60vh;">
+    <div class="chatbot-card-bus">
+        <div class="chatbot-title">공항 안내 챗봇</div>
+        <div class="chatbot-messages" id="chatbotMessages"></div>
+        <form class="chatbot-form" id="chatbotForm" autocomplete="off">
+            <input type="text" class="chatbot-input" id="chatbotInput" placeholder="챗봇이 비용 문제로 잠시 쉬어갑니다..." required>
+            <button type="submit" class="chatbot-send-btn">전송</button>
+        </form>
+    </div>
+</div>
+<footer class="main-footer-info">
+    <div>
+        ※ 본서비스는 인천공항에서 제공하는 승객예고 정보(항공사 예약승객 정보 기반의 시간대별 출∙입국장별 예상승객 수 정보)를 활용해 개발한 서비스입니다.<br>
+        ※ 실측데이터가 아닌 예측데이터로 실시간 공항 혼잡 상황과 차이가 있을 수 있습니다.<br>
+        ※ 혼잡도 기준은 FirstAirline에서 선정한 기준이며, 인천국제공항공사 혼잡도 기준과는 차이가 있을 수 있습니다.
+    </div>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const chatDiv = document.getElementById('chatbotMessages');
+    chatDiv.innerHTML += `
+        <div style="text-align:left; margin-bottom:0.5em;">
+            <b style="color:#226;">Chatbot</b>: 
+            <b>You can ask in any language.</b><br>
+            Hello! I am the Incheon Airport AI assistant.<br>
+            Try asking questions like these:<br>
+            <span style="color:#226; font-size:0.98em;">
+            - Which parking lot has the most available spaces right now?<br>
+            - What time is each terminal the most crowded?<br>
+            - Is Terminal 1 crowded at the moment?<br>
+            - How is the indoor air quality in the terminals?<br>
+            - My flight is scheduled around n o’clock. Is there a delay expected?<br>
+            </span>
+        </div>
+    `;
+});
+
+document.getElementById('chatbotForm').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    const input = document.getElementById('chatbotInput');
+    const msg = input.value.trim();
+    if (!msg) return;
+    const chatDiv = document.getElementById('chatbotMessages');
+    chatDiv.innerHTML += '<div style="text-align:right; margin-bottom:0.3em;"><b style="color:#1766cf;">나</b>: ' + msg + '</div>';
+    input.value = '';
+    chatDiv.scrollTop = chatDiv.scrollHeight;
+
+    // Loading indicator
+    chatDiv.innerHTML += '<div id="chatbot-loading" style="color:#aaa;">답변을 생성 중입니다...</div>';
+    chatDiv.scrollTop = chatDiv.scrollHeight;
+
+    try {
+        const resp = await fetch('/api/gptchat', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({message: msg})
+        });
+        const data = await resp.json();
+        document.getElementById('chatbot-loading').remove();
+        chatDiv.innerHTML += '<div style="text-align:left; margin-bottom:0.3em;"><b style="color:#226;">챗봇</b>: ' + (data.answer || '응답 생성 실패') + '</div>';
+        chatDiv.scrollTop = chatDiv.scrollHeight;
+    } catch (e) {
+        document.getElementById('chatbot-loading').remove();
+        chatDiv.innerHTML += '<div style="color:red;">서버 오류, 다시 시도해주세요.</div>';
+    }
+});
+function goToFlightSearch() {
+    window.location.href = "{{ url_for('index') }}";
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>인천공항 제한물품 안내</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        body {
+            background: #f7fbff url("/static/img/background.png") no-repeat center center fixed;
+            background-size: cover;
+        }
+        .restricted-main-wrap {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 2.2rem 1.2rem 2.7rem 1.2rem;
+        }
+        .restricted-title {
+            font-size: 2.2rem;
+            font-weight: bold;
+            color: #ff0000;
+            margin-bottom: 2rem;
+            text-align: center;
+            letter-spacing: 0.04em;
+            text-shadow:
+                -1px -1px 0 #fff,
+                1px -1px 0 #fff,
+                -1px  1px 0 #fff,
+                1px  1px 0 #fff;
+        }
+        .restricted-card-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.08rem;
+        }
+        .restricted-card,
+        .restricted-detail-panel {
+            width: 100%;
+            min-width: 0;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+        .restricted-card {
+            background: #f6fbff;
+            border-radius: 1.1rem 1.1rem 0 0;
+            box-shadow: 0 0.13rem 0.7rem rgba(50,90,180,0.08);
+            padding: 1.05rem 1.4rem;
+            color: #154274;
+            font-size: 1.03rem;
+            display: flex;
+            align-items: center;
+            gap: 1.2rem;
+            position: relative;
+            cursor: pointer;
+            min-width: 0;
+            transition: box-shadow 0.22s;
+        }
+        .restricted-card.open {
+            box-shadow: 0 0.3rem 1.1rem rgba(50,90,180,0.15);
+            background: #e8f3ff;
+        }
+        .restricted-card-img {
+            width: 88px;
+            height: 88px;
+            object-fit: contain;
+            border-radius: 0.6rem;
+            background: transparent;
+            box-shadow: none;
+            padding: 0;
+            flex-shrink: 0;
+            transition: width 0.2s, height 0.2s;
+        }
+        .restricted-card-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 0.19rem;
+            min-width: 0;
+        }
+        .restricted-card-title {
+            font-size: 1.07rem;
+            font-weight: 700;
+            color: #1766cf;
+            margin-bottom: 0.06rem;
+            letter-spacing: 0.01em;
+        }
+        .restricted-card-desc {
+            font-size: 0.97rem;
+            color: #345;
+            font-weight: 400;
+            white-space: pre-line;
+        }
+        .restricted-arrow {
+            font-size: 1.38rem;
+            margin-left: 1rem;
+            color: #1766cf;
+            user-select: none;
+            display: inline-block;
+            transition: transform 0.25s cubic-bezier(.45,0,.28,1);
+        }
+        .restricted-card.open .restricted-arrow {
+            transform: rotate(180deg);
+        }
+        .restricted-detail-panel {
+            background: #fff;
+            border-radius: 0 0 1.1rem 1.1rem;
+            box-shadow: 0 0.07rem 0.17rem rgba(50,90,180,0.07);
+            margin-top: 0;
+            margin-bottom: 0.05rem;
+            padding: 0.5rem 1.4rem 0.9rem 7.1rem;
+            font-size: 0.97rem;
+            overflow: hidden;
+            max-height: 0;
+            opacity: 0;
+            transition: max-height 0.34s cubic-bezier(.45,0,.28,1), opacity 0.26s;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .restricted-card.open + .restricted-detail-panel {
+            max-height: 520px;
+            opacity: 1;
+            background: #cbe4ff;
+            transition: max-height 0.32s cubic-bezier(.36,0,.15,1), opacity 0.24s;
+        }
+        .restricted-detail-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0 0.08rem;
+        }
+        .restricted-detail-row {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 0.21rem;
+        }
+        .restricted-detail-label {
+            font-weight: 600;
+            width: 5.3rem;
+            min-width: 5.3rem;
+            color: #222;
+            font-size: 1.00rem;
+        }
+        .restricted-detail-ox {
+            font-size: 1.38rem;
+            font-weight: 900;
+            margin-right: 1.05rem;
+            margin-left: 0.3rem;
+            width: 2.1rem;
+            text-align: center;
+            flex-shrink: 0;
+        }
+        .restricted-detail-ox.O { color: #2174e4; }
+        .restricted-detail-ox.X { color: #e22a2a; }
+        .restricted-detail-txt {
+            color: #24292f;
+            font-size: 0.96rem;
+            font-weight: 400;
+            line-height: 1.54;
+            white-space: pre-line;
+            word-break: keep-all;
+            margin-right: 1.1rem;
+        }
+        .restricted-detail-common {
+            color: #666e99;
+            font-size: 0.95rem;
+            margin-top: 0.24rem;
+            margin-left: 0.9rem;
+            line-height: 1.48;
+            word-break: keep-all;
+            white-space: pre-line;
+        }
+        @media (max-width: 900px) {
+            .restricted-card-img { width: 55px; height: 55px;}
+            .restricted-detail-panel { padding-left: 3.4rem; }
+        }
+        @media (max-width: 700px) {
+            .restricted-main-wrap { padding: 1.1rem 0.2rem; }
+            .restricted-card, .restricted-detail-panel { padding-left: 1.2rem; }
+            .restricted-detail-panel { padding-left: 3.5rem; font-size: 0.91rem; }
+            .restricted-card-img { width: 36px; height: 36px;}
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-title" onclick="goToFlightSearch()" style="cursor:pointer;">
+            <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Airport Logo" class="navbar-logo">
+            FirstAirline
+        </div>
+        <div class="navbar-lang-toggle">
+            <button class="lang-btn active">한국어</button>
+            <span class="lang-sep">|</span>
+            <button class="lang-btn">English</button>
+        </div>
+    </nav>
+    <main>
+        <div class="restricted-main-wrap">
+            <div class="restricted-title">인천공항 반입 제한물품 안내</div>
+            <div class="restricted-card-list">
+                {% for item in restricted_list %}
+                    <div class="restricted-card" data-idx="{{ loop.index0 }}">
+                        <img src="{{ url_for('static', filename='img/' ~ item.image_name) }}" class="restricted-card-img" alt="{{ item.category_kr }}">
+                        <div class="restricted-card-content">
+                            <div class="restricted-card-title">{{ item.category_kr }}</div>
+                            <div class="restricted-card-desc">{{ item.brief }}</div>
+                        </div>
+                        <span class="restricted-arrow">▲</span>
+                    </div>
+                    <div class="restricted-detail-panel" style="max-height:0;opacity:0;">
+                        <div class="restricted-detail-table">
+                            <div class="restricted-detail-row">
+                                <span class="restricted-detail-label">기내 휴대</span>
+                                <span class="restricted-detail-ox {{ 'O' if item.ox_carryon == 'O' else 'X' }}">
+                                    {{ 'O' if item.ox_carryon == 'O' else 'X' }}
+                                </span>
+                                <span class="restricted-detail-txt">{{ item.detail_carryon }}</span>
+                            </div>
+                            <div class="restricted-detail-row">
+                                <span class="restricted-detail-label">위탁 수하물</span>
+                                <span class="restricted-detail-ox {{ 'O' if item.ox_checked == 'O' else 'X' }}">
+                                    {{ 'O' if item.ox_checked == 'O' else 'X' }}
+                                </span>
+                                <span class="restricted-detail-txt">{{ item.detail_checked }}</span>
+                            </div>
+                            {% if item.detail_common %}
+                            <div class="restricted-detail-common">{{ item.detail_common }}</div>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </main>
+    <footer class="main-footer-info">
+        <div>
+            ※ 본서비스는 인천공항에서 제공하는 승객예고 정보(항공사 예약승객 정보 기반의 시간대별 출∙입국장별 예상승객 수 정보)를 활용해 개발한 서비스입니다.<br>
+            ※ 실측데이터가 아닌 예측데이터로 실시간 공항 혼잡 상황과 차이가 있을 수 있습니다.<br>
+            ※ 혼잡도 기준은 FirstAirline에서 선정한 기준이며, 인천국제공항공사 혼잡도 기준과는 차이가 있을 수 있습니다.
+        </div>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.restricted-card');
+            const panels = document.querySelectorAll('.restricted-detail-panel');
+            cards.forEach((card, idx) => {
+                card.addEventListener('click', function(event) {
+                    event.stopPropagation();
+                    const isOpen = card.classList.toggle('open');
+                    if (isOpen) {
+                        panels[idx].style.maxHeight = panels[idx].scrollHeight + 25 + 'px';
+                        panels[idx].style.opacity = '1';
+                    } else {
+                        panels[idx].style.maxHeight = '0';
+                        panels[idx].style.opacity = '0';
+                    }
+                });
+            });
+        });
+        function goToFlightSearch() {
+            window.location.href = "{{ url_for('index') }}";
+        }
+    </script>
+</body>
+</html>

@@ -1,97 +1,273 @@
+:root {
+    --navbar-height: 4rem;
+    --container-max-width: 62rem;
+    --container-padding-x: 3vw;
+    --container-padding-y: 3vw;
+    --color-main-blue: #1766cf;
+    --color-main-blue2: #2f8ee5;
+    --color-bg: #f8fafc;
+    --color-table-th: #e9f2fc;
+}
+
 body {
     font-family: 'Noto Sans KR', Arial, sans-serif;
-    background: #f8fafc;
+    background: url("/static/img/background.png") no-repeat center center fixed;
+    background-size: cover;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
 }
-.container {
-    max-width: 1000px;
+
+.navbar {
+    width: 100%;
+    max-width: 100vw;
+    min-width: 0;
+    height: var(--navbar-height);
+    background: linear-gradient(90deg, var(--color-main-blue) 60%, var(--color-main-blue2) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    transition: padding 0.18s;
+    overflow: hidden;
+}
+
+.navbar-title {
+    color: #fff;
+    font-size: 1.15rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.navbar-logo {
+    height: 2.1rem;
+    width: auto;
+    margin-right: 0.7rem;
+    vertical-align: middle;
+    flex-shrink: 0;
+}
+
+.navbar-lang-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding-right: 0.2rem;
+    margin-left: auto;
+    flex-wrap: wrap;
+    min-width: 0;
+    width: auto;
+    overflow: visible;
+}
+
+.lang-btn {
+    background: none;
+    border: none;
+    color: #e9f2fc;
+    font-size: 1.02rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0.35rem 1.1rem;
+    border-radius: 0.33rem;
+    transition: background 0.16s, color 0.16s;
+    min-width: 0;
+}
+
+.lang-btn.active, .lang-btn:hover {
     background: #fff;
-    margin: 64px auto 0 auto;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
-    border-radius: 22px;
-    padding: 60px 48px 40px 48px;
-}
-h2 {
-    text-align: center;
-    font-size: 2.3rem;
-    color: #1766cf;
-    margin-bottom: 32px;
+    color: var(--color-main-blue);
     font-weight: 700;
 }
-form {
-    display: flex;
-    gap: 36px;
-    margin-bottom: 18px;
-    justify-content: center;
-    align-items: flex-end;
+
+.lang-sep {
+    color: #d1e4fa;
+    font-size: 1.03rem;
+    margin: 0 0.12rem;
 }
-.form-group {
+
+.container {
+    max-width: var(--container-max-width);
+    background: #fff;
+    margin: calc(var(--navbar-height) + 2vw) auto 0 auto;
+    box-shadow: 0 0.25rem 1.5rem rgba(0,0,0,0.07);
+    border-radius: 1.5rem;
+    padding: var(--container-padding-y) var(--container-padding-x) 2vw var(--container-padding-x);
+    width: 92vw;
+    min-width: 0;
+}
+
+.weather-side {
+    width: auto;
+    min-width: 240px;
+    margin-left: 0.7rem;
+    display: block;
+}
+
+.weather-card2 {
+    background: #f6fbff;
+    border-radius: 1.1rem;
+    box-shadow: 0 0.15rem 0.9rem rgba(50,90,180,0.10);
+    padding: 1.3rem 2.2rem 1.4rem 2.2rem;
+    color: #154274;
+    font-size: 1.07rem;
+    min-width: 230px;
+    max-width: 350px;
+    margin-bottom: 1.3rem;
+    margin-top: 2.2rem;
     display: flex;
     flex-direction: column;
-    flex: 1 1 200px;
-    min-width: 180px;
+    align-items: flex-start;
+    gap: 0.35rem;
 }
-label {
-    font-weight: 500;
-    margin-bottom: 7px;
-    color: #253858;
-    font-size: 1.08rem;
+
+/* ------ [버튼 고유 클래스 적용] ------ */
+.btn-parking-info,
+.btn-map-info,
+.btn-bus-info,
+.btn-restricted-info {
+    display: block;
+    width: 100%;
+    min-width: 230px;
+    max-width: 350px;
+    margin: 0.8rem 0 0.2rem 0;
+    padding: 0.6rem 1rem 0.6rem 1.3rem;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #f7fbff 0%, #cfeafd 50%, #76b0f7 100%);
+    background-size: 200% 100%;
+    background-position: 0% 0%;
+    color: #154274;
+    font-size: 1.12rem;
+    font-weight: 700;
+    text-align: left;
+    border-radius: 1rem;
+    box-shadow: 0 0.07rem 0.25rem rgba(23,102,207,0.08);
+    text-decoration: none;
+    letter-spacing: 0.01em;
+    transition: background-position 0.6s cubic-bezier(.77,0,.18,1), background 0.4s, color 0.18s;
 }
-input[type="text"], input[type="date"] {
-    padding: 17px 16px;
-    border: 1.7px solid #dde6ed;
-    border-radius: 9px;
-    font-size: 1.16rem;
-    background: #f6faff;
-    transition: border 0.2s;
+.btn-parking-info:hover, .btn-parking-info:focus,
+.btn-map-info:hover, .btn-map-info:focus,
+.btn-bus-info:hover, .btn-bus-info:focus,
+.btn-restricted-info:hover, .btn-restricted-info:focus {
+    background-position: 100% 0%;
+    color: #154274;
 }
-input[type="text"]:focus, input[type="date"]:focus {
-    border: 1.7px solid #1766cf;
-    outline: none;
-}
-button[type="submit"] {
-    padding: 18px 45px;
+
+/* 항공편 조회버튼(고유 클래스) */
+.btn-search {
+    padding: 1rem 2.3rem;
     border: none;
-    border-radius: 9px;
-    background: linear-gradient(90deg, #1766cf 60%, #2f8ee5 100%);
+    border-radius: 0.6rem;
+    background: linear-gradient(90deg, var(--color-main-blue) 60%, var(--color-main-blue2) 100%);
     color: #fff;
-    font-size: 1.22rem;
+    font-size: 1.1rem;
     font-weight: 700;
     cursor: pointer;
-    box-shadow: 0 2px 8px rgba(23,102,207,0.09);
-    margin-top: 10px;
+    box-shadow: 0 0.12rem 0.5rem rgba(23,102,207,0.09);
+    margin-top: 0.1rem;
     transition: background 0.2s;
-    min-width: 120px;
+    min-width: 7rem;
 }
-button[type="submit"]:hover {
+.btn-search:hover {
     background: linear-gradient(90deg, #155cba 60%, #2170b8 100%);
+}
+/* ------ [버튼 고유 클래스 끝] ------ */
+
+@media (max-width: 1300px) {
+    .btn-parking-info, .btn-map-info, .btn-bus-info, .btn-restricted-info {
+        max-width: 350px;
+        margin: 0.8rem auto 0.2rem auto;
+    }
+}
+@media (max-width: 700px) {
+    .btn-parking-info, .btn-map-info, .btn-bus-info, .btn-restricted-info { display: none !important; }
+}
+
+/* 입력폼, 테이블, 반응형 등 기존 스타일 그대로 */
+.flight-form {
+    display: flex;
+    gap: 2.3rem;
+    margin-bottom: 18.0rem;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.form-group-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.6rem;
+    margin-right: 1.3rem;
+}
+.form-group-row label {
+    font-weight: 500;
+    color: #253858;
+    font-size: 1.04rem;
+    margin-bottom: 0;
+    min-width: 3.5rem;
+    text-align: right;
+}
+.form-group-row input[type="text"],
+.form-group-row input[type="date"] {
+    padding: 1rem 1rem;
+    border: 0.11rem solid #dde6ed;
+    border-radius: 0.55rem;
+    font-size: 1.08rem;
+    background: #f6faff;
+    transition: border 0.2s;
+    min-width: 10rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+input.uppercase {
+    text-transform: uppercase;
+}
+.form-group-row input[type="text"]:focus,
+.form-group-row input[type="date"]:focus {
+    border: 0.11rem solid var(--color-main-blue);
+    outline: none;
+}
+input[type="date"], input[type="date"]::placeholder {
+    font-family: 'Noto Sans KR', Arial, sans-serif !important;
+    font-size: 1.08rem;
+    letter-spacing: 0.02em;
 }
 .error {
     color: #ea3b2a;
-    font-size: 1.13rem;
-    margin-bottom: 12px;
+    font-size: 1.05rem;
+    margin-bottom: 0.7rem;
     text-align: center;
 }
 table {
     border-collapse: collapse;
     width: 100%;
     background: #f9fbfd;
-    border-radius: 14px;
-    margin-top: 32px;
+    border-radius: 0.9rem;
+    margin-top: 2.2rem;
     overflow: hidden;
-    box-shadow: 0 2px 8px rgba(41,100,163,0.06);
+    box-shadow: 0 0.11rem 0.5rem rgba(41,100,163,0.06);
+    font-size: 0.99rem;
 }
 th, td {
-    padding: 14px 10px;
+    padding: 0.7rem 0.6rem;
     text-align: center;
-    font-size: 1.07rem;
+    font-size: 0.99rem;
 }
 th {
-    background: #e9f2fc;
-    color: #1766cf;
+    background: var(--color-table-th);
+    color: var(--color-main-blue);
     font-weight: 600;
-    border-bottom: 2px solid #bdd7ee;
+    border-bottom: 0.13rem solid #bdd7ee;
 }
 tr:nth-child(even) {
     background: #f2f6fa;
@@ -100,11 +276,421 @@ tr:hover td {
     background: #e2ecfa;
     transition: 0.15s;
 }
-@media (max-width: 1050px) {
-    .container { max-width: 98vw; padding: 16px 5px;}
-    form { flex-direction: column; gap: 18px; }
+/* 반응형 스타일 */
+@media (max-width: 700px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 0.7rem 2vw;
+        align-items: flex-start;
+        gap: 0.5rem;
+        overflow-x: hidden;
+    }
+    .navbar-title {
+        font-size: 0.97rem;
+        margin-bottom: 0.3rem;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .navbar-logo {
+        height: 1.3rem;
+        margin-right: 0.4rem;
+    }
+    .navbar-lang-toggle {
+        width: 100%;
+        justify-content: flex-end;
+        gap: 0.7rem;
+        min-width: 0;
+        flex-wrap: wrap;
+        padding-right: 0.1rem;
+        margin-left: 0;
+    }
+    .flight-form {
+        flex-direction: column;
+        gap: 0.7rem;
+        align-items: stretch;
+    }
+    .form-group-row {
+        flex-direction: column;
+        align-items: stretch;
+        margin-right: 0;
+    }
+    .form-group-row label {
+        text-align: left;
+        margin-bottom: 0.28rem;
+    }
+    .form-group-row input[type="text"],
+    .form-group-row input[type="date"] {
+        font-size: 1rem;
+        min-width: 0;
+    }
+    .btn-search {
+        width: 100%;
+        font-size: 1rem;
+        margin-top: 0.6rem;
+    }
+    table, th, td {
+        font-size: 0.91rem;
+        padding: 0.37rem 0.22rem;
+    }
+    table {
+        margin-top: 1rem;
+    }
+}
+@media (max-width: 520px) {
+    .container {
+        padding: 1vw 1vw 1vw 1vw;
+    }
+    table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        font-size: 0.87rem;
+    }
+    thead, tbody, tr {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+    }
+}
+
+/* ------------------------------------------
+   ↓↓↓ parking- 접두어: 주차카드/탭 스타일 ↓↓↓
+   ------------------------------------------ */
+/* --- 주차요금카드 parking- 스타일 전체 --- */
+.parking-card-wrap {
+    background: #f6fbff;
+    border-radius: 1.2rem;
+    box-shadow: 0 0.08rem 0.33rem rgba(50,90,180,0.09);
+    padding: 2rem 1.4rem 2.4rem 1.4rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    max-width: 350px;
+    min-width: 200px;
+}
+.parking-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1.1rem;
+    margin-bottom: 1.4rem;
+}
+.parking-tab {
+    font-size: 1.09rem;
+    font-weight: 700;
+    color: #1766cf;
+    background: #eaf3fc;
+    border: none;
+    border-radius: 1.2rem;
+    padding: 0.74rem 2.1rem;
+    cursor: pointer;
+    transition: background 0.18s, color 0.18s;
+}
+.parking-tab.active,
+.parking-tab:hover {
+    background: linear-gradient(90deg, #1766cf 60%, #2f8ee5 100%);
+    color: #fff;
+}
+.parking-content { display: none; }
+.parking-content.active { display: block; }
+.parking-card-title {
+    font-size: 1.16rem;
+    font-weight: 700;
+    margin-bottom: 0.7rem;
+    color: #154274;
+    letter-spacing: 0.04em;
+}
+.parking-size-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 0.85rem;
+    margin-bottom: 1.2rem;
+}
+.parking-size-tab {
+    font-size: 0.98rem;
+    font-weight: 600;
+    background: #eaf3fc;
+    color: #1766cf;
+    border: none;
+    border-radius: 1.1rem;
+    padding: 0.52rem 1.45rem;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+}
+.parking-size-tab.active,
+.parking-size-tab:hover {
+    background: linear-gradient(90deg, #1766cf 60%, #2f8ee5 100%);
+    color: #fff;
+}
+.parking-desc-block {
+    margin-bottom: 0.5rem;
+    color: #143369;
+    font-size: 1.03rem;
+}
+.parking-desc-block > div {
+    margin-bottom: 0.18rem;
+    font-weight: 400;
 }
 @media (max-width: 700px) {
-    th, td { font-size: 0.97rem; padding: 9px 4px; }
-    h2 { font-size: 1.3rem; }
+    .parking-card-wrap {
+        padding: 1.1rem 0.3rem 1.4rem 0.3rem;
+        max-width: 98vw;
+        min-width: 0;
+    }
+    .parking-tabs { gap: 0.5rem; }
+    .parking-tab { padding: 0.64rem 1.1rem; font-size: 0.99rem; }
+    .parking-size-tabs { gap: 0.38rem; }
+    .parking-size-tab { padding: 0.37rem 0.8rem; font-size: 0.93rem; }
+}
+/* ------ [PARKING 버튼 고유 클래스] ------ */
+
+/* 단기 탭 버튼 */
+.btn-parking-short {
+    display: inline-block;
+    width: 48%;
+    margin: 0.1rem 1% 0.1rem 0;
+    padding: 0.74rem 2.1rem;
+    background: #eaf3fc;
+    color: #1766cf;
+    font-size: 1.09rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 1.2rem;
+    cursor: pointer;
+    transition: background 0.18s, color 0.18s;
+}
+.btn-parking-short.active,
+.btn-parking-short:hover {
+    background: linear-gradient(90deg, #1766cf 60%, #2f8ee5 100%);
+    color: #fff;
+}
+
+/* 장기 탭 버튼 */
+.btn-parking-long {
+    display: inline-block;
+    width: 48%;
+    margin: 0.1rem 0 0.1rem 1%;
+    padding: 0.74rem 2.1rem;
+    background: #eaf3fc;
+    color: #1766cf;
+    font-size: 1.09rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 1.2rem;
+    cursor: pointer;
+    transition: background 0.18s, color 0.18s;
+}
+.btn-parking-long.active,
+.btn-parking-long:hover {
+    background: linear-gradient(90deg, #1766cf 60%, #2f8ee5 100%);
+    color: #fff;
+}
+
+/* 장기 소형 버튼 */
+.btn-long-small {
+    display: inline-block;
+    width: 48%;
+    margin: 0.1rem 1% 0.1rem 0;
+    padding: 0.52rem 1.45rem;
+    background: #eaf3fc;
+    color: #1766cf;
+    font-size: 0.98rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 1.1rem;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+}
+.btn-long-small.active,
+.btn-long-small:hover {
+    background: linear-gradient(90deg, #1766cf 60%, #2f8ee5 100%);
+    color: #fff;
+}
+
+/* 장기 대형 버튼 */
+.btn-long-large {
+    display: inline-block;
+    width: 48%;
+    margin: 0.1rem 0 0.1rem 1%;
+    padding: 0.52rem 1.45rem;
+    background: #eaf3fc;
+    color: #1766cf;
+    font-size: 0.98rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 1.1rem;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+}
+.btn-long-large.active,
+.btn-long-large:hover {
+    background: linear-gradient(90deg, #1766cf 60%, #2f8ee5 100%);
+    color: #fff;
+}
+.arrival-info-card.two-col-info {
+    max-width: 920px;          /* 컨테이너 최대폭과 맞춤 */
+    min-width: 280px;
+    width: 100%;
+    flex: 0 1 auto;
+    background: #fff !important;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0.13rem 0.7rem rgba(50,90,180,0.09);
+    border-radius: 1.1rem;
+}
+.arrival-info-card.two-col-arrival {
+    max-width: 920px;
+    min-width: 340px;
+    width: 100%;
+    flex: 0 1 auto;
+    background: #fff !important;
+    text-align: left;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0.13rem 0.7rem rgba(50,90,180,0.09);
+    border-radius: 1.1rem;
+    padding: 1.7rem 2.2rem 1.7rem 2.2rem;
+    margin-top: 1.5rem;
+}
+
+/* 필요시 미디어쿼리(모바일)에서는 둘 다 100%로 */
+@media (max-width: 900px) {
+    .two-col-info, .two-col-arrival {
+        max-width: 97vw;
+        width: 100%;
+        min-width: 0;
+    }
+}
+.intro-wrap {
+    width: 100%;
+    max-width: 980px;
+    margin: 2.8rem auto 3.6rem auto;  /* 상단·하단 여백↑ */
+    text-align: center;
+    padding-top: 10.0em;               /* 컨테이너 내부에서 위쪽도 더 여유 */
+    padding-bottom: 1.2em;
+}
+.intro-title {
+    font-size: 2.1rem;
+    font-weight: 800;
+    color: #18294d;
+    letter-spacing: 0.01em;
+    line-height: 1.22;
+    margin-bottom: 1.7em;
+}
+.intro-desc {
+    font-size: 1.24rem;
+    font-weight: 500;
+    color: #1665cf;
+    margin-bottom: 0.0em;
+    letter-spacing: 0.01em;
+}
+@media (max-width: 700px) {
+    .intro-title { font-size: 1.28rem; }
+    .intro-desc { font-size: 1.03rem; }
+}
+.intro-title-airline {
+    font-size: 1.34em;
+    font-weight: 900;
+    color: #1447a7;  /* 기존과 맞춰도 되고, 더 진하게 하고 싶으면 수정 */
+    letter-spacing: 0.01em;
+}
+.arrival-row-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2.2rem;
+    margin-top: 0.2rem;
+    justify-content: flex-start;
+}
+.arrival-info-time-block {
+    min-width: 300px;
+    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 1.3rem;
+}
+.arrival-info-2col {
+    display: flex;
+    gap: 2.2em;
+    justify-content: flex-start;
+}
+.arrival-info-2col > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.18em;
+}
+@media (max-width: 700px) {
+  .arrival-row-flex {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .arrival-info-2col {
+    flex-direction: column;
+    gap: 0.6em;
+  }
+}
+.arrival-info-time-label,
+.arrival-info-time-value,
+.arrival-info-2col,
+.arrival-info-2col > div,
+.arrival-info-2col > div > div,
+.arrival-info-2col span {
+    font-size: 1.10rem;        /* 원하는 크기로 */
+    color: #183153;            /* 원하는 색상으로 */
+    font-weight: 500;          /* 원하는 굵기로 */
+    letter-spacing: 0.01em;
+}
+.btn-prev-search-container {
+    position: absolute;
+    top: 2.1rem;          /* 컨테이너 패딩/여백에 따라 조정 */
+    right: 2.5rem;
+    background: #eaf3fc;
+    color: #1766cf;
+    border: none;
+    border-radius: 0.7rem;
+    font-size: 0.97rem;
+    font-weight: 700;
+    padding: 0.36rem 1.18rem;
+    z-index: 5;
+    cursor: pointer;
+    transition: background 0.16s, color 0.16s;
+    box-shadow: 0 0.06rem 0.15rem rgba(23,102,207,0.07);
+}
+.btn-prev-search-container:hover {
+    background: linear-gradient(90deg, #aedbff 40%, #78c7ff 100%);
+    color: #1447a7;
+}
+.container {
+    position: relative;   /* 반드시 있어야 버튼이 우상단에 뜸! */
+}
+.congestion-value-em {
+    font-size: 1.36em;
+    font-weight: 700;
+    vertical-align: baseline;
+}
+.delay-value-em {
+    font-size: 1.42em;
+    font-weight: 700;
+    vertical-align: baseline;
+}
+.main-footer-info {
+    background: #f7f7fa;
+    color: #4b4c51;
+    font-size: 0.98rem;
+    text-align: center;
+    line-height: 1.55;
+    border-top: 1px solid #d5d6da;
+    padding: 1.3em 0 1.1em 0;
+    margin-top: 2.2em;
+    width: 100vw;
+}
+@media (max-width: 700px) {
+    .main-footer-info {
+        font-size: 0.92rem;
+        padding: 0.9em 0 0.7em 0;
+    }
 }
