@@ -1,0 +1,110 @@
+body {
+    font-family: 'Noto Sans KR', Arial, sans-serif;
+    background: #f8fafc;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1000px;
+    background: #fff;
+    margin: 64px auto 0 auto;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    border-radius: 22px;
+    padding: 60px 48px 40px 48px;
+}
+h2 {
+    text-align: center;
+    font-size: 2.3rem;
+    color: #1766cf;
+    margin-bottom: 32px;
+    font-weight: 700;
+}
+form {
+    display: flex;
+    gap: 36px;
+    margin-bottom: 18px;
+    justify-content: center;
+    align-items: flex-end;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 200px;
+    min-width: 180px;
+}
+label {
+    font-weight: 500;
+    margin-bottom: 7px;
+    color: #253858;
+    font-size: 1.08rem;
+}
+input[type="text"], input[type="date"] {
+    padding: 17px 16px;
+    border: 1.7px solid #dde6ed;
+    border-radius: 9px;
+    font-size: 1.16rem;
+    background: #f6faff;
+    transition: border 0.2s;
+}
+input[type="text"]:focus, input[type="date"]:focus {
+    border: 1.7px solid #1766cf;
+    outline: none;
+}
+button[type="submit"] {
+    padding: 18px 45px;
+    border: none;
+    border-radius: 9px;
+    background: linear-gradient(90deg, #1766cf 60%, #2f8ee5 100%);
+    color: #fff;
+    font-size: 1.22rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(23,102,207,0.09);
+    margin-top: 10px;
+    transition: background 0.2s;
+    min-width: 120px;
+}
+button[type="submit"]:hover {
+    background: linear-gradient(90deg, #155cba 60%, #2170b8 100%);
+}
+.error {
+    color: #ea3b2a;
+    font-size: 1.13rem;
+    margin-bottom: 12px;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background: #f9fbfd;
+    border-radius: 14px;
+    margin-top: 32px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(41,100,163,0.06);
+}
+th, td {
+    padding: 14px 10px;
+    text-align: center;
+    font-size: 1.07rem;
+}
+th {
+    background: #e9f2fc;
+    color: #1766cf;
+    font-weight: 600;
+    border-bottom: 2px solid #bdd7ee;
+}
+tr:nth-child(even) {
+    background: #f2f6fa;
+}
+tr:hover td {
+    background: #e2ecfa;
+    transition: 0.15s;
+}
+@media (max-width: 1050px) {
+    .container { max-width: 98vw; padding: 16px 5px;}
+    form { flex-direction: column; gap: 18px; }
+}
+@media (max-width: 700px) {
+    th, td { font-size: 0.97rem; padding: 9px 4px; }
+    h2 { font-size: 1.3rem; }
+}
