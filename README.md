@@ -53,22 +53,22 @@
 │         ├── realTime_data
 │         ├──── datacollection/
 │         ├──── processed_bronze/
-│         			├── DDL #DBeaver Properties 캡처사진
-│         			├── StreamAnalyticsJobqueary #쿼리 .txt 파일
+│         	  ├── DDL #DBeaver Properties 캡처사진
+│         	  ├── StreamAnalyticsJobqueary #쿼리 .txt 파일
 │         ├──── processed_silver/
-│         			├── DDL #DBeaver Properties 캡처사진
-│         			├── DataFactory
+│         	  ├── DDL #DBeaver Properties 캡처사진
+│         	  ├── DataFactory
 │         ├──── processed_gold/
-│         			├── PostgreSQLTrigger #쿼리 .txt파일
+│         	  ├── PostgreSQLTrigger #쿼리 .txt파일
  
 │         ├── batch_data
 │         ├──── datacollection/
 │         ├──── processed_bronze
-│         			├── DDL #DBeaver Properties 캡처사진
+│         	  ├── DDL #DBeaver Properties 캡처사진
 │         ├──── processed_silver/
-│         			├── DDL #DBeaver Properties 캡처사진
-│         			├── Databricks_notebook
-│         			├── DataFactory #캡처사진, 서포트파일
+│         	  ├── DDL #DBeaver Properties 캡처사진
+│         	  ├── Databricks_notebook
+│         	  ├── DataFactory #캡처사진, 서포트파일
 │         ├──── processed_gold/
  
 │  ├── ML/                  # 머신러닝 관련 코드
