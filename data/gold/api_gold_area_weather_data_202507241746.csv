@@ -1,0 +1,2 @@
+"timestamp","year","month","day","time","observ_date","observ_time","temperature","dew_point_temperature","qnh","mean_wind_speed","max_wind_speed","mean_wind_direction","wind_counter_clock_direction","wind_clock_direction","horizontal_visibility","clouds","change_indicator","weather_label"
+"2025-07-21 14:51:00","2025","07","21","14:51:00","20250721","14:30:00",30,25,1014,15,15,210,210,210,10000,FEW015,NO_SIGNIFICANT_CHANGES,구름조금
