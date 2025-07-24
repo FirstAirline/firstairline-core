@@ -29,7 +29,7 @@
 
 | 구분           | 사용 기술                                       |
 |---------------|--------------------------------------------------|
-| 데이터 수집     | Python, Azure Functions, Event Hub, Stream Analytics, Postgresql  |
+| 데이터 수집     | Python, Azure Functions, Event Hub, Stream Analytics, PostgreSQL  |
 | 데이터 처리     | Python, Databricks, Azure Data Factory             |
 | 저장 및 분산처리 | Databricks, Azure Data Factory, PostgreSQL                |
 | 시각화         | Power BI, Flask                                       |
