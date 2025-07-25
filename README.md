@@ -62,6 +62,7 @@
 │         	  ├── DDL #DBeaver Properties 캡처사진
 │         	  ├── DataFactory
 │         ├──── processed_gold/
+│         	  ├── DDL #DBeaver Properties 캡처사진
 │         	  ├── PostgreSQLTrigger #쿼리 .txt파일
 │ 
 │         ├── batch_data
