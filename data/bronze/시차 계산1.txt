@@ -1,0 +1,4379 @@
+English_City,Korean_City,Time_Difference_vs_Seoul_Hours
+Sukhothai,수코타이,-2
+JemajaIsland,제마자 제도,-2
+Elazig,엘라지그,-6
+Pontianak,폰티아낙,-2
+Port Lincoln,포트링컨,+0.5
+Norwood,노우드,+0.5
+Izmir,이즈미르,-6
+Barrancabermeja,바랑카베르메하,-14
+Kerikeri,케리케리,+3
+Mangalore,망갈로르,-3.5
+Lyon,리옹,-7
+Changzhi,창즈,-1
+Payerne,파예른,-7
+Lopez Island,로페즈 아일랜드,-16
+Bouake,부아케,-8
+Pretoria,프리토리아,-7
+Victoria,빅토리아,-16
+Mwanza,므완자,-6
+Lonorore,로노로레,+2
+Ketapang,케타팡,-2
+Oruro,오루로,-13
+Tikehau,티케하우,-19
+BahIa Solano,바이아 솔라노,-14
+Cedar Rapids,시더 래피즈,-14
+Mont-Joli,몽 졸리,-13
+Malta,몰타,-7
+Wanigela,와니겔라,+1
+Fakarava,파카라바,-19
+San Luis,산 루이스,-12
+Catarman,카타르만,-1
+Mentawai Islands,멘타와이 제도,-2
+Matsuyama,마쓰야마,+0
+Lakselv,락셀브,-7
+Hanamaki,하나마키,+0
+Bengkulu,벵쿨루,-2
+Eirunepe,이루네페,-14
+Tiksi,틱시,+1
+Round Lake,라운드 레이크,-15
+Maracaibo,마라카이보,-13
+Hancock,핸콕,-14
+Mafeteng,마페텡,-7
+Fagernes,파게르네스,-7
+Takotna,타코트나,-17
+Soroako,소로아코,-1
+Santa Monica,산타모니카,-16
+Bedourie,베두리,+1
+Colville Lake,콜빌 레이크,-16
+Gambela,감벨라,-6
+Skien,시엔,-7
+Kivalina,키발리나,-18
+Kitakyushu,기타큐슈,+0
+Te Anau,테 아나우,+3
+Patos,파토스,-12
+Manitowoc,매니토웍,-14
+MonterIa,몬테리아,-14
+Kipnuk,킵눅,-17
+Yaounde,야운데이,-8
+Santa Lucia,산타 루시아,-13
+Ali-Sabieh,알리-사비에,-6
+Yongshu Jiao,융수자오,-1
+Nice,니스,-7
+Paamiut,파미우트,-12
+Luzhou,루저우,-1
+Osmanabad,오스마나바드,-3.5
+Masai Mara,마사이 마라,-6
+Port Huron,포트 휴런,-13
+Bario,바리오,-1
+Cabimas,카비마스,-13
+Ilimanaq Harbour,일리마나크 항구,-12
+Chillan,치얀,-13
+Ust-Maya,우스티 마야,+1
+Axum,악숨,-6
+Jerez de la Frontera,헤레스 데 라 프론테라,-8
+Biysk,비스크,-2
+Hamilton,해밀턴,-13
+Chlef,슐레프,-8
+Sioux,수,-14
+Sanday,샌디,-8
+Battle Creek,배틀 크리크,-14
+Shangrao,상라오,-1
+Batsfjord,바츠피오르드,-7
+Kasaan,카산,-17
+Boende,보엔데,-7
+Sitia,시티아,-7
+Augusta,오거스타,-13
+Arthur's Town,아서스 타운,-14
+Los Mochis,로스 모치스,-15
+Fort Resolution,포트 레졸루션,-15
+Nanchong,난충,-1
+Mae Sot,매 솟,-2
+Al-Diwaniyah,알디와니야,-6
+Treasure Cay,트레저 케이,-14
+Providenciales,프로비덴시알레스,-14
+Mildura,밀두라,+1
+Falam Surbung,팔람 수르붕,-2.5
+Kaduna,카두나,-8
+Meru National Park,메루 국립공원,-6
+Jinzhou,진저우,-1
+Ironwood,아이언우드,-14
+Peoria,피오리아,-14
+Padang Sidempuan,파당 시뎀푸안,-2
+Saskatoon,새스커툰,-15
+Bocas Town,보카스 타운,-14
+Ornskoldsvik,외른셸스비크,-7
+Krakow,크라쿠프,-7
+Batna,바트나,-7
+Egegik,에게기크,-18
+Ponce,폰세,-13
+Pskov,프스코프,-6
+RachGia,락자,-2
+Magong,마궁,-1
+Bata,바타,-8
+Turkistan,투르키스탄,-4
+Volgograd,볼고그라드,-6
+Tarama,타라마,+0
+BIldudalur,빌두달루르,-9
+Chester,체스터,-8
+Jos,조스,-8
+Kwailabesi,콰일라베시,+2
+Jabalpur,자발푸르,-3.5
+San Jose del Cabo,산호세 델 카보,-16
+Cannes,칸,-7
+Raroia,라로이아,-19
+Boston,보스턴,-13
+Bunia,부니아,-7
+Dakhla,다클라,-8
+Moundou,문두,-8
+Yedinka,예딘카,+1
+Pierre,피에르,-15
+St George,세인트 조지,-13
+Fort McPherson,포트 맥퍼슨,-16
+Futuna Island,푸투나 섬,+2
+Navegantes,나베간테스,-12
+WarraberIs,와라베르 제도,+1
+Phrae,프래,-2
+Allentown,앨런타운,-13
+Villa Mercedes,비야 메르세데스,-12
+Rutland,럿랜드,-13
+Dien Bien Phu,디엔비엔푸,-2
+Pisa,피사,-7
+Bettles,베틀스,-17
+Maracay,마라카이,-13
+Atqasuk,앳카숙,-17
+Kortrijk,코르트레이크,-7
+Ardmore,아드모어,-15
+Trieste,트리에스테,-7
+Lubang,루방,-1
+Paraburdoo,파라버두,-1
+Djanet,자네트,-8
+Okinoerabujima,오키노에라부지마,+0
+Xiahe,샤허,-1
+San Carlos,산 카를로스,-16
+Alpena,알피나,-14
+Ceske Budejovice,체스케 부데요비체,-7
+Comiso,코미소,-7
+Besalampy,베살람피,-6
+Swan River,스완 리버,-14
+Longview,롱뷰,-16
+Ruijin,루이진,-1
+Dublin,더블린,-8
+Big Creek,빅 크리크,-16
+Stowe,스토우,-13
+Tobolsk,토볼스크,-4
+Ozamiz,오사미즈,-1
+Touho,투호,+2
+Kangiqsualujjuaq,캉기크수알루쥐아크,-14
+Waskaganish,와스카가니쉬,-14
+Benin City,베닌 시티,-8
+Libreville,리브르빌,-8
+Westfield-Springfield,웨스트필드-스프링필드,-13
+Morondava,모론다바,-6
+Patrocinio,파트루시니우,-12
+Fort de France,포르 드 프랑스,-13
+Chinchilla,친칠라,+1
+Ramstein,람슈타인,-7
+Arona,아로나,-7
+Mananara Nord,마나나라 노르,-6
+Ulukhaktok,울루크학톡,-16
+Huai'an,화이안,-1
+Emmonak,엠모나크,-18
+Westerly,웨스터리,-13
+Songea,손게아,-6
+Mytilene,미틸리니,-7
+Faaite,파아이테,-19
+Sorkjosen,소르크요센,-7
+Kili Island,킬리 섬,+3
+Kirkuk,키르쿠크,-6
+Orsk,오르스크,-4
+Campina Grande,캄피나 그란데,-12
+Eua,에우아,+4
+Saravan,사라반,-2.5
+Arendal,아렌달,-7
+Yibin,이빈,-1
+San Juan,산후안,-13
+Niuatoputapu,니아우토푸타푸,+5
+MitU,미투,-14
+Norman Wells,노먼 웰스,-16
+Cape Dorset,케이프 도르셋,-14
+Smara,스마라,-8
+Petrolina,페트롤리나,-12
+Mariupol,마리우폴,-7
+Kaitaia,카이타이아,+3
+Contadora Island,콘타도라 섬,-14
+Pilot Station,파일럿 스테이션,-18
+Ogoki,오고키,-14
+Reno,리노,-16
+Cat Lake,캣 레이크,-15
+Sao Felix do Araguaia,상 펠릭스 두 아라과이아,-13
+Shanghai,상하이,-1
+Urumqi,우루무치,-3
+Lihue,리후에,-19
+Kasabonika,카사보니카,-14
+Srinagar,스리나가르,-3.5
+Inuvik,이누비크,-16
+Wushan,우산,-1
+Kyzylorda,키질로르다,-4
+Ballina,발리나,+1
+Sharypovo,샤리포보,-2
+Moa,모아,-14
+Datia,다티아,-3.5
+Chiredzi,치레지,-7
+Morombe,모롬베,-6
+Alice Springs,앨리스 스프링스,+0.5
+Medan,메단,-2
+Bauru,바우루,-12
+Antalaha,안탈라하,-6
+Batu Licin,바투 리친,-1
+Thira,티라,-7
+SambU,삼부,-8
+Soalala,소알랄라,-6
+Krabi,끄라비,-2
+Murray Island,머레이 제도,+1
+Tamarindo,타마린도,-15
+Saturna Island,새터나 아일랜드,-16
+Sansha,싼샤,-1
+Sara,사라,-1
+Williams Lake,윌리엄스 레이크,-16
+Cobija,코비자,-13
+General Pico,헤네랄 피코,-12
+Iloilo,일로일로,-1
+Johannesburg,요하네스버그,-7
+Hiroshima,히로시마,+0
+Vopnafjordur,보프나피요르뒤르,-9
+Kuusamo,쿠사모,-7
+Bar Harbor,바 하버,-13
+San Juan de la Maguana,산후안 데 라 마과나,-14
+Hongyuan,홍위안,-1
+Rzeszow,제슈프,-7
+Ordos,오르도스,-1
+La Seu d'Urgell,라 세우 두르젤,-7
+Mascara,마스카라,-8
+Tianshui,톈수이,-1
+Meerut,메루트,-3.5
+Hervey Bay,허비 베이,+1
+Groote Eylandt,그루트 아일랜드,+1
+Wulong,우룽,-1
+Chesterfield,체스터필드,-8
+Uberlandia,우베를란디아,-12
+Chifeng,츠펑,-1
+Siquijor,시퀴호르,-1
+Banja Luka,바냐 루카,-7
+San Gil,산 힐,-14
+Borg El Arab,보르그 엘 아랍,-7
+Kirkenes,키르케네스,-7
+Santiago del Estero,산티아고 델 에스테로,-12
+Lalibela,랄리벨라,-6
+Wuhu,우후,-1
+Surigao,수리가오,-1
+Alta,알타,-7
+Tozeur,토제르,-8
+Plovdiv,플로브디프,-7
+Utirik Atoll,우티릭 아톨,+3
+Ajaccio,아작시오,-7
+Tallinn,탈린,-7
+Bobo-Dioulasso,보보디울라소,-8
+Ust-Ilimsk,우스티 일림스크,-2
+Fort Chipewyan,포트 치페와이안,-15
+Port Blair,포트 블레어,-3.5
+Wewak,웨워크,+1
+Comodoro Rivadavia,코모도로 리바다비아,-12
+Dehradun,데라둔,-3.5
+Tlemcen,틀렘센,-8
+Berens River,베렌스 리버,-15
+Sakakah,사카카,-6
+Altenburg,알텐부르크,-7
+Kokhanok,코하녹,-17
+Hoedspruit,후드스프룻,-7
+Daru,다루,+1
+Bulgan,불간,-1
+Tulum,툴룸,-14
+Trashigang,트라시강,-3
+Varanasi,바라나시,-3.5
+Hao,하오,-19
+Boise,보이시,-16
+Solapur,솔라푸르,-3.5
+Mount Isa,마운트 이사,+1
+South West Bay,사우스 웨스트 베이,+2
+Jining,지닝,-1
+Marquette,마켓,-14
+Kralendijk,크라렌데이크,-13
+Adrar,아드라르,-8
+Marion,매리언,-14
+Geneva,제네바,-7
+Barranquilla,바랑키야,-14
+Wekweeti,위쿼티,-16
+Coachella Valley,코첼라 밸리,-16
+Roseau,로조,-13
+Vatry,바트리,-7
+Guelmim,겔밈,-8
+Bundaberg,번다버그,+1
+Ji-Parana,지파라나,-13
+Rainbow Lake,레인보우 레이크,-16
+San MartIn de los Andes,산 마르틴 데 로스 안데스,-12
+Parma,파르마,-7
+Misawa,미사와,+0
+The Forest,더 포레스트,-13
+Huatulco,우아툴코,-15
+Tapachula,타파출라,-15
+Wajima,와지마,+0
+Wrangell,랭겔,-17
+Nouakchott,누악쇼트,-8
+Les Cayes,레 카예,-14
+Ibague,이바게,-14
+Paulatuk,폴라투크,-16
+Mundha Pande,문드하 판데,-3.5
+Embu,엠부,-6
+PointeNoire,푸앵트누아르,-8
+Ed Daein,에드 다에인,-6
+Monclova,몬클로바,-15
+Huatugou,화투거우,-1
+Gorakhpur,고라크푸르,-3.5
+Sirte,시르테,-7
+Russian Mission,러시안 미션,-18
+Martinsburg,마틴스버그,-13
+Merauke,메라우케,+0
+Kavalerovo,카발레로보,+1
+Red Sucker Lake,레드 서커 레이크,-15
+Skiathos,스키아토스,-7
+Kikai,키카이,+0
+Ewer,에워,+0
+College Station,칼리지 스테이션,-15
+Hohhot,후허하오터,-1
+Yining,이닝,-3
+Milwaukee,밀워키,-14
+Maratua Island,마라투아 제도,-1
+Santiago de Cuba,산티아고 데 쿠바,-14
+Ipota,이포타,+2
+Niigata,니가타,+0
+Lakeba Island,라케바 제도,+3
+Xiangxi,샹시,-1
+Shangri-La,샹그릴라,-1
+Aktobe,악토베,-4
+Tartagal,타르타갈,-13
+Ponta Grossa,폰타 그로사,-12
+Turin,토리노,-7
+Stuttgart,슈투트가르트,-7
+Stevens Village,스티븐스 빌리지,-17
+Cairns,케언스,+1
+NevSehir,네브셰히르,-6
+Palmerston North,파머스턴 노스,+3
+Kariba,카리바,-7
+Astypalaia,아스티팔라이아,-7
+Yanbu,얀부,-6
+Addis Ababa,아디스아바바,-6
+Zadar,자다르,-7
+Ambatomainty,암바토마인티,-6
+Anahim Lake,아나힘 레이크,-16
+Kamloops,캠루프스,-16
+Kosrae,코스라에,+2
+Xi'an,시안,-1
+Yahukimo,야후키모,+0
+Roma,로마,-7
+Khajuraho,카주라호,-3.5
+Evensk,예벤스크,+1
+Hollywood,할리우드,-16
+Moses Lake,모세스 레이크,-16
+Essaouira,에사우이라,-8
+Burketown,버크타운,+1
+Alderney,올더니,-8
+Gold Coast,골드 코스트,+1
+Launceston,론서스턴,+1
+Wenatchee,웨내치,-16
+Fort Leonard Wood,포트 레너드 우드,-14
+Leeds-Bradford,리즈-브래드포드,-8
+Grumeti,그루메티,-6
+Karaganda,카라간다,-4
+Grafton,그래프턴,-13
+Sion,시옹,-7
+Rennell Island,레넬 제도,+2
+Armenia,아르메니아,-14
+Sliac,슬리아치,-7
+Marinduque Island,마린두케 제도,-1
+Ariquemes,아리케메스,-13
+Araxa,아라샤,-12
+Inishmaan,이니시맨,-8
+Tokushima,도쿠시마,+0
+Sohag,소하그,-7
+Grand Turk Island,그랜드 터크 아일랜드,-14
+Fuerteventura,푸에르테벤투라,-8
+Uyo,우요,-8
+Riga,리가,-7
+Ekwok,에크워크,-17
+Sidney,시드니,-16
+Sand Point,샌드 포인트,-17
+Palmar Sur,팔마르 수르,-15
+Nagpur,나그푸르,-3.5
+Winton,윈튼,+1
+Comox,코목스,-16
+Livingstone,리빙스턴,-7
+Kinshasa,킨샤사,-8
+Klemtu,클렘투,-16
+Wakaya Island,와카야 제도,+3
+Vadso,바드쇠,-7
+Murmansk,무르만스크,-6
+Kosice,코시체,-7
+Owerri,오웨리,-8
+Sangar,상가르,+0
+Malang,말랑,-2
+Kununurra,쿠누누라,-1
+Balikpapan,발릭파판,-1
+El Salvador,엘살바도르,-15
+Larnaca,라르나카,-7
+Chersky,체르스키,+1
+Rabaul,라바울,+1
+Dezful,데즈풀,-5.5
+Scottsbluff,스콧츠블러프,-15
+Manley Hot Springs,맨리 핫 스프링스,-17
+Tennant Creek,테넌트 크릭,+0.5
+Guaymas,과이마스,-15
+Shageluk,샤게룩,-18
+Uruapan,우루아판,-15
+Egilsstaoir,에이일스타디르,-9
+Zunyi,쭌이,-1
+Tandag,탄닥,-1
+Takengon,타켕온,-2
+Pagadian,파가디안,-1
+Pueblo,푸에블로,-15
+Naxos,낙소스,-7
+Patras,파트라스,-7
+Popondetta,포폰데타,+1
+Ouargla,와르글라,-8
+Datadawai,다타다와이,-2
+Clyde River,클라이드 리버,-14
+Bremen,브레멘,-7
+San Cristobal,산 크리스토발,-14
+Visalia,비살리아,-16
+Esquel,에스켈,-12
+Bridgeport,브리지포트,-13
+Severo-Kurilsk,세베로쿠릴스크,+2
+Jakarta,자카르타,-2
+Ocean Falls,오션 폴스,-16
+Albacete,알바세테,-7
+Nosara,노사라,-15
+Catania,카타니아,-7
+Mejit Island,메지트 제도,+3
+Dumai,두마이,-2
+Pristina,프리슈티나,-7
+North Bay,노스 베이,-14
+Erbil,에르빌,-6
+Umea,우메오,-7
+Pellston,펠스턴,-14
+Nuwara Eliya,누와라 엘리야,-3.5
+Attawapiskat,아타와피스캇,-14
+Vieste,비에스테,-7
+Orvakal,오르바칼,-3.5
+Goodyear,굿이어,-16
+Doha,도하,-6
+Naracoorte,나라코르테,+0.5
+Sirnak,시르낙,-6
+Philadelphia,필라델피아,-13
+Neubrandenburg,노이브란덴부르크,-7
+Weipa,웨이파,+1
+Cap-Haitien,카프아이티엥,-14
+El Alamein,엘 알라메인,-7
+La Ceiba,라 세이바,-15
+Funchal,푼샬,-9
+Akola,아콜라,-3.5
+Amritsar,암리차르,-3.5
+Graz,그라츠,-7
+Thimarafushi,티마라푸시,-4
+Torres,토레스,-12
+Osh,오시,-4
+Guwahati,구와하티,-3.5
+Osaka,오사카,+0
+Quincy,퀸시,-13
+Reao,레아오,-19
+Bratsk,브라츠크,-3
+Khost,호스트,-4.5
+St. Moritz,장크트모리츠,-7
+Damazin,다마진,-6
+Riverton,리버튼,-15
+Dangriga,당리가,-15
+Baykit,바이키트,-2
+Taiz,타이즈,-6
+Bukoba,부코바,-6
+Andamooka,안다무카,+0.5
+Grayling,그레이링,-17
+Los angeles,로스앤젤레스,-16
+Raivavae,라이바바에,-19
+Katherine,캐서린,+0.5
+Split,스플리트,-7
+Hanimaadhoo,하니마두,-4
+Alpine,알파인,-15
+Newark,뉴어크,-13
+Kogalym,코갈림,-4
+Chuathbaluk,추앗발룩,-17
+Tokunoshima,도쿠노시마,+0
+Teruel,테루엘,-7
+TamuIn,탐윈,-15
+Las Tunas,라스 투나스,-14
+Kiriwina Island,키리위나 제도,+1
+Maastricht,마스트리흐트,-7
+Vienna,비엔나,-7
+Samarkand,사마르칸트,-4
+Kufra,쿠프라,-7
+Abu Simbel,아부 심벨,-7
+Puttaparthi,푸타파르티,-3.5
+Jambi,잠비,-2
+Aligarh,알리가르,-3.5
+Trinidad,트리니다드,-13
+Wadi Halfa,와디 할파,-7
+Petropavlovsk,페트로파블롭스크,-4
+Paro,파로,-3
+Ankavandra,안카반드라,-6
+Tainan,타이난,-1
+Saranac Lake,사라낙 레이크,-13
+Tabarka,타바르카,-8
+Matam,마탐,-8
+Agen,아쟁,-7
+South Caicos,사우스 카이코스,-14
+Canaima,카나이마,-13
+Kake,카케,-17
+Puebla,푸에블라,-15
+Kasane,카사네,-7
+Eau Claire,오클레어,-14
+Waterloo,워털루,-14
+Chofu,조후,+0
+Qeshm,퀘슘,-5.5
+Lleida,레이다,-7
+Qaisumah-Hafar al-Batin,카이수마-하파르 알 바틴,-6
+Maavarulu,마아바루루,-4
+Sao Paulo,상파울루,-12
+Maasin,마아신,-1
+Belleville,벨빌,-14
+Hargeisa,하르게이사,-6
+Guangzhou,광저우,-1
+Gaborone,가보로네,-7
+Mulhouse,뮐루즈,-7
+Enugu,에누구,-8
+Poplar Hill,포플러 힐,-14
+Toluca,톨루카,-15
+Butuan,부투안,-1
+Nepalgunj,네팔군지,-3.75
+Tezpur,테즈푸르,-3
+Morelia,모렐리아,-15
+Kerben,케르벤,-4
+Baton Rouge,배턴 루지,-15
+Oyem,오옘,-8
+Makassar,마카사르,-1
+Sipora,시포라,-2
+Tufi,투피,+1
+Tortuguero,토르투게로,-15
+Nakhchivan,나흐치반,-5
+Basel,바젤,-7
+Vilhena,빌헤나,-13
+Sindal,신달,-7
+Yongzhou,융저우,-1
+Kaghau Island,카가우 제도,+2
+Goya,고야,-12
+Lages,라제스,-12
+Riberalta,리베랄타,-13
+Malarge,말라르게,-12
+Alliance,얼라이언스,-15
+Tacheng,타청,-3
+Solomon,솔로몬,-17
+Tehran,테헤란,-5.5
+Levuka,레부카,+3
+Jeypore,제이푸르,-3.5
+Oberpfaffenhofen,오버파펜호펜,-7
+Reconquista,레콘키스타,-12
+Irece,이레세,-12
+Bossier City,보시어 시티,-15
+Culiacan,쿨리아칸,-15
+Longnan,룽난,-1
+Puerto Montt,푸에르토 몬트,-12
+TrollhAttan-VAnersborg,트롤헤탄-베네르스보리,-7
+Puvirnituq,푸비르니투크,-14
+Pullman,풀먼,-16
+Emerald,에메랄드,+1
+Idaho Falls,아이다호 폴스,-16
+Gander,갠더,-12.5
+Walla Walla,왈라왈라,-16
+Lansdowne,랜스다운,-13
+Page,페이지,-16
+Point Baker,포인트 베이커,-17
+Ofu Island,오푸 제도,-20
+Bilbao,빌바오,-7
+Cordova,코르도바,-17
+Tena,테나,-14
+Cross Lake,크로스 레이크,-15
+Kingston,킹스턴,-13
+Jengjal Baljek,젱잘 발제크,-3
+La Chorrera,라 초레라,-14
+Yonaguni,요나구니,+0
+Quelimane,켈리마네,-7
+Maraba,마라바,-12
+Ormoc,오르모크,-1
+Iles-de-la-Madeleine,일 드 라 마들렌,-13
+Papa Stour,파파 스투어,-8
+Kenosha,케노샤,-14
+Yuncheng,윈청,-1
+Detroit,디트로이트,-13
+Oecussi,오쿠시,-0
+BahIa Blanca,바이아 블랑카,-12
+Arua,아루아,-6
+Mo i Rana,모 이 라나,-7
+Neiva,네이바,-14
+Agra,아그라,-3.5
+Stella Maris,스텔라 마리스,-14
+O'Neill,오닐,-15
+Piestany,피에슈챠니,-7
+Lincang,린창,-1
+Chennai,첸나이,-3.5
+Subic Bay,수빅만,-1
+Repulse Bay,리펄스 베이,-14
+Shenyang,선양,-1
+Amboseli,암보셀리,-6
+NewValley,뉴밸리,-7
+West Chicago,웨스트 시카고,-14
+Sanana Island,사나나 제도,-1
+Baramati,바라마티,-3.5
+Bangui,방기,-8
+Igiugig,이기우지그,-17
+Bellary,벨라리,-3.5
+Gelephu,겔레푸,-3
+Ellisras,엘리스라스,-7
+Sandy Lake,샌디 레이크,-15
+Achutupo,아추투포,-14
+Pikangikum,피칸지쿰,-15
+Roswell,로즈웰,-15
+Kuujjuarapik,쿠유아라픽,-14
+Polyarny,폴랴르니,-6
+Andavadoaka,안다바도아카,-6
+Ballera gas plant,발레라 가스 플랜트,+1
+Sao Gabriel da Cachoeira,상 가브리엘 다 카초에이라,-14
+Marmul,마르물,-5
+Long Apung,롱아풍,-2
+Santa Ana Island,산타 아나 제도,+2
+UstKuyga,우스티 쿠이가,+0
+Ordu/Giresun,오르두/기레순,-6
+Maribor,마리보르,-7
+Shillong,실롱,-3
+Jebel Ali,제벨 알리,-5
+Guasdualito,과스두알리토,-14
+Den Helder,덴 헬데르,-7
+Qamdo,캄도,-1
+Tasikmalaya,타식말라야,-2
+Kharkiv,하르키우,-7
+Gorno-Altaysk,고르노알타이스크,-2
+Trang,트랑,-2
+Kotzebue,코체부,-17
+Moomba,뭄바,+0.5
+Mykolaiv,미콜라이우,-7
+MaturIn,마투린,-13
+Bayda,바이다,-7
+Aqaba,아카바,-6
+Flint,플린트,-14
+Ciudad Real,시우다드 레알,-7
+Dickinson,디킨슨,-15
+Yingkou,잉커우,-1
+Auckland,오클랜드,+3
+Alta Floresta,알타 플로레스타,-13
+Kimmirut,킴미루트,-14
+Guangyuan,광위안,-1
+Yasuj,야수즈,-5.5
+Mili Atoll,밀리 아톨,+3
+Satna,사트나,-3.5
+Points North Landing,포인트 노스 랜딩,-15
+Poso,포소,-1
+Haugesund,하우게순,-7
+Oxford House,옥스포드 하우스,-15
+CayeChapel,케이 채플,-15
+Inisheer,이니시어,-8
+Vanua Balavu,바누아 발라부,+3
+Prerov,프르제로프,-7
+Port Hope,포트 호프,-13
+Quimper,캥페르,-7
+Tubala,투발라,-14
+Ilorin,일로린,-8
+Amravati,아므라바티,-3.5
+Tengchong,텅충,-1
+Akhiok,아키오크,-17
+Kuala Terengganu,쿠알라 테렝가누,-1
+Perryville,페리빌,-17
+Mosinee,모시니,-14
+Buriram,부리람,-2
+Coen,코엔,+1
+Baia Mare,바이아 마레,-7
+Ras Sidr,라스 시드르,-7
+Franceville,프랑스빌,-8
+Zhytomyr,지토미르,-7
+Tabiteuea North,타비테우아 노스,+3
+Jacmel,자크멜,-14
+Homa Bay,호마 베이,-6
+Guam,괌,+1
+Laghouat,라구앗,-8
+Colombo,콜롬보,-3.5
+Hengchun,헝춘,-1
+Yantai,옌타이,-1
+Mundra,문드라,-3.5
+Ndende,은덴데,-8
+Cluj-Napoca,클루지나포카,-7
+Baguio,바기오,-1
+Port-de-Paix,포르데페,-14
+Bornholm,보른홀름,-7
+Ramechhap,라메찹,-3.75
+Puerto Vallarta,푸에르토 바야르타,-15
+Annaba,안나바,-7
+Yan'an,옌안,-1
+Quito,키토,-14
+Barrow Island,배로우 아일랜드,-1
+El VigIa,엘 비히아,-13
+Nuku Hiva,누쿠 히바,-19.5
+Wollongong,울런공,+1
+Panjang Island,판장 제도,-2
+Corpus Christi,코퍼스 크리스티,-15
+Yakima,야키마,-16
+Rarotonga Island,라로통가 제도,-19
+Aguadilla,아과디야,-13
+Sullivan Bay,설리번 베이,-16
+Chisinau,키시너우,-7
+San Jose,산호세,-15
+Manaoba Island,마나오바 제도,+2
+Tablas Island,타블라스 제도,-1
+Tuzla,투즐라,-7
+Ua Pou,우아 포우,-19.5
+Kalamata,칼라마타,-7
+Kushiro,쿠시로,+0
+Havana,하바나,-14
+Greenwood,그린우드,-14
+Taloyoak,탈로요크,-15
+Parauapebas,파라우아페바스,-12
+Batticaloa,바티칼로아,-3.5
+Blenheim,블렌하임,+3
+San Francisco,샌프란시스코,-16
+Kashan,카샨,-5.5
+Daocheng,다오청,-1
+Salzburg,잘츠부르크,-7
+Patos de Minas,파투스 지 미나스,-12
+Colonel Hill,콜로넬 힐,-14
+Napuka,나푸카,-19
+Ganja,간자,-5
+Shiraz,시라즈,-5.5
+Astana,아스타나,-4
+Jacksonville,잭슨빌,-13
+Presque Isle,프레스크 아일,-13
+Tuguegarao,투게가라오,-1
+Saint Vincent,세인트 빈센트,-13
+Petrozavodsk,페트로자보츠크,-6
+Ankang,안캉,-1
+Nekemte,네켐테,-6
+Rosario,로사리오,-12
+Trkmenabat,투르크메나바트,-4
+Bonanza,보난자,-15
+Malinau,말리나우,-2
+Oulu,오울루,-7
+Lazy Bay,레이지 베이,-17
+Poza Rica,포사 리카,-15
+Dang Tarigaun,당 타리가운,-3.75
+Solwezi,솔웨지,-7
+Kishangarh,키샨가르,-3.5
+Port Angeles,포트 앤젤레스,-16
+Anegada,아네가다,-13
+Gan Island,간 제도,-4
+Torres Islands,토레스 제도,+2
+Sabzevar,삽제바르,-5.5
+Mamburao,맘부라오,-1
+Villagarzon,비야가르손,-14
+StDenis,생드니,-5
+Nakhon Si Thammarat,나콘시탐마랏,-2
+Esmeraldas,에스메랄다스,-14
+Jurmala,유르말라,-7
+Huslia,후슬리아,-17
+London,런던,-8
+Surgut,수르구트,-4
+Truckee,트러키,-16
+Tinian,티니안,+1
+Clovis,클로비스,-16
+Naga,나가,-1
+Jimma,짐마,-6
+Suceava,수체아바,-7
+Long Akah,롱아카,-1
+Komatsu,고마쓰,+0
+Punta Cana,푼타 카나,-14
+Cochabamba,코차밤바,-13
+Maprik Hayfield,마프릭 헤이필드,+1
+Baikonur,바이코누르,-4
+Dinard,디나르,-7
+Vigan,비간,-1
+Knock,노크,-8
+Puerto Madryn,푸에르토 마드린,-12
+Dembidolo,뎀비돌로,-6
+Pickle Lake,피클 레이크,-14
+Portage,포티지,-17
+Ilulissat,일루리사트,-12
+Faranah,파라나,-8
+Kaltag,칼탁,-17
+Cap Skirring,캅 스키링,-8
+Galela,갈렐라,+0
+Yola,욜라,-8
+Podor,포도르,-8
+Masset,매싯,-17
+West Palm Beach,웨스트 팜 비치,-13
+Saumlaki,사움라키,+0
+Nizhneangarsk,니즈네앙가르스크,+0
+Sandspit,샌즈핏,-17
+Karumba,카룸바,+1
+Qeqertarsuaq,케케르타르수아크,-12
+Baku,바쿠,-5
+Mbanza-Congo,음반자 콩고,-8
+Linfen,린펀,-1
+Beryozovo,베료조보,-5
+Zakynthos,자킨토스,-7
+Pietermaritzburg,피터마리츠버그,-7
+Namibe,나미베,-7
+Chichen Itza,치첸 이차,-15
+Kwigillingok,크위길링고크,-17
+Chengde,청더,-1
+Svolvaer,스볼베르,-7
+Sindhudurg,신두두르그,-3.5
+Ikaria Island,이카리아 제도,-7
+Chicago,시카고,-14
+Koulamoutou,쿨라무투,-8
+El Tor,엘 토르,-7
+Sambava,삼바바,-6
+Asaloyeh,아살루예흐,-5.5
+Kalaburagi,칼라부라기,-3.5
+Tiaret,티아레트,-8
+Treviso,트레비소,-7
+Grenada,그레나다,-13
+Bangor,뱅고어,-13
+Balakovo,발라코보,-6
+Los Alamos,로스 알라모스,-15
+Bamenda,바멘다,-8
+MocImboa da Praia,모심보아 다 프라이아,-6
+Kinmen,진먼,-1
+Macapa,마카파,-12
+Cyangugu,찬구구,-6
+Seattle,시애틀,-16
+Tacloban,타클로반,-1
+Rabat,라바트,-8
+Sayun,사윤,-6
+Mukomuko,무코무코,-2
+Sharq Al Owainat,샤르크 알 오와이나트,-7
+Chiang Rai,치앙라이,-2
+Ravensthorpe,레이븐소프,+1
+Melbourne,멜버른,+1
+Xiamen,샤먼,-1
+San Rafael,산 라파엘,-12
+Rochester,로체스터,-13
+Hagerstown,헤이거스타운,-13
+Vasteras,베스테로스,-7
+Dodoma,도도마,-6
+Sao Jose dos Campos,상 주제 두스 캄푸스,-12
+Minatitlan,미나티틀란,-15
+Mora,모라,-8
+Wenshan,원산,-1
+SantaFe,산타페,-15
+Viedma,비에드마,-12
+Amami,아마미,+0
+Dadu,다두,-1
+Salekhard,살레하르트,-4
+Chisasibi,치사시비,-14
+Lakeland,레이크랜드,-13
+Ras alKhaimah,라스 알 카이마,-5
+Confresa,콘프레사,-13
+Magnitogorsk,마그니토고르스크,-4
+Camden,캠든,-13
+Moron,모론,-12
+Noatak,노아탁,-17
+Karshi,카르시,-4
+Kalymnos,칼림노스,-7
+Belgorod,벨고로드,-6
+Mauritius,모리셔스,-5
+Antigua,안티과,-13
+Strezhevoy,스트레제보이,-3
+Mount Hotham,마운트 호텀,+1
+Nikunau,니쿠나우,+3
+Guanambi,과나비,-12
+Erfurt,에르푸르트,-7
+Sarnia,사르니아,-14
+Cooktown,쿡타운,+1
+Xichang,시창,-1
+Yiwu,이우,-1
+Garze County,가르제 현,-1
+Redang Island,르당 제도,-1
+Point Lay,포인트 레이,-17
+Chenzhou,천저우,-1
+Valdosta,발도스타,-13
+Luanda,루안다,-8
+Mafia Island,마피아 제도,-6
+Girona,지로나,-7
+Joao Pessoa,주앙 페소아,-12
+GAllivare,옐리바레,-7
+Lusaka,루사카,-7
+Larsen Bay,라르센 베이,-17
+Vardo,바르되,-7
+Afutara,아푸타라,+2
+QuangNinh,꽝닌,-2
+Kingman,킹맨,-16
+Gwalior,괄리오르,-3.5
+Polokwane,폴로콰네,-7
+Pedernales,페데르날레스,-14
+Lichinga,리싱가,-7
+Chimbote,침보테,-14
+Ann,앤,-13
+Andenes,안데네스,-7
+Sicogon,시코곤,-1
+Angama Mara,안가마 마라,-6
+Red Lake,레드 레이크,-15
+Sanliurfa,샨리우르파,-6
+Lagos,라고스,-8
+Moser Bay,모저 베이,-17
+Qianjiang,첸장,-1
+SanJulian,산 줄리안,-14
+Mengomeyen,멘고메옌,-8
+Koromiko,코로미코,+3
+Gustavus,구스타부스,-17
+Fuzhou,푸저우,-1
+Palopo,팔로포,-2
+Hanzhong,한중,-1
+Scammon Bay,스캐먼 베이,-18
+San Marcos,산 마르코스,-15
+DongHoi,동허이,-2
+Saravena,사라베나,-14
+Albuquerque,앨버커키,-15
+Amarillo,아마릴로,-15
+Kerki,케르키,-4
+Fairbanks,페어뱅크스,-17
+Hof,호프,-7
+Kokoda,코코다,+1
+Kutahya,쿠타히아,-6
+Chios Island,히오스 제도,-7
+Kushinagar,쿠시나가르,-3.5
+Al Hoceima,알호세이마,-8
+Mamuju,마무주,-1
+Bora Bora,보라보라,-20
+Mzuzu,므주주,-7
+Chimoio,시모이오,-7
+Guyuan,구위안,-1
+Corrientes,코리엔테스,-12
+Phitsanulok,피차눌록,-2
+Baishan,바이산,-1
+Ujae Island,우자에 제도,+3
+Montauk,몬톡,-13
+Kandy,캔디,-3.5
+Stuart Island,스튜어트 아일랜드,-16
+Kaben,카벤,+3
+Braunfels,브라운펠스,-7
+Kyaukpyu,차우크퓨,-2.5
+Altai,알타이,-1
+Mana Island,마나 제도,+3
+Red Dog,레드 도그,-17
+Keewaywin,키웨이윈,-15
+Salisbury,솔즈베리,-13
+Johor Bahru,조호르바루,-1
+Rukumkot,루쿰코트,-3.75
+Daporijo,다포리조,-3
+Pakse,팍세,-2
+Rurutu,루루투,-19
+Essen,에센,-7
+Ust-Kamenogorsk,우스티 카메노고르스크,-4
+Bogorodskoye,보고로드스코예,+1
+Valverde,발베르데,-8
+Alor Setar,알로르 스타르,-1
+AlHamra,알함라,-5
+Batman,바트만,-6
+Out Skerries,아웃 스커리즈,-8
+Bhopal,보팔,-3.5
+Mareeba,마리바,+1
+Toliara,툴리아라,-6
+Bedford,베드포드,-13
+Weerawila,위라윌라,-3.5
+Xigaze,시가체,-1
+Goiania,고이아니아,-12
+Bhubaneswar,부바네스와르,-3.5
+Liupanshui,류판수이,-1
+Antwerp,안트베르펜,-7
+Santo Domingo,산토 도밍고,-14
+Vanavara,바나바라,-2
+Ondangwa,온당과,-7
+Wanaka,와나카,+3
+Bentota,벤토타,-3.5
+Sevilla,세비야,-7
+Staunton-Waynesboro,스톤튼-웨인즈버러,-13
+Khabarovsk,하바롭스크,+1
+Tyumen,튜멘,-4
+Guarapari,과라파리,-12
+Muzaffarpur,무자파르푸르,-3.5
+Peawanuck,피아와누크,-15
+Coober Pedy,쿠버페디,+0.5
+Mare,마레,+2
+Tofino,토피노,-16
+Vinnytsia,빈니차,-7
+Friedrichshafen,프리드리히스하펜,-7
+Punta Gorda,푼타 고르다,-15
+Naples,나폴리,-7
+Bechar,베샤르,-8
+Okha,오카,+2
+Radom,라도미,-7
+Kiana,키아나,-17
+Bella Bella,벨라 벨라,-16
+Keshod,케쇼드,-3.5
+Bharatpur,바라트푸르,-3.75
+Cascavel,카스카벨,-12
+Healy Lake,힐리 레이크,-17
+Vila Rica,빌라 히카,-13
+Xingtai,싱타이,-1
+Xinzhou,신저우,-1
+Siwa Oasis,시와 오아시스,-7
+Ust-Kut,우스티 쿠트,-3
+Stockholm,스톡홀름,-7
+Miles City,마일즈 시티,-15
+Rigolet,리고렛,-13.5
+Karlsruhe,카를스루에,-7
+Namangan,나망간,-4
+Funafuti,푸나푸티,+3
+Bujumbura,부줌부라,-7
+Torreon,토레온,-15
+Caceres,카세레스,-7
+MedellIn,메데인,-14
+Isafjrour,이사피요르뒤르,-9
+Udon Thani,우돈타니,-2
+Vancouver,밴쿠버,-16
+Hopkinsville,홉킨스빌,-14
+Melo,멜로,-12
+Santiago,산티아고,-13
+Tubuai,투부아이,-19
+Kastamonu,카스타모누,-6
+Yushu,위수,-1
+Palma de Mallorca,팔마 데 마요르카,-7
+Kamishly,카미쉴리,-6
+Kuujjuaq,쿠주아크,-14
+Barreirinhas,바헤이리냐스,-12
+Saarbrcken,자르브뤼켄,-7
+Muscat,무스카트,-5
+Lopburi,롭부리,-2
+Nonouti,노노우티,+3
+Makhachkala,마하치칼라,-6
+Kulob,쿨롭,-4
+Port of Spain,포트 오브 스페인,-13
+Chetumal,체투말,-15
+Santa Rosa,산타 로사,-12
+Utila,우틸라,-15
+Freeport,프리포트,-14
+White Mountain,화이트 마운틴,-18
+Pasir Pangaraian,파시르 판가라이안,-2
+Valenca,발렌사,-12
+Monastir,모나스티르,-8
+Corozal,코로살,-15
+Palembang,팔렘방,-2
+Cape Lisburne,케이프 리스번,-17
+Bjorkvik,비오르크비크,-7
+Newcastle,뉴캐슬,-8
+East London,이스트 런던,-7
+Meghauli,메가울리,-3.75
+Barcelona,바르셀로나,-7
+Peterborough,피터버러,-13
+Bukavu,부카부,-7
+Pevek,페베크,+1
+St Andrew Parish,세인트 앤드류 패리시,-13
+Kikori,키코리,+1
+Broken Hill,브로큰 힐,+0.5
+Tioman Island,티오만 제도,-1
+Pohang,포항,+0
+Olga Bay,올가 베이,-17
+Belfast,벨파스트,-8
+Maiduguri,마이두구리,-8
+Crescent City,크레센트 시티,-16
+Sorong,소롱,+0
+Sumarorong,수마로롱,-1
+Guayaquil,과야킬,-14
+Wotje Atoll,워체 아톨,+3
+Jingzhou,징저우,-1
+Sakon Nakhon,사콘나콘,-2
+Mardin,마르딘,-6
+Duluth,덜루스,-14
+Rukum Salle,루쿰 살레,-3.75
+Luwuk,루우크,-1
+Sao Tome,상투메,-8
+Meekatharra,미카타라,-1
+Mehamn,메함,-7
+Manja,만자,-6
+Braganca,브라간사,-12
+Athens,아테네,-7
+Tanga,탕가,-6
+Mason City,메이슨 시티,-14
+Durazno,두라스노,-12
+Ithaca,이타카,-13
+Zonalnoe,조날노예,+0
+Lubuklinggau,루북링가우,-2
+GuayaramerIn,과야라메린,-13
+StEustatius,세인트 유스타티우스,-13
+Mamitupo,마미투포,-14
+Luena,루에나,-8
+Hermosillo,에르모시요,-16
+Arauca,아라우카,-14
+Lucknow,러크나우,-3.5
+Rajahmundry,라자문드리,-3.5
+Jeremie,제레미,-14
+Virginia,버지니아,-14
+Storuman,스토루만,-7
+Homer,호머,-17
+Dambulla,담불라,-3.5
+Ko Samui,코사무이,-2
+Minot,마이넛,-15
+Lanzhou,란저우,-1
+Khotang,코탕,-3.75
+Bien Hoa,비엔호아,-2
+Quetzaltenango,케찰테낭고,-15
+Evansville,에번스빌,-14
+Zweibrcken,츠바이브뤼켄,-7
+Rodez,로데즈,-7
+Takapoto,타카포토,-19
+Tolanaro,톨라나루,-6
+Enfidha,엔피다,-8
+Algiers,알제,-8
+Juneau,주노,-17
+Bourke,버크,+1
+Khartoum,하르툼,-7
+Sydney,시드니,+1
+Irkutsk,이르쿠츠크,-1
+Singkep,싱켑,-2
+The Valley,더 밸리,-13
+Kelowna,켈로나,-16
+Yangyang,양양,+0
+El Bayadh,엘 바야드,-8
+Sumbawa,숨바와,-1
+Terceira Island,테르세이라 제도,-9
+Cuiaba,쿠이아바,-13
+Tarapoto,타라포토,-14
+Salvador,살바도르,-12
+Kapalua,카팔루아,-19
+Semera,세메라,-6
+Goma,고마,-7
+Owensboro,오언즈버러,-14
+Brunswick,브런즈윅,-13
+GazipaSa,가지파샤,-6
+Coldfoot,콜드풋,-17
+Guanaja,과나하,-15
+Djibouti,지부티,-6
+Swansea,스완지,-8
+Havasupai,하바수파이,-16
+Hakodate,하코다테,+0
+Yichang,이창,-1
+Marseille,마르세유,-7
+Chichijima,지치지마,+0
+Zagora,자고라,-8
+Tucuman,투쿠만,-12
+Lulea,룰레오,-7
+Raxaul,락사울,-3.75
+Ancenis,앙세니스,-7
+Qitai,치타이,-1
+Aguaclara,아과클라라,-14
+Stillwater,스틸워터,-15
+Shymkent,심켄트,-4
+Bologna,볼로냐,-7
+Yoshkar-Ola,요슈카르올라,-6
+Karup,카루프,-7
+Ulei,울레이,+2
+Yonago,요나고,+0
+Kristiansund,크리스티안순,-7
+Poznan,포즈난,-7
+Shirdi,시르디,-3.5
+Northway,노스웨이,-17
+Doncaster,돈캐스터,-8
+Sitka,싯카,-17
+BrasIlia,브라질리아,-12
+Heligoland,헬골란트,-7
+Mbombela,음봄벨라,-7
+Kerteh,케르테,-1
+Dali,다리,-1
+Lappeenranta,라펜란타,-7
+Kish Island,키시 섬,-5.5
+Lankaran,란카란,-5
+odate-Noshiro,오다테-노시로,+0
+Huambo,후암보,-8
+Valdivia,발디비아,-12
+Krasnodar,크라스노다르,-6
+Vero Beach,베로 비치,-13
+Hami,하미,-1
+Timbiqui,팀비퀴,-14
+Poltava,폴타바,-7
+Simla,심라,-3.5
+Tulcan,툴칸,-14
+Lucas do Rio Verde,루카스 두 리우 베르지,-13
+Spring Point,스프링 포인트,-14
+Sukkur,수쿠르,-4
+Okayama,오카야마,+0
+Duqm,둠,-5
+Tuluksak,툴룩삭,-17
+Cortes+M4296,코르테스+M4296,-15
+Punta Arenas,푼타 아레나스,-12
+Kutaisi,쿠타이시,-5
+Onslow,온슬로,-1
+Mineralnye Vody,미네랄니예 보디,-6
+Nazca,나스카,-14
+Foya,포야,-8
+East Midlands,이스트 미들랜즈,-8
+Puerto Barrios,푸에르토 바리오스,-15
+Mexicali,멕시칼리,-16
+Longana,롱가나,+2
+Yakutsk,야쿠츠크,+0
+Mogilev,모길료프,-7
+Uummannaq,우마나크,-12
+Calabar,칼라바르,-8
+Almaty,알마티,-4
+Dawei,다웨이,-2
+Tacna,타크나,-14
+Carcassonne,카르카손,-7
+Wick,윅,-8
+orsta-Volda,오르스타-볼다,-7
+San Salvador,산 살바도르,-15
+Hay River,헤이 리버,-15
+Kabri Dar,카브리 다르,-6
+St. George,세인트 조지,-16
+Ampara,암파라,-3.5
+Kimberley,킴벌리,-7
+Beni,베니,-7
+Aurukun,오루쿤,+1
+Podgorica,포드고리차,-7
+Coondewanna,쿤데와나,-1
+Valdez,발데즈,-17
+Kolaka,콜라카,-1
+Rengat,렝갓,-2
+Sirsa,시르사,-3.5
+Bam,밤,-5.5
+Sabang,사방,-2
+Wiarton,와이어턴,-14
+Biak,비아크,+0
+Wuxi,우시,-1
+Woitape,워이타페,+1
+Tete-a-la-Baleine,테트 아 라 발렌,-13.5
+Molde,몰데,-7
+Zaporizhzhia,자포리자,-7
+Wotho Atoll,워토 아톨,+3
+Sochi,소치,-6
+Pavlodar,파블로다르,-4
+Bangalore,방갈로르,-3.5
+Yancheng,옌청,-1
+Tacoma,타코마,-16
+Petersburg,피터즈버그,-17
+Alar,알라르,-1
+L'Aquila,라퀼라,-7
+Touggourt,투구르트,-8
+Khorramabad,코라마바드,-5.5
+Togiak,토기아크,-17
+Fengning,펑닝,-1
+Dalbandin,달반딘,-4.5
+Fort Wainwright,포트 웨인라이트,-17
+Neuquen,네우켄,-12
+Adak Island,아닥 제도,-18
+Sarasota,새러소타,-13
+Evadale,에버데일,-15
+Serra Talhada,세라 탈하다,-12
+Foggia,포자,-7
+Tashkent,타슈켄트,-4
+Odienne,오디엔네,-8
+Surat Thani,수랏타니,-2
+Upington,어핑턴,-7
+Gao,가오,-8
+Tenerife,테네리페,-9
+Bosaso,보사소,-6
+Thargomindah,타르고민다,+1
+Tabiteuea South,타비테우아 사우스,+3
+Rangiroa,랑기로아,-19
+SAlen,살렌,-7
+Ifuru,이푸루,-4
+Mont-Tremblant,몽 트랑블랑,-13
+PrIncipe Island,프린시페 섬,-9
+Carauari,카라우아리,-14
+Oban,오번,-8
+Chelyabinsk,첼랴빈스크,-4
+Likoma Island,리코마 제도,-7
+Kearney,커니,-15
+Kraljevo,크랄례보,-7
+Lampang,람빵,-2
+Holy Cross,홀리 크로스,-17
+Linyi,린이,-1
+West Yellowstone,웨스트 옐로스톤,-16
+Calama,칼라마,-13
+Khon Kaen,콘깬,-2
+Belgrade,베오그라드,-7
+Ancona,안코나,-7
+Saint-Nazaire,생나제르,-7
+Biarritz,비아리츠,-7
+Washington,워싱턴,-13
+Boca Raton,보카 라톤,-13
+Logan,로건,-16
+Creel,크리엘,-15
+Madang,마당,+1
+Bendigo,벤디고,+1
+Narok,나로크,-6
+Vladivostok,블라디보스토크,+1
+Taizhou,타이저우,-1
+Butaritari Atoll,부타리타리 아톨,+3
+Brussels,브뤼셀,-7
+Qala i Naw,칼라이나우,-4.5
+Bayamo,바야모,-14
+Al-Baha,알 바하,-6
+Mount Clemens,마운트 클레멘스,-13
+Kuala Lumpur,쿠알라룸푸르,-1
+Igarka,이가르카,-2
+Enewetak,에네웨타크,+3
+Abadan,아바단,-5.5
+Chumikan,추미칸,+1
+TarinKot,타린 코트,-4.5
+Chambery,샹베리,-7
+Antananarivo,안타나나리보,-6
+Berlevag,베르레보그,-7
+Anaktuvuk Pass,아낙투부크 패스,-17
+Sonderborg,쇠네르보르,-7
+Pangnirtung,팡니르퉁,-14
+Sun City,선 시티,-16
+Escanaba,이스카나바,-14
+Indore,인도르,-3.5
+Greensburg,그린즈버그,-13
+Orlando,올랜도,-13
+Reynosa,레이노사,-15
+Brampton Island,브램프턴 아일랜드,+1
+Pajala,파얄라,-7
+NamroleBuru,남롤레부루,+0
+Moscow,모스크바,-6
+Niamey,니아메,-8
+Yulin,위린,-1
+SonLa,선라,-2
+Hoolehua,훌레후아,-19
+Miles,마일즈,-15
+Savoonga,사붕가,-18
+Oyo,오요,-8
+Kigoma,키고마,-6
+Menorca,메노르카,-7
+Erzincan,에르진잔,-6
+Barimunya,바리문야,-1
+Choibalsan,초이발산,-1
+Tortola,토르톨라,-13
+Barter Island,바터 아일랜드,-17
+Iberia,이베리아,-13
+Kolo,콜로,-8
+Cruzeiro do Sul,크루제이루 두 술,-14
+Oslo,오슬로,-7
+Bagan/Nyaung,바간/냐웅우,-2.5
+Miyazaki,미야자키,+0
+Weihai,웨이하이,-1
+Tojo Una Una,토조 우나 우나,-1
+Turin,토리노,-7
+Stuttgart,슈투트가르트,-7
+Stevens Village,스티븐스 빌리지,-17
+Cairns,케언스,+1
+NevSehir,네브셰히르,-6
+Palmerston North,파머스턴 노스,+3
+Kariba,카리바,-7
+Astypalaia,아스티팔라이아,-7
+Yanbu,얀부,-6
+Addis Ababa,아디스아바바,-6
+Zadar,자다르,-7
+Ambatomainty,암바토마인티,-6
+Anahim Lake,아나힘 레이크,-16
+Kamloops,캠루프스,-16
+Kosrae,코스라에,+2
+Xi'an,시안,-1
+Yahukimo,야후키모,+0
+Roma,로마,-7
+Khajuraho,카주라호,-3.5
+Evensk,예벤스크,+1
+Hollywood,할리우드,-16
+Moses Lake,모세스 레이크,-16
+Essaouira,에사우이라,-8
+Burketown,버크타운,+1
+Alderney,올더니,-8
+Gold Coast,골드 코스트,+1
+Launceston,론서스턴,+1
+Wenatchee,웨내치,-16
+Fort Leonard Wood,포트 레너드 우드,-14
+Leeds-Bradford,리즈-브래드포드,-8
+Grumeti,그루메티,-6
+Karaganda,카라간다,-4
+Grafton,그래프턴,-13
+Sion,시옹,-7
+Rennell Island,레넬 제도,+2
+Armenia,아르메니아,-14
+Sliac,슬리아치,-7
+Marinduque Island,마린두케 제도,-1
+Ariquemes,아리케메스,-13
+Araxa,아라샤,-12
+Inishmaan,이니시맨,-8
+Tokushima,도쿠시마,+0
+Sohag,소하그,-7
+Grand Turk Island,그랜드 터크 아일랜드,-14
+Fuerteventura,푸에르테벤투라,-8
+Uyo,우요,-8
+Riga,리가,-7
+Ekwok,에크워크,-17
+Sidney,시드니,-16
+Sand Point,샌드 포인트,-17
+Palmar Sur,팔마르 수르,-15
+Nagpur,나그푸르,-3.5
+Winton,윈튼,+1
+Comox,코목스,-16
+Livingstone,리빙스턴,-7
+Kinshasa,킨샤사,-8
+Klemtu,클렘투,-16
+Wakaya Island,와카야 제도,+3
+Vadso,바드쇠,-7
+Murmansk,무르만스크,-6
+Kosice,코시체,-7
+Owerri,오웨리,-8
+Sangar,상가르,+0
+Malang,말랑,-2
+Kununurra,쿠누누라,-1
+Balikpapan,발릭파판,-1
+El Salvador,엘살바도르,-15
+Larnaca,라르나카,-7
+Chersky,체르스키,+1
+Rabaul,라바울,+1
+Dezful,데즈풀,-5.5
+Scottsbluff,스콧츠블러프,-15
+Manley Hot Springs,맨리 핫 스프링스,-17
+Tennant Creek,테넌트 크릭,+0.5
+Guaymas,과이마스,-15
+Shageluk,샤게룩,-18
+Uruapan,우루아판,-15
+Egilsstaoir,에이일스타디르,-9
+Zunyi,쭌이,-1
+Tandag,탄닥,-1
+Takengon,타켕온,-2
+Pagadian,파가디안,-1
+Pueblo,푸에블로,-15
+Naxos,낙소스,-7
+Patras,파트라스,-7
+Popondetta,포폰데타,+1
+Ouargla,와르글라,-8
+Datadawai,다타다와이,-2
+Clyde River,클라이드 리버,-14
+Bremen,브레멘,-7
+San Cristobal,산 크리스토발,-14
+Visalia,비살리아,-16
+Esquel,에스켈,-12
+Bridgeport,브리지포트,-13
+Severo-Kurilsk,세베로쿠릴스크,+2
+Jakarta,자카르타,-2
+Ocean Falls,오션 폴스,-16
+Albacete,알바세테,-7
+Nosara,노사라,-15
+Catania,카타니아,-7
+Mejit Island,메지트 제도,+3
+Dumai,두마이,-2
+Pristina,프리슈티나,-7
+North Bay,노스 베이,-14
+Erbil,에르빌,-6
+Umea,우메오,-7
+Pellston,펠스턴,-14
+Nuwara Eliya,누와라 엘리야,-3.5
+Attawapiskat,아타와피스캇,-14
+Vieste,비에스테,-7
+Orvakal,오르바칼,-3.5
+Goodyear,굿이어,-16
+Doha,도하,-6
+Naracoorte,나라코르테,+0.5
+Sirnak,시르낙,-6
+Philadelphia,필라델피아,-13
+Neubrandenburg,노이브란덴부르크,-7
+Weipa,웨이파,+1
+Cap-Haitien,카프아이티엥,-14
+El Alamein,엘 알라메인,-7
+La Ceiba,라 세이바,-15
+Funchal,푼샬,-9
+Akola,아콜라,-3.5
+Amritsar,암리차르,-3.5
+Graz,그라츠,-7
+Thimarafushi,티마라푸시,-4
+Torres,토레스,-12
+Osh,오시,-4
+Guwahati,구와하티,-3.5
+Osaka,오사카,+0
+Quincy,퀸시,-13
+Reao,레아오,-19
+Bratsk,브라츠크,-3
+Khost,호스트,-4.5
+St. Moritz,장크트모리츠,-7
+Damazin,다마진,-6
+Riverton,리버튼,-15
+Dangriga,당리가,-15
+Baykit,바이키트,-2
+Taiz,타이즈,-6
+Bukoba,부코바,-6
+Andamooka,안다무카,+0.5
+Grayling,그레이링,-17
+Los angeles,로스앤젤레스,-16
+Raivavae,라이바바에,-19
+Katherine,캐서린,+0.5
+Split,스플리트,-7
+Hanimaadhoo,하니마두,-4
+Alpine,알파인,-15
+Newark,뉴어크,-13
+Kogalym,코갈림,-4
+Chuathbaluk,추앗발룩,-17
+Tokunoshima,도쿠노시마,+0
+Teruel,테루엘,-7
+TamuIn,탐윈,-15
+Las Tunas,라스 투나스,-14
+Kiriwina Island,키리위나 제도,+1
+Maastricht,마스트리흐트,-7
+Vienna,비엔나,-7
+Samarkand,사마르칸트,-4
+Kufra,쿠프라,-7
+Abu Simbel,아부 심벨,-7
+Puttaparthi,푸타파르티,-3.5
+Jambi,잠비,-2
+Aligarh,알리가르,-3.5
+Trinidad,트리니다드,-13
+Wadi Halfa,와디 할파,-7
+Petropavlovsk,페트로파블롭스크,-4
+Paro,파로,-3
+Ankavandra,안카반드라,-6
+Tainan,타이난,-1
+Saranac Lake,사라낙 레이크,-13
+Tabarka,타바르카,-8
+Matam,마탐,-8
+Agen,아쟁,-7
+South Caicos,사우스 카이코스,-14
+Canaima,카나이마,-13
+Kake,카케,-17
+Puebla,푸에블라,-15
+Kasane,카사네,-7
+Eau Claire,오클레어,-14
+Waterloo,워털루,-14
+Chofu,조후,+0
+Qeshm,퀘슘,-5.5
+Lleida,레이다,-7
+Qaisumah-Hafar al-Batin,카이수마-하파르 알 바틴,-6
+Maavarulu,마아바루루,-4
+Sao Paulo,상파울루,-12
+Maasin,마아신,-1
+Belleville,벨빌,-14
+Hargeisa,하르게이사,-6
+Guangzhou,광저우,-1
+Gaborone,가보로네,-7
+Mulhouse,뮐루즈,-7
+Enugu,에누구,-8
+Poplar Hill,포플러 힐,-14
+Toluca,톨루카,-15
+Butuan,부투안,-1
+Nepalgunj,네팔군지,-3.75
+Tezpur,테즈푸르,-3
+Morelia,모렐리아,-15
+Kerben,케르벤,-4
+Baton Rouge,배턴 루지,-15
+Oyem,오옘,-8
+Makassar,마카사르,-1
+Sipora,시포라,-2
+Tufi,투피,+1
+Tortuguero,토르투게로,-15
+Nakhchivan,나흐치반,-5
+Basel,바젤,-7
+Vilhena,빌헤나,-13
+Sindal,신달,-7
+Yongzhou,융저우,-1
+Kaghau Island,카가우 제도,+2
+Goya,고야,-12
+Lages,라제스,-12
+Riberalta,리베랄타,-13
+Malarge,말라르게,-12
+Alliance,얼라이언스,-15
+Tacheng,타청,-3
+Solomon,솔로몬,-17
+Tehran,테헤란,-5.5
+Levuka,레부카,+3
+Jeypore,제이푸르,-3.5
+Oberpfaffenhofen,오버파펜호펜,-7
+Reconquista,레콘키스타,-12
+Irece,이레세,-12
+Bossier City,보시어 시티,-15
+Culiacan,쿨리아칸,-15
+Longnan,룽난,-1
+Puerto Montt,푸에르토 몬트,-12
+TrollhAttan-VAnersborg,트롤헤탄-베네르스보리,-7
+Puvirnituq,푸비르니투크,-14
+Pullman,풀먼,-16
+Emerald,에메랄드,+1
+Idaho Falls,아이다호 폴스,-16
+Gander,갠더,-12.5
+Walla Walla,왈라왈라,-16
+Lansdowne,랜스다운,-13
+Page,페이지,-16
+Point Baker,포인트 베이커,-17
+Ofu Island,오푸 제도,-20
+Bilbao,빌바오,-7
+Cordova,코르도바,-17
+Tena,테나,-14
+Cross Lake,크로스 레이크,-15
+Kingston,킹스턴,-13
+Jengjal Baljek,젱잘 발제크,-3
+La Chorrera,라 초레라,-14
+Yonaguni,요나구니,+0
+Quelimane,켈리마네,-7
+Maraba,마라바,-12
+Ormoc,오르모크,-1
+Iles-de-la-Madeleine,일 드 라 마들렌,-13
+Papa Stour,파파 스투어,-8
+Kenosha,케노샤,-14
+Yuncheng,윈청,-1
+Detroit,디트로이트,-13
+Oecussi,오쿠시,-0
+BahIa Blanca,바이아 블랑카,-12
+Arua,아루아,-6
+Mo i Rana,모 이 라나,-7
+Neiva,네이바,-14
+Agra,아그라,-3.5
+Stella Maris,스텔라 마리스,-14
+O'Neill,오닐,-15
+Piestany,피에슈챠니,-7
+Lincang,린창,-1
+Chennai,첸나이,-3.5
+Subic Bay,수빅만,-1
+Repulse Bay,리펄스 베이,-14
+Shenyang,선양,-1
+Amboseli,암보셀리,-6
+NewValley,뉴밸리,-7
+West Chicago,웨스트 시카고,-14
+Sanana Island,사나나 제도,-1
+Baramati,바라마티,-3.5
+Bangui,방기,-8
+Igiugig,이기우지그,-17
+Bellary,벨라리,-3.5
+Gelephu,겔레푸,-3
+Ellisras,엘리스라스,-7
+Sandy Lake,샌디 레이크,-15
+Achutupo,아추투포,-14
+Pikangikum,피칸지쿰,-15
+Roswell,로즈웰,-15
+Kuujjuarapik,쿠유아라픽,-14
+Polyarny,폴랴르니,-6
+Andavadoaka,안다바도아카,-6
+Ballera gas plant,발레라 가스 플랜트,+1
+Sao Gabriel da Cachoeira,상 가브리엘 다 카초에이라,-14
+Marmul,마르물,-5
+Long Apung,롱아풍,-2
+Santa Ana Island,산타 아나 제도,+2
+UstKuyga,우스티 쿠이가,+0
+Ordu/Giresun,오르두/기레순,-6
+Maribor,마리보르,-7
+Shillong,실롱,-3
+Jebel Ali,제벨 알리,-5
+Guasdualito,과스두알리토,-14
+Den Helder,덴 헬데르,-7
+Qamdo,캄도,-1
+Tasikmalaya,타식말라야,-2
+Kharkiv,하르키우,-7
+Gorno-Altaysk,고르노알타이스크,-2
+Trang,트랑,-2
+Kotzebue,코체부,-17
+Moomba,뭄바,+0.5
+Mykolaiv,미콜라이우,-7
+MaturIn,마투린,-13
+Bayda,바이다,-7
+Aqaba,아카바,-6
+Flint,플린트,-14
+Ciudad Real,시우다드 레알,-7
+Dickinson,디킨슨,-15
+Yingkou,잉커우,-1
+Auckland,오클랜드,+3
+Alta Floresta,알타 플로레스타,-13
+Kimmirut,킴미루트,-14
+Guangyuan,광위안,-1
+Yasuj,야수즈,-5.5
+Mili Atoll,밀리 아톨,+3
+Satna,사트나,-3.5
+Points North Landing,포인트 노스 랜딩,-15
+Poso,포소,-1
+Haugesund,하우게순,-7
+Oxford House,옥스포드 하우스,-15
+CayeChapel,케이 채플,-15
+Inisheer,이니시맨,-8
+Vanua Balavu,바누아 발라부,+3
+Prerov,프르제로프,-7
+Port Hope,포트 호프,-13
+Quimper,캥페르,-7
+Tubala,투발라,-14
+Ilorin,일로린,-8
+Amravati,아므라바티,-3.5
+Tengchong,텅충,-1
+Akhiok,아키오크,-17
+Kuala Terengganu,쿠알라 테렝가누,-1
+Perryville,페리빌,-17
+Mosinee,모시니,-14
+Buriram,부리람,-2
+Coen,코엔,+1
+Baia Mare,바이아 마레,-7
+Ras Sidr,라스 시드르,-7
+Franceville,프랑스빌,-8
+Zhytomyr,지토미르,-7
+Tabiteuea North,타비테우아 노스,+3
+Jacmel,자크멜,-14
+Homa Bay,호마 베이,-6
+Guam,괌,+1
+Laghouat,라구앗,-8
+Colombo,콜롬보,-3.5
+Hengchun,헝춘,-1
+Yantai,옌타이,-1
+Mundra,문드라,-3.5
+Ndende,은덴데,-8
+Cluj-Napoca,클루지나포카,-7
+Baguio,바기오,-1
+Port-de-Paix,포르데페,-14
+Bornholm,보른홀름,-7
+Ramechhap,라메찹,-3.75
+Puerto Vallarta,푸에르토 바야르타,-15
+Annaba,안나바,-7
+Yan'an,옌안,-1
+Quito,키토,-14
+Barrow Island,배로우 아일랜드,-1
+El VigIa,엘 비히아,-13
+Nuku Hiva,누쿠 히바,-19.5
+Wollongong,울런공,+1
+Panjang Island,판장 제도,-2
+Corpus Christi,코퍼스 크리스티,-15
+Yakima,야키마,-16
+Rarotonga Island,라로통가 제도,-19
+Aguadilla,아과디야,-13
+Sullivan Bay,설리번 베이,-16
+Chisinau,키시너우,-7
+San Jose,산호세,-15
+Manaoba Island,마나오바 제도,+2
+Tablas Island,타블라스 제도,-1
+Tuzla,투즐라,-7
+Ua Pou,우아 포우,-19.5
+Kalamata,칼라마타,-7
+Kushiro,쿠시로,+0
+Havana,하바나,-14
+Greenwood,그린우드,-14
+Taloyoak,탈로요크,-15
+Parauapebas,파라우아페바스,-12
+Batticaloa,바티칼로아,-3.5
+Blenheim,블렌하임,+3
+San Francisco,샌프란시스코,-16
+Kashan,카샨,-5.5
+Daocheng,다오청,-1
+Salzburg,잘츠부르크,-7
+Patos de Minas,파투스 지 미나스,-12
+Colonel Hill,콜로넬 힐,-14
+Napuka,나푸카,-19
+Ganja,간자,-5
+Shiraz,시라즈,-5.5
+Astana,아스타나,-4
+Jacksonville,잭슨빌,-13
+Presque Isle,프레스크 아일,-13
+Tuguegarao,투게가라오,-1
+Saint Vincent,세인트 빈센트,-13
+Petrozavodsk,페트로자보츠크,-6
+Ankang,안캉,-1
+Nekemte,네켐테,-6
+Rosario,로사리오,-12
+Trkmenabat,투르크메나바트,-4
+Bonanza,보난자,-15
+Malinau,말리나우,-2
+Oulu,오울루,-7
+Lazy Bay,레이지 베이,-17
+Poza Rica,포사 리카,-15
+Dang Tarigaun,당 타리가운,-3.75
+Solwezi,솔웨지,-7
+Kishangarh,키샨가르,-3.5
+Port Angeles,포트 앤젤레스,-16
+Anegada,아네가다,-13
+Gan Island,간 제도,-4
+Torres Islands,토레스 제도,+2
+Sabzevar,삽제바르,-5.5
+Mamburao,맘부라오,-1
+Villagarzon,비야가르손,-14
+StDenis,생드니,-5
+Nakhon Si Thammarat,나콘시탐마랏,-2
+Esmeraldas,에스메랄다스,-14
+Jurmala,유르말라,-7
+Huslia,후슬리아,-17
+London,런던,-8
+Surgut,수르구트,-4
+Truckee,트러키,-16
+Tinian,티니안,+1
+Clovis,클로비스,-16
+Naga,나가,-1
+Jimma,짐마,-6
+Suceava,수체아바,-7
+Long Akah,롱아카,-1
+Komatsu,고마쓰,+0
+Punta Cana,푼타 카나,-14
+Cochabamba,코차밤바,-13
+Maprik Hayfield,마프릭 헤이필드,+1
+Baikonur,바이코누르,-4
+Dinard,디나르,-7
+Vigan,비간,-1
+Knock,노크,-8
+Puerto Madryn,푸에르토 마드린,-12
+Dembidolo,뎀비돌로,-6
+Pickle Lake,피클 레이크,-14
+Portage,포티지,-17
+Ilulissat,일루리사트,-12
+Faranah,파라나,-8
+Kaltag,칼탁,-17
+Cap Skirring,캅 스키링,-8
+Galela,갈렐라,+0
+Yola,욜라,-8
+Podor,포도르,-8
+Masset,매싯,-17
+West Palm Beach,웨스트 팜 비치,-13
+Saumlaki,사움라키,+0
+Nizhneangarsk,니즈네앙가르스크,+0
+Sandspit,샌즈핏,-17
+Karumba,카룸바,+1
+Qeqertarsuaq,케케르타르수아크,-12
+Baku,바쿠,-5
+Mbanza-Congo,음반자 콩고,-8
+Linfen,린펀,-1
+Beryozovo,베료조보,-5
+Zakynthos,자킨토스,-7
+Pietermaritzburg,피터마리츠버그,-7
+Namibe,나미베,-7
+Chichen Itza,치첸 이차,-15
+Kwigillingok,크위길링고크,-17
+Chengde,청더,-1
+Svolvaer,스볼베르,-7
+Sindhudurg,신두두르그,-3.5
+Ikaria Island,이카리아 제도,-7
+Chicago,시카고,-14
+Koulamoutou,쿨라무투,-8
+El Tor,엘 토르,-7
+Sambava,삼바바,-6
+Asaloyeh,아살루예흐,-5.5
+Kalaburagi,칼라부라기,-3.5
+Tiaret,티아레트,-8
+Treviso,트레비소,-7
+Grenada,그레나다,-13
+Bangor,뱅고어,-13
+Balakovo,발라코보,-6
+Los Alamos,로스 알라모스,-15
+Bamenda,바멘다,-8
+MocImboa da Praia,모심보아 다 프라이아,-6
+Kinmen,진먼,-1
+Macapa,마카파,-12
+Cyangugu,찬구구,-6
+Seattle,시애틀,-16
+Tacloban,타클로반,-1
+Rabat,라바트,-8
+Sayun,사윤,-6
+Mukomuko,무코무코,-2
+Sharq Al Owainat,샤르크 알 오와이나트,-7
+Chiang Rai,치앙라이,-2
+Ravensthorpe,레이븐소프,+1
+Melbourne,멜버른,+1
+Xiamen,샤먼,-1
+San Rafael,산 라파엘,-12
+Rochester,로체스터,-13
+Hagerstown,헤이거스타운,-13
+Vasteras,베스테로스,-7
+Dodoma,도도마,-6
+Sao Jose dos Campos,상 주제 두스 캄포스,-12
+Minatitlan,미나티틀란,-15
+Mora,모라,-8
+Wenshan,원산,-1
+SantaFe,산타페,-15
+Viedma,비에드마,-12
+Amami,아마미,+0
+Dadu,다두,-1
+Salekhard,살레하르트,-4
+Chisasibi,치사시비,-14
+Lakeland,레이크랜드,-13
+Ras alKhaimah,라스 알 카이마,-5
+Confresa,콘프레사,-13
+Magnitogorsk,마그니토고르스크,-4
+Camden,캠든,-13
+Moron,모론,-12
+Noatak,노아탁,-17
+Karshi,카르시,-4
+Kalymnos,칼림노스,-7
+Belgorod,벨고로드,-6
+Mauritius,모리셔스,-5
+Antigua,안티과,-13
+Strezhevoy,스트레제보이,-3
+Mount Hotham,마운트 호텀,+1
+Nikunau,니쿠나우,+3
+Guanambi,과나비,-12
+Erfurt,에르푸르트,-7
+Sarnia,사르니아,-14
+Cooktown,쿡타운,+1
+Xichang,시창,-1
+Yiwu,이우,-1
+Garze County,가르제 현,-1
+Redang Island,르당 제도,-1
+Point Lay,포인트 레이,-17
+Chenzhou,천저우,-1
+Valdosta,발도스타,-13
+Luanda,루안다,-8
+Mafia Island,마피아 제도,-6
+Girona,지로나,-7
+Joao Pessoa,주앙 페소아,-12
+GAllivare,옐리바레,-7
+Lusaka,루사카,-7
+Larsen Bay,라르센 베이,-17
+Vardo,바르되,-7
+Afutara,아푸타라,+2
+QuangNinh,꽝닌,-2
+Kingman,킹맨,-16
+Gwalior,괄리오르,-3.5
+Polokwane,폴로콰네,-7
+Pedernales,페데르날레스,-14
+Lichinga,리싱가,-7
+Chimbote,침보테,-14
+Ann,앤,-13
+Andenes,안데네스,-7
+Sicogon,시코곤,-1
+Angama Mara,안가마 마라,-6
+Red Lake,레드 레이크,-15
+Sanliurfa,샨리우르파,-6
+Lagos,라고스,-8
+Moser Bay,모저 베이,-17
+Qianjiang,첸장,-1
+SanJulian,산 줄리안,-14
+Mengomeyen,멘고메옌,-8
+Koromiko,코로미코,+3
+Gustavus,구스타부스,-17
+Fuzhou,푸저우,-1
+Palopo,팔로포,-2
+Hanzhong,한중,-1
+Scammon Bay,스캐먼 베이,-18
+San Marcos,산 마르코스,-15
+DongHoi,동허이,-2
+Saravena,사라베나,-14
+Albuquerque,앨버커키,-15
+Amarillo,아마릴로,-15
+Kerki,케르키,-4
+Fairbanks,페어뱅크스,-17
+Hof,호프,-7
+Kokoda,코코다,+1
+Kutahya,쿠타히아,-6
+Chios Island,히오스 제도,-7
+Kushinagar,쿠시나가르,-3.5
+Al Hoceima,알호세이마,-8
+Mamuju,마무주,-1
+Bora Bora,보라보라,-20
+Mzuzu,므주주,-7
+Chimoio,시모이오,-7
+Guyuan,구위안,-1
+Corrientes,코리엔테스,-12
+Phitsanulok,피차눌록,-2
+Baishan,바이산,-1
+Ujae Island,우자에 제도,+3
+Montauk,몬톡,-13
+Kandy,캔디,-3.5
+Stuart Island,스튜어트 아일랜드,-16
+Kaben,카벤,+3
+Braunfels,브라운펠스,-7
+Kyaukpyu,차우크퓨,-2.5
+Altai,알타이,-1
+Mana Island,마나 제도,+3
+Red Dog,레드 도그,-17
+Keewaywin,키웨이윈,-15
+Salisbury,솔즈베리,-13
+Johor Bahru,조호르바루,-1
+Rukumkot,루쿰코트,-3.75
+Daporijo,다포리조,-3
+Pakse,팍세,-2
+Rurutu,루루투,-19
+Essen,에센,-7
+Ust-Kamenogorsk,우스티 카메노고르스크,-4
+Bogorodskoye,보고로드스코예,+1
+Valverde,발베르데,-8
+Alor Setar,알로르 스타르,-1
+AlHamra,알함라,-5
+Batman,바트만,-6
+Out Skerries,아웃 스커리즈,-8
+Bhopal,보팔,-3.5
+Mareeba,마리바,+1
+Toliara,툴리아라,-6
+Bedford,베드포드,-13
+Weerawila,위라윌라,-3.5
+Xigaze,시가체,-1
+Goiania,고이아니아,-12
+Bhubaneswar,부바네스와르,-3.5
+Liupanshui,류판수이,-1
+Antwerp,안트베르펜,-7
+Santo Domingo,산토 도밍고,-14
+Vanavara,바나바라,-2
+Ondangwa,온당과,-7
+Wanaka,와나카,+3
+Bentota,벤토타,-3.5
+Sevilla,세비야,-7
+Staunton-Waynesboro,스톤튼-웨인즈버러,-13
+Khabarovsk,하바롭스크,+1
+Tyumen,튜멘,-4
+Guarapari,과라파리,-12
+Muzaffarpur,무자파르푸르,-3.5
+Peawanuck,피아와누크,-15
+Coober Pedy,쿠버페디,+0.5
+Mare,마레,+2
+Tofino,토피노,-16
+Vinnytsia,빈니차,-7
+Friedrichshafen,프리드리히스하펜,-7
+Punta Gorda,푼타 고르다,-15
+Naples,나폴리,-7
+Bechar,베샤르,-8
+Okha,오카,+2
+Radom,라도미,-7
+Kiana,키아나,-17
+Bella Bella,벨라 벨라,-16
+Keshod,케쇼드,-3.5
+Bharatpur,바라트푸르,-3.75
+Cascavel,카스카벨,-12
+Healy Lake,힐리 레이크,-17
+Vila Rica,빌라 히카,-13
+Xingtai,싱타이,-1
+Xinzhou,신저우,-1
+Siwa Oasis,시와 오아시스,-7
+Ust-Kut,우스티 쿠트,-3
+Stockholm,스톡홀름,-7
+Miles City,마일즈 시티,-15
+Rigolet,리고렛,-13.5
+Karlsruhe,카를스루에,-7
+Namangan,나망간,-4
+Funafuti,푸나푸티,+3
+Bujumbura,부줌부라,-7
+Torreon,토레온,-15
+Caceres,카세레스,-7
+MedellIn,메데인,-14
+Isafjrour,이사피요르뒤르,-9
+Udon Thani,우돈타니,-2
+Vancouver,밴쿠버,-16
+Hopkinsville,홉킨스빌,-14
+Melo,멜로,-12
+Santiago,산티아고,-13
+Tubuai,투부아이,-19
+Kastamonu,카스타모누,-6
+Yushu,위수,-1
+Palma de Mallorca,팔마 데 마요르카,-7
+Kamishly,카미쉴리,-6
+Kuujjuaq,쿠주아크,-14
+Barreirinhas,바헤이리냐스,-12
+Saarbrcken,자르브뤼켄,-7
+Muscat,무스카트,-5
+Lopburi,롭부리,-2
+Nonouti,노노우티,+3
+Makhachkala,마하치칼라,-6
+Kulob,쿨롭,-4
+Port of Spain,포트 오브 스페인,-13
+Chetumal,체투말,-15
+Santa Rosa,산타 로사,-12
+Utila,우틸라,-15
+Freeport,프리포트,-14
+White Mountain,화이트 마운틴,-18
+Pasir Pangaraian,파시르 판가라이안,-2
+Valenca,발렌사,-12
+Monastir,모나스티르,-8
+Corozal,코로살,-15
+Palembang,팔렘방,-2
+Cape Lisburne,케이프 리스번,-17
+Bjorkvik,비오르크비크,-7
+Newcastle,뉴캐슬,-8
+East London,이스트 런던,-7
+Meghauli,메가울리,-3.75
+Barcelona,바르셀로나,-7
+Peterborough,피터버러,-13
+Bukavu,부카부,-7
+Pevek,페베크,+1
+St Andrew Parish,세인트 앤드류 패리시,-13
+Kikori,키코리,+1
+Broken Hill,브로큰 힐,+0.5
+Tioman Island,티오만 제도,-1
+Pohang,포항,+0
+Olga Bay,올가 베이,-17
+Belfast,벨파스트,-8
+Maiduguri,마이두구리,-8
+Crescent City,크레센트 시티,-16
+Sorong,소롱,+0
+Sumarorong,수마로롱,-1
+Guayaquil,과야킬,-14
+Wotje Atoll,워체 아톨,+3
+Jingzhou,징저우,-1
+Sakon Nakhon,사콘나콘,-2
+Mardin,마르딘,-6
+Duluth,덜루스,-14
+Rukum Salle,루쿰 살레,-3.75
+Luwuk,루우크,-1
+Sao Tome,상투메,-8
+Meekatharra,미카타라,-1
+Mehamn,메함,-7
+Manja,만자,-6
+Braganca,브라간사,-12
+Athens,아테네,-7
+Tanga,탕가,-6
+Mason City,메이슨 시티,-14
+Durazno,두라스노,-12
+Ithaca,이타카,-13
+Zonalnoe,조날노예,+0
+Lubuklinggau,루북링가우,-2
+GuayaramerIn,과야라메린,-13
+StEustatius,세인트 유스타티우스,-13
+Mamitupo,마미투포,-14
+Luena,루에나,-8
+Hermosillo,에르모시요,-16
+Arauca,아라우카,-14
+Lucknow,러크나우,-3.5
+Rajahmundry,라자문드리,-3.5
+Jeremie,제레미,-14
+Virginia,버지니아,-14
+Storuman,스토루만,-7
+Homer,호머,-17
+Dambulla,담불라,-3.5
+Ko Samui,코사무이,-2
+Minot,마이넛,-15
+Lanzhou,란저우,-1
+Khotang,코탕,-3.75
+Bien Hoa,비엔호아,-2
+Quetzaltenango,케찰테낭고,-15
+Evansville,에번스빌,-14
+Zweibrcken,츠바이브뤼켄,-7
+Rodez,로데즈,-7
+Takapoto,타카포토,-19
+Tolanaro,톨라나루,-6
+Enfidha,엔피다,-8
+Algiers,알제,-8
+Juneau,주노,-17
+Bourke,버크,+1
+Khartoum,하르툼,-7
+Sydney,시드니,+1
+Irkutsk,이르쿠츠크,-1
+Singkep,싱켑,-2
+The Valley,더 밸리,-13
+Kelowna,켈로나,-16
+Yangyang,양양,+0
+El Bayadh,엘 바야드,-8
+Sumbawa,숨바와,-1
+Terceira Island,테르세이라 제도,-9
+Cuiaba,쿠이아바,-13
+Tarapoto,타라포토,-14
+Salvador,살바도르,-12
+Kapalua,카팔루아,-19
+Semera,세메라,-6
+Goma,고마,-7
+Owensboro,오언즈버러,-14
+Brunswick,브런즈윅,-13
+GazipaSa,가지파샤,-6
+Coldfoot,콜드풋,-17
+Guanaja,과나하,-15
+Djibouti,지부티,-6
+Swansea,스완지,-8
+Havasupai,하바수파이,-16
+Hakodate,하코다테,+0
+Yichang,이창,-1
+Marseille,마르세유,-7
+Chichijima,지치지마,+0
+Zagora,자고라,-8
+Tucuman,투쿠만,-12
+Lulea,룰레오,-7
+Raxaul,락사울,-3.75
+Ancenis,앙세니스,-7
+Qitai,치타이,-1
+Aguaclara,아과클라라,-14
+Stillwater,스틸워터,-15
+Shymkent,심켄트,-4
+Bologna,볼로냐,-7
+Yoshkar-Ola,요슈카르올라,-6
+Karup,카루프,-7
+Ulei,울레이,+2
+Yonago,요나고,+0
+Kristiansund,크리스티안순,-7
+Poznan,포즈난,-7
+Shirdi,시르디,-3.5
+Northway,노스웨이,-17
+Doncaster,돈캐스터,-8
+Sitka,싯카,-17
+BrasIlia,브라질리아,-12
+Heligoland,헬골란트,-7
+Mbombela,음봄벨라,-7
+Kerteh,케르테,-1
+Dali,다리,-1
+Lappeenranta,라펜란타,-7
+Kish Island,키시 섬,-5.5
+Lankaran,란카란,-5
+odate-Noshiro,오다테-노시로,+0
+Huambo,후암보,-8
+Valdivia,발디비아,-12
+Krasnodar,크라스노다르,-6
+Vero Beach,베로 비치,-13
+Hami,하미,-1
+Timbiqui,팀비퀴,-14
+Poltava,폴타바,-7
+Simla,심라,-3.5
+Tulcan,툴칸,-14
+Lucas do Rio Verde,루카스 두 리우 베르지,-13
+Spring Point,스프링 포인트,-14
+Sukkur,수쿠르,-4
+Okayama,오카야마,+0
+Duqm,둠,-5
+Tuluksak,툴룩삭,-17
+Cortes+M4296,코르테스+M4296,-15
+Punta Arenas,푼타 아레나스,-12
+Kutaisi,쿠타이시,-5
+Onslow,온슬로,-1
+Mineralnye Vody,미네랄니예 보디,-6
+Nazca,나스카,-14
+Foya,포야,-8
+East Midlands,이스트 미들랜즈,-8
+Puerto Barrios,푸에르토 바리오스,-15
+Mexicali,멕시칼리,-16
+Longana,롱가나,+2
+Yakutsk,야쿠츠크,+0
+Mogilev,모길료프,-6
+Uummannaq,우마나크,-12
+Calabar,칼라바르,-8
+Almaty,알마티,-4
+Dawei,다웨이,-2
+Tacna,타크나,-14
+Carcassonne,카르카손,-7
+Wick,윅,-8
+orsta-Volda,오르스타-볼다,-7
+San Salvador,산 살바도르,-15
+Hay River,헤이 리버,-15
+Kabri Dar,카브리 다르,-6
+St. George,세인트 조지,-16
+Ampara,암파라,-3.5
+Kimberley,킴벌리,-7
+Beni,베니,-7
+Aurukun,오루쿤,+1
+Podgorica,포드고리차,-7
+Coondewanna,쿤데와나,-1
+Valdez,발데즈,-17
+Kolaka,콜라카,-1
+Rengat,렝갓,-2
+Sirsa,시르사,-3.5
+Bam,밤,-5.5
+Sabang,사방,-2
+Wiarton,와이어턴,-14
+Biak,비아크,+0
+Wuxi,우시,-1
+Woitape,워이타페,+1
+Tete-a-la-Baleine,테트 아 라 발렌,-13.5
+Molde,몰데,-7
+Zaporizhzhia,자포리자,-7
+Wotho Atoll,워토 아톨,+3
+Sochi,소치,-6
+Pavlodar,파블로다르,-4
+Bangalore,방갈로르,-3.5
+Yancheng,옌청,-1
+Tacoma,타코마,-16
+Petersburg,피터즈버그,-17
+Alar,알라르,-1
+L'Aquila,라퀼라,-7
+Touggourt,투구르트,-8
+Khorramabad,코라마바드,-5.5
+Togiak,토기아크,-17
+Fengning,펑닝,-1
+Dalbandin,달반딘,-4.5
+Fort Wainwright,포트 웨인라이트,-17
+Neuquen,네우켄,-12
+Adak Island,아닥 제도,-18
+Sarasota,새러소타,-13
+Evadale,에버데일,-15
+Serra Talhada,세라 탈하다,-12
+Foggia,포자,-7
+Tashkent,타슈켄트,-4
+Odienne,오디엔네,-8
+Surat Thani,수랏타니,-2
+Upington,어핑턴,-7
+Gao,가오,-8
+Tenerife,테네리페,-9
+Bosaso,보사소,-6
+Thargomindah,타르고민다,+1
+Tabiteuea South,타비테우아 사우스,+3
+Rangiroa,랑기로아,-19
+SAlen,살렌,-7
+Ifuru,이푸루,-4
+Mont-Tremblant,몽 트랑블랑,-13
+PrIncipe Island,프린시페 섬,-9
+Carauari,카라우아리,-14
+Oban,오번,-8
+Chelyabinsk,첼랴빈스크,-4
+Likoma Island,리코마 제도,-7
+Kearney,커니,-15
+Kraljevo,크랄례보,-7
+Lampang,람빵,-2
+Holy Cross,홀리 크로스,-17
+Linyi,린이,-1
+West Yellowstone,웨스트 옐로스톤,-16
+Calama,칼라마,-13
+Khon Kaen,콘깬,-2
+Belgrade,베오그라드,-7
+Ancona,안코나,-7
+Saint-Nazaire,생나제르,-7
+Biarritz,비아리츠,-7
+Washington,워싱턴,-13
+Boca Raton,보카 라톤,-13
+Logan,로건,-16
+Creel,크리엘,-15
+Madang,마당,+1
+Bendigo,벤디고,+1
+Narok,나로크,-6
+Vladivostok,블라디보스토크,+1
+Taizhou,타이저우,-1
+Butaritari Atoll,부타리타리 아톨,+3
+Brussels,브뤼셀,-7
+Qala i Naw,칼라이나우,-4.5
+Bayamo,바야모,-14
+Al-Baha,알 바하,-6
+Mount Clemens,마운트 클레멘스,-13
+Kuala Lumpur,쿠알라룸푸르,-1
+Igarka,이가르카,-2
+Enewetak,에네웨타크,+3
+Abadan,아바단,-5.5
+Chumikan,추미칸,+1
+TarinKot,타린 코트,-4.5
+Chambery,샹베리,-7
+Antananarivo,안타나나리보,-6
+Berlevag,베르레보그,-7
+Anaktuvuk Pass,아낙투부크 패스,-17
+Sonderborg,쇠네르보르,-7
+Pangnirtung,팡니르퉁,-14
+Sun City,선 시티,-16
+Escanaba,이스카나바,-14
+Indore,인도르,-3.5
+Greensburg,그린즈버그,-13
+Orlando,올랜도,-13
+Reynosa,레이노사,-15
+Brampton Island,브램프턴 아일랜드,+1
+Pajala,파얄라,-7
+NamroleBuru,남롤레부루,+0
+Moscow,모스크바,-6
+Niamey,니아메,-8
+Yulin,위린,-1
+SonLa,선라,-2
+Hoolehua,훌레후아,-19
+Miles,마일즈,-15
+Savoonga,사붕가,-18
+Oyo,오요,-8
+Kigoma,키고마,-6
+Menorca,메노르카,-7
+Erzincan,에르진잔,-6
+Barimunya,바리문야,-1
+Choibalsan,초이발산,-1
+Tortola,토르톨라,-13
+Barter Island,바터 아일랜드,-17
+Iberia,이베리아,-13
+Kolo,콜로,-8
+Cruzeiro do Sul,크루제이루 두 술,-14
+Oslo,오슬로,-7
+Bagan/Nyaung,바간/냐웅우,-2.5
+Miyazaki,미야자키,+0
+Weihai,웨이하이,-1
+Tojo Una Una,토조 우나 우나,-1
+Santander,산탄데르,-7
+Sveg,스베그,-7
+Jeh Island,제흐 제도,+3
+Stokmarknes,스토크마르크네스,-7
+Holingol,호링거우얼,-1
+El Catey,엘 카테이,-14
+Dammam,담맘,-6
+Amakusa,아마쿠사,+0
+Marudi,마루디,-1
+Toowoomba,투움바,+1
+Tanjung Manis,탄중 마니스,-1
+Monteagudo,몬테아구도,-13
+Gary,개리,-14
+Leshukonskoye,레슈콘스코예,-6
+Thorshofn,토르스호픈,-9
+Heho,헤호,-2.5
+Ouarzazate,와르자자트,-8
+Guriel,구리엘,-6
+Mazar-i-Sharif,마자르이샤리프,-4.5
+Dease Lake,디즈 레이크,-16
+Coffs Harbour,콥스 하버,+1
+Higlieg,히글리크,-6
+Salta,살타,-12
+Napa,나파,-16
+Luganville,루간빌,+2
+Tarko-Sale,타르코 살레,-4
+Northern Peninsula,노던 페닌슐라,-13
+Westcheste,웨스트체스터,-13
+Mount Gambier,마운트 갬비어,+0.5
+Hengyang,헝양,-1
+Penza,펜자,-6
+Hangzhou,항저우,-1
+Hefei,허페이,-1
+Shoreham,쇼어햄,-8
+Mangshi,망시,-1
+Nain,내인,-12.5
+Asheville,애슈빌,-13
+Cooch Behar,쿠치 비하르,-3
+Del Rio,델 리오,-15
+Rajbiraj,라즈비라즈,-3.75
+General Santos,제너럴 산토스,-1
+Grenoble,그르노블,-7
+Kenmore,켄모어,-16
+Kutacane,쿠타카네,-2
+Zahedan,자헤단,-5.5
+Jonesboro,존즈버러,-14
+Phinda,핀다,-7
+Verona,베로나,-7
+Karlovy Vary,카를로비 바리,-7
+Monroe,먼로,-15
+Yulara,율라라,+0.5
+Palana,팔라나,+1
+Blantyre,블랜타이어,-7
+Lianyungang,롄윈강,-1
+Wamena,와메나,+0
+Karakol,카라콜,-4
+Birmingham,버밍엄,-8
+Kristiansand,크리스티안산,-7
+Kediri Dhoho,케디리 도호,-2
+Blanc-Sablon,블랑 사블롱,-13
+Manizales,마니살레스,-14
+Portland,포틀랜드,-16
+Yichun,이춘,-1
+Qingdao,칭다오,-1
+Izumo,이즈모,+0
+El Paso,엘 패소,-15
+Ketchikan,케치칸,-17
+Iringa,이링가,-6
+El Dorado,엘도라도,-15
+Rahim Yar Khan,라힘 야르 칸,-4
+Batagay,바타가이,+1
+Szczytno,슈치트노,-7
+Tolitoli,톨리톨리,-1
+Goa,고아,-3.5
+Pai,빠이,-2
+Al-Qadisiyah,알카디시야,-6
+Iron Mountain,아이언 마운틴,-14
+Pau,포,-7
+Port Alberni,포트 앨버니,-16
+Mashhad,마슈하드,-5.5
+Kendari,켄다리,-1
+Nawabshah,나바브샤,-4
+Nanaimo,나나이모,-16
+Norrkping,노르셰핑,-7
+Merimbula,메림불라,+1
+Jumla,줌라,-3.75
+Koliganek,콜리가넥,-17
+Arcata-Eureka,아카타-유레카,-16
+Kitale,키탈레,-6
+Chub Cay,찹 케이,-14
+Granada,그라나다,-7
+Puerto ObaldIa,푸에르토 오발디아,-14
+North Caicos,노스 카이코스,-14
+Puerto AsIs,푸에르토 아시스,-14
+Little Grand,리틀 그랜드,-15
+Sigiriya,시기리야,-3.5
+Fortaleza,포르탈레자,-12
+Mekele,메켈레,-6
+London Biggin Hill,런던 비긴 힐,-8
+Pico Island,피코 제도,-9
+Paraparaumu Beach,파라파라움 해변,+3
+Hindon,힌돈,-3.5
+Rouen,루앙,-7
+Queretaro,케레타로,-15
+Khandyga,칸디가,+0
+Lhokseumawe,록세우마웨,-2
+Angers,앙제,-7
+Bakelalan,바켈랄란,-1
+Alexandria,알렉산드리아,-7
+Dusseldorf,뒤셀도르프,-7
+Puerto InIrida,푸에르토 이니리다,-14
+Istanbul,이스탄불,-6
+Pelican,펠리컨,-17
+Thief River Falls,시프 리버 폴스,-14
+Pukarua,푸카루아,-19
+Luoyang,뤄양,-1
+Riohacha,리오아차,-14
+Kirksville,커크스빌,-14
+Moala Island,모알라 제도,+3
+Tivat,티바트,-7
+Oxford,옥스포드,-8
+Merzifon,메르지폰,-6
+Malda,말다,-3
+Burlington,벌링턴,-13
+Iquique,이키케,-13
+Nan,난,-2
+Timisoara,티미쇼아라,-7
+Kadavu,카다부,+3
+Toulon,툴롱,-7
+Fort Huachuca,포트 후아추카,-16
+Prescott,프레스콧,-16
+Cuneo,쿠네오,-7
+West Michigan,웨스트 미시간,-14
+Zhanjiang,잔장,-1
+Uzhhorod,우주호로드,-7
+Nifty Copper Mine,니프티 구리 광산,-1
+Kindu,킨두,-7
+Cunnamulla,쿠나물라,+1
+Ozernaya,오제르나야,-17
+Yerbogachen,예르보가첸,-2
+Isles of Scilly,실리 제도,-8
+Hobbs,홉스,-15
+Krasnoselkup,크라스노셀쿠프,-5
+Tokyo,도쿄,+0
+Manistee,매니스티,-14
+SanIgnacio,산 이그나시오,-15
+Sangapi,상가피,-1
+Sept-Iles,셉틸,-13
+El Obeid,엘 오베이드,-7
+Long Seridan,롱 세리단,-1
+Stronsay,스트론세이,-8
+Kalibo,칼리보,-1
+Deline,델린,-16
+Sanandaj,사난다지,-5.5
+Tebessa,테베사,-7
+Sint Maarten,신트 마르턴,-13
+Ternate,테르나테,+0
+GrImsey,그림세이,-9
+Aniak,애니악,-17
+Osijek,오시예크,-7
+Manhattan,맨해튼,-14
+Makkovik,마코빅,-12.5
+Ostend-Bruges,오스텐더-브뤼헤,-7
+Da Nang,다낭,-2
+Central,센트럴,-17
+Oranjemund,오라녜문트,-8
+Phuket,푸켓,-2
+Oksibil,옥시빌,+0
+Matak,마탁,-2
+Zaqatala,자카탈라,-5
+Tissamaharama,티사마하라마,-3.5
+Santa Fe,산타페,-15
+Kotabaru,코타바루,-1
+Geita,게이타,-6
+Prominent Hill,프로미넌트 힐,+0.5
+Katowice,카토비체,-7
+Bandung,반둥,-2
+Barra,바라,-8
+Rorvik,뢰르비크,-7
+Long Lellang,롱 렐랑,-1
+Doomadgee,둠마지,+1
+Suavanao,수아바나오,+2
+Apia,아피아,+2
+Damascus,다마스쿠스,-7
+Sir Bani Yas,시르 바니 야스,-5
+Kadena,카데나,+0
+Ogdensburg,오그덴스버그,-13
+Maningrida,매닝그리다,+0.5
+Apolo,아폴로,-13
+Saint Croix,세인트 크로이,-13
+Corner,코너,-13
+Hyder,하이더,-17
+Rotuma Island,로투마 제도,+3
+Gisborne,기즈번,+3
+Bucaramanga,부카라망가,-14
+Arctic Village,아크틱 빌리지,-17
+Cagliari,칼리아리,-7
+Tangerang,탕에랑,-2
+Sligo,슬라이고,-8
+Wapenamanda,와페나만다,+1
+Yellowknife,옐로나이프,-15
+HolguIn,올긴,-14
+Diamantina,디아만티나,-12
+Matadi,마타디,-8
+Lijiang,리장,-1
+Narvik,나르빅,-7
+Chimore,치모레,-13
+Timimoun,티미문,-8
+Yateley,야틀리,-8
+Misima Island,미시마 제도,+1
+Twizel,트위젤,+3
+Lawton,로턴,-15
+San Jose del Guaviare,산호세 델 과비아레,-14
+Quetta,퀘타,-4
+Chihuahua,치와와,-15
+Kaunas,카우나스,-7
+Lisala,리살라,-8
+Khujand,후잔드,-4
+Xinyuan,신위안,-3
+Virgin Gorda,버지니아 고르다,-13
+Goodnews Bay,굿뉴스 베이,-17
+Horn Island,혼 제도,+1
+Beru Island,베루 제도,+3
+Verkhnevliyuy,베르흐네블리위,+0
+Saskylakh,사스키라흐,+1
+Fujairah,푸자이라,-5
+Manokotak,마노코타크,-17
+GooseBay,구스 베이,-12.5
+Badu Island,바두 제도,+1
+Windsor Locks,윈저 록스,-13
+Salto del Guaira,살토 델 과이라,-13
+Leipzig,라이프치히,-7
+Port Lions,포트 라이온즈,-17
+Roatan,로아탄,-15
+Jorhat,조르하트,-3
+Tenakee,테나키,-17
+El Calafate,엘 칼라파테,-12
+Tarapoa,타라포아,-14
+Bikaner,비카네르,-3.5
+Shilavo,실라보,-6
+Rijeka,리예카,-7
+Balmaceda,발마세다,-12
+Severodonetsk,세베로도네츠크,-7
+Taytay,타이타이,-1
+Car Nicobar,카르 니코바르,-3.5
+Budapest,부다페스트,-7
+Birdsville,버즈빌,+1
+Shishmaref,시쉬마레프,-18
+Resende,레젠데,-12
+Negril,네그릴,-14
+Jamshedpur,잠셰드푸르,-3.5
+Nanyang,난양,-1
+Ejin Banner,어지너 기,-1
+Bayankhongor,바양홍고르,-1
+Silchar,실차르,-3
+Aupaluk,오파루크,-14
+Illizi,일리지,-8
+Dhaalu Atoll,달루 아톨,-4
+Atuona,아투오나,-19.5
+Kastoria,카스토리아,-7
+Menongue,메농게,-8
+Ali,알리,-6
+Adan,아덴,-6
+Griffith,그리피스,+1
+Yuma,유마,-16
+Padang,파당,-2
+Corazon de JesUs,코라손 데 헤수스,-14
+Rhodes,로드스,-7
+Cape Town,케이프 타운,-7
+Leh,레,-3.5
+Mono Island,모노 제도,+2
+Maiana,마이아나,+3
+Moab,모아브,-15
+Kaedi,카에디,-8
+Peshawar,페샤와르,-4
+Ningbo,닝보,-1
+Koro Island,코로 제도,+3
+Fane,파네,+2
+Laredo,라레도,-15
+Cherepovets,체레포베츠,-6
+Rock Springs,록 스프링스,-15
+Cuyo,쿠요,-1
+Altay,알타이,-1
+Daloa,달로아,-8
+La Rioja,라 리오하,-12
+Pensacola,펜서콜라,-14
+Pontiac,폰티악,-14
+Mohenjo Daro,모헨조 다로,-4
+Samara,사마라,-5
+Ruoqiang,뤄창,-1
+Tongliao,퉁랴오,-1
+Arctic Bay,아크틱 베이,-14
+Tongren,퉁런,-1
+Lewoleba,레올레바,-1
+Rara Talcha,라라 탈차,-3.75
+San Fernando,산 페르난도,-1
+Sukhumi,수후미,-6
+Great Bend,그레이트 벤드,-15
+Wilmington,윌밍턴,-13
+Bergen,베르겐,-7
+Waspam,와스팜,-15
+Magadan,마가단,+2
+Ca Mau,까마우,-2
+Mossoro,모소로,-12
+Yakushima,야쿠시마,+0
+Delingha,델링하,-1
+Fort Collins,포트 콜린스,-15
+Santiago de Compostela,산티아고 데 콤포스텔라,-7
+Talca,탈카,-12
+Turaif,투라이프,-6
+Palanan,팔라난,-1
+Nashik,나시크,-3.5
+Rize Province,리제 주,-6
+Niagara Falls,나이아가라 폭포,-13
+Mukhaizna,무카이자나,-5
+Kwethluk,크웨스럭,-17
+Tamana,타마나,-19
+Port Williams,포트 윌리엄스,-17
+South Tangerang,사우스 탕에랑,-2
+Khasab,카사브,-5
+Trenton,트렌턴,-13
+Gaya,가야,-3.5
+Sakkyryr,사키리르,+0
+Lamen Bay,라멘 베이,+2
+Heze,허쩌,-1
+Naukati Bay,나우카티 베이,-17
+Stord,스토르드,-7
+Dolisie,돌리시,-8
+Mirny,미르니,-2
+Kihihi,키히히,-6
+Puerto Jimenez,푸에르토 히메네스,-15
+Praya,프라야,-2
+Nabire,나비레,+0
+Varkaus,바르카우스,-7
+Raipur,라이푸르,-3.5
+Grand Junction,그랜드 정션,-15
+Inukjuak,이누주아크,-14
+Kalma Wonsan,갈마 원산,+0
+Albert,앨버트,-14
+Dera Ghazi Khan,데라 가지 칸,-4
+Woodie Woodie,우디 우디,-1
+Thorne Bay,손 베이,-17
+Phaphlu,파플루,-3.75
+Ekuk,에쿠크,-17
+Bihac,비하치,-7
+Beaver,비버,-17
+Liverpool,리버풀,-8
+Shimojishima,시모지시마,+0
+Jinjiang,진장,-1
+Bokeo,보케오,-2
+Fukushima,후쿠시마,+0
+Taipei,타이베이,-1
+Seal Bay,실 베이,-17
+Cocos Islands,코코스 제도,-3.5
+Bournemouth,본머스,-8
+Tekirdag,테키르다그,-6
+Lengbati,렝바티,+1
+Huizhou,후이저우,-1
+Brasov,브라쇼브,-7
+Angoon,앙군,-17
+Hokitika,호키티카,+3
+El Palomar,엘 팔로마르,-12
+Cunderdin,쿤데르딘,-1
+StMartin,생 마르탱,-13
+Thandwe,탄드웨,-2.5
+Bage,바게,-12
+St. Cloud,세인트 클라우드,-14
+Tawitawi Island,타위타위 제도,-1
+Juazeiro do Norte,주아제이루 두 노르테,-12
+Mansa,만사,-7
+Gorna Oryahovitsa,고르나 오랴호비차,-7
+Ocana,오카냐,-14
+Summer Beaver,서머 비버,-15
+Dunhuang,둔황,-1
+Presidente Prudente,프레지덴테 프루덴테,-12
+Porto Alegre,포르투 알레그레,-12
+Okinawa,오키나와,+0
+Blackpool,블랙풀,-8
+SaltLake,솔트레이크,-15
+Brno,브르노,-7
+Linz,린츠,-7
+Le Touquet,르 투케,-7
+Bejaia,베자이아,-7
+Cherkasy,체르카시,-7
+Geneina,게네이나,-7
+Janakpur,자나크푸르,-3.75
+Talas,탈라스,-4
+Chevery,쉐베리,-13
+Warri,와리,-8
+Garowe,가로웨,-6
+Sauoarkrokur,사우다르크로쿠르,-9
+Sankt Peter-Ording,장크트 페터 오르딩,-7
+Zilina,질리나,-7
+Hebron,헤브론,-13
+Ciudad Obregon,시우다드 오브레곤,-16
+Vilhelmina,빌헬미나,-7
+Enggano Island,엥가노 제도,-2
+Cardiff,카디프,-8
+Tahuna,타후나,-1
+Lamidanda,라미단다,-3.75
+Butembo,부템보,-7
+McCook,매쿡,-15
+Sabetta,사베타,-4
+Hong Kong,홍콩,-1
+Washington,워싱턴,-13
+Cacoal,카코알,-13
+Mountain Home,마운틴 홈,-15
+Tak,탁,-2
+Strasbourg,스트라스부르,-7
+Rankin Inlet,랭킨 인렛,-14
+Danville,댄빌,-13
+Vail/Eagle,베일/이글,-15
+Melak,멜락,-2
+FaroeIs,페로 제도,-9
+Marana,마라나,-16
+Blagoveshchensk,블라고베셴스크,+0
+Gamba,감바,-8
+Malabo,말라보,-8
+NhaTrang,냐짱,-2
+Cotabato,코타바토,-1
+Emae Island,에마에 제도,+2
+Trail,트레일,-16
+Shakhtyorsk,샤흐툐르스크,+1
+Jundiai,준지아이,-12
+Noumea,누메아,+2
+Port Hedland,포트 헤들랜드,-1
+Nanchang,난창,-1
+Grand Rapids,그랜드 래피즈,-14
+Graciosa,그라시오사,-9
+Bridgewater,브리지워터,-13
+San Salvador Island,산 살바도르 제도,-14
+Muan,무안,+0
+Jaluit Island,잘루이트 제도,+3
+San Jose de Chiquitos,산호세 데 치키토스,-13
+Nogliki,노글리키,+2
+San Borja,산 보르하,-13
+Barcelos,바르셀루스,-13
+Greenville,그린빌,-13
+Port-au-Prince,포르토프랭스,-14
+Tumbang Samba,툼방 삼바,-2
+Alexandroupoli,알렉산드루폴리,-7
+Kao,카오,+2
+Chumphon,춤폰,-2
+Tangshan,탕산,-1
+Cut Bank,컷 뱅크,-15
+Milikapiti,밀리카피티,+0.5
+Pedro Juan Caballero,페드로 후안 카바예로,-13
+Camagey,카마구에이,-14
+Zintan,진탄,-7
+Chokurdakh,초쿠르다흐,+0
+Glendive,글렌다이브,-15
+Ho,호,-8
+Matamoros,마타모로스,-15
+Kirovsk-Apatity,키롭스크-아파티티,-6
+Chenega,체네가,-17
+Cagayan de Oro,카가얀데오로,-1
+Kumasi,쿠마시,-8
+Lexington,렉싱턴,-13
+Cahokia,카호키아,-14
+Coconut Island,코코넛 아일랜드,+1
+Paros,파로스,-7
+Vidyanagar,비댜나가르,-3.5
+Tehuacan,테와칸,-15
+Whati,와티,-16
+Biratnagar,비라트나가르,-3.75
+kotte,코테,-3.5
+Lerwick,레르위크,-8
+Calvi,칼비,-7
+Lingayen,링가옌,-1
+Delhi,델리,-3.5
+Nantucket,낸터킷,-13
+Zhuhai,주하이,-1
+Puerto Pina,푸에르토 피냐,-14
+Lynn Lake,린 레이크,-15
+Del Carmen,델 카르멘,-1
+Rizhao,르자오,-1
+Lliang,량량,-1
+Novokuznetsk,노보쿠즈네츠크,-3
+Sacramento,새크라멘토,-16
+Lakefield,레이크필드,-14
+Gjoa Haven,죠아 헤이븐,-15
+Winnipeg,위니펙,-15
+Kansas City,캔자스 시티,-15
+Altoona,앨투나,-13
+Ashgabat,아슈하바트,-4
+Benbecula,벤베쿨라,-8
+Quixada,키샤다,-12
+Islay,아일레이,-8
+Laeso,뢰쇠,-7
+Huahine,후아히네,-19
+Qarn Alam,카른 알람,-5
+Mayne Island,메인 아일랜드,-16
+Nashville,내슈빌,-14
+AlmerIa,알메리아,-7
+Bontang,본탕,-1
+Tarakan,타라칸,-1
+Harlingen,할링겐,-15
+Dalaman,달라만,-6
+Pasni,파스니,-4
+Mayo,마요,-16
+Ciudad del Carmen,시우다드 델 카르멘,-15
+El Porvenir,엘 포르베니르,-14
+Kamalpur,카말푸르,-3
+Champaign,샴페인,-14
+Sendai,센다이,+0
+Resistencia,레시스텐시아,-12
+Basankusu,바상쿠수,-8
+Charlotte,샬럿,-13
+Kozhikode,코지코드,-3.5
+Kilwa Masoko,킬와 마소코,-6
+Echeng District,어청 구,-1
+Rivera,리베라,-12
+Burgas,부르가스,-7
+Nulato,눌라토,-17
+Sola,솔라,+2
+Alto RIo Senguer,알토 리오 센구에르,-12
+UstNera,우스티네라,+2
+Atlanta,애틀랜타,-13
+Coffee Point,커피 포인트,-17
+oshima,오시마,+0
+Mnchengladbach,묀헨글라트바흐,-7
+Greenway Sound,그린웨이 사운드,-16
+Gracias,그라시아스,-15
+Quibdo,키브도,-14
+Pori,포리,-7
+Gibraltar,지브롤터,-8
+Cayo Largo del Sur,카요 라르고 델 수르,-14
+Bokpyin,복핀,-2.5
+Rota,로타,+1
+Cloncurry,클론커리,+1
+Shantou,산터우,-1
+Surabaya,수라바야,-2
+Mendoza,멘도사,-12
+Tambov,탐보프,-6
+San Jose Island,산호세 섬,-14
+Igrim,이그림,-4
+Anvik,앤빅,-17
+Kangan,칸간,-5.5
+Marsa Alam,마르사 알람,-7
+Dandong,단둥,-1
+Caracas,카라카스,-13
+Jinan,지난,-1
+Pond Inlet,폰드 인렛,-14
+Kunduz,쿤두즈,-4.5
+Anshan,안산,-1
+Cameron,카메론,-15
+Elcho Island,엘초 아일랜드,+0.5
+Victoria Falls,빅토리아 폭포,-7
+Bardufoss,바르두포스,-7
+Dalian,다롄,-1
+Corn Islands,콘 제도,-15
+St Gallen-Altenrhein,장크트갈렌-알텐라인,-7
+San Bernardino,산 베르나르디노,-16
+Monbetsu,몬베쓰,+0
+Vladikavkaz,블라디카프카스,-6
+Lannion,라니옹,-7
+Shuozhou,숴저우,-1
+Mukah,무카,-1
+Limbang,림방,-1
+Thiruvananthapuram,티루바난타푸람,-3.5
+Qaarsut,카르수트,-12
+Chalkyitsik,찰키이치크,-17
+Airok,아이록,+3
+Ometepe,오메테페,-15
+Gorontalo,고론탈로,-1
+Nueva Gerona,누에바 헤로나,-14
+Harare,하라레,-7
+Rio Verde,리우 베르데,-15
+Richards Bay,리차즈 베이,-7
+Mutare,무타레,-7
+Enejit,에네지트,+3
+Cumana,쿠마나,-13
+Mananjary,마난자리,-6
+Kuwait,쿠웨이트,-6
+Gwadar,과다르,-4
+Suwalki,수바우키,-7
+Stephenville,스티븐빌,-12.5
+Rockhampton,록햄프턴,+1
+Bedwell Harbour,베드웰 하버,-16
+Uberaba,우베라바,-12
+Praia,프라이아,-10
+Salinas,살리나스,-16
+Vieques,비에케스,-13
+Liberal,리버럴,-15
+Koyukuk,코유쿡,-17
+CancUn,칸쿤,-14
+Kiruna,키루나,-7
+Barquisimeto,바르키시메토,-13
+Willemstad,빌렘스타트,-13
+Tabas,타바스,-5.5
+Harbin,하얼빈,-1
+Alegrete,알레그레테,-12
+Tromso,트롬쇠,-7
+Dawadmi,다와드미,-6
+Portoviejo,포르토비에호,-14
+Kowanyama,코와냐마,+1
+Tunis,튀니스,-8
+Ratnagiri,랏나기리,-3.5
+Lynchburg,린치버그,-13
+Montego Bay,몬테고 베이,-14
+Koumac,코우마크,+2
+Karamay,카라마이,-3
+Malakal,말라칼,-6
+La Macarena,라 마카레나,-14
+Apartado,아파르타도,-14
+Kauehi,카우에히,-19
+Tres Coracoes,트레스 코라코이스,-12
+Learmonth,리어몬스,-1
+Karimun Java,카리문 자와,-2
+Guiyang,구이양,-1
+Schwerin,슈베린,-7
+Alghero,알게로,-7
+Valledupar,바예두파르,-14
+Gangtok,강토크,-3
+Penang,페낭,-1
+Kalgoorlie,칼굴리,-1
+Lubumbashi,루붐바시,-7
+Shetland Islands,셰틀랜드 제도,-8
+Ponta Pora,폰타 포라,-13
+Salto,살토,-12
+Cambridge,케임브리지,-13
+Andahuaylas,안다와일라스,-14
+King Cove,킹 코브,-17
+Cartwright,카트라이트,-13
+Charlottetown,샬럿타운,-13
+Chara,차라,-2
+Sandane,산단,-7
+Lal-lo,랄로,-1
+Bern,베른,-7
+St. Johns,세인트 존스,-12.5
+Hudaydah,후다이다,-6
+Balikesir,발리케시르,-6
+Iliamna,일리아나,-17
+Elfin Cove,엘핀 코브,-17
+Taupo,타우포,+3
+Lemnos,렘노스,-7
+Lusambo,루삼보,-8
+Lancang,란창,-1
+Santa Maria,산타 마리아,-12
+Nizhnekamsk,니즈네캄스크,-6
+Samarinda,사마린다,-1
+Bertoua,베르투아,-8
+Saint John,세인트 존,-13
+Adado,아다도,-6
+Qimei,치메이,-1
+Khatgal,하트갈,-1
+Parintins,파린틴스,-13
+Medford,메드퍼드,-16
+Mount Keith,마운트 키스,-1
+Chengdu,청두,-1
+Maewo,마에오,+2
+Seldovia,셀도비아,-17
+Palenque,팔렌케,-15
+Manaus,마나우스,-13
+Bacau,바커우,-7
+Cortez,코르테즈,-15
+Bloemfontein,블룸폰테인,-7
+Sanaa,사나아,-6
+Ubatuba,우바투바,-12
+Kocaeli,코자엘리,-6
+Nizhnevartovsk,니즈네바르톱스크,-4
+Kalaymyo,칼라이묘,-2.5
+Mandera,만데라,-6
+Lashkar Gah,라슈카르가,-4.5
+Abaiang,아바이앙,+3
+Ipoh,이포,-1
+Shaoguan,사오관,-1
+Gisenyi,기센이,-6
+Solovetsky Islands,솔로베츠키 제도,-6
+Perm,페름,-5
+SeinAjoki,세인아조키,-7
+Dunedin,더니든,+3
+Ramata Island,라마타 제도,+2
+Liege,리에주,-7
+Gombe,곰베,-8
+Williams Harbour,윌리엄스 하버,-13.5
+Cranfield,크랜필드,-8
+Midland,미들랜드,-15
+Bidar,비다르,-3.5
+West Angelas,웨스트 안젤라스,-1
+Alexandra,알렉산드라,+3
+Mammoth Lakes,매머드 레이크스,-16
+Moroni,모로니,-6
+DaSoguz,다쇼구즈,-4
+Reading,레딩,-8
+Nasiriyah,나시리야,-6
+Panjgur,판지구르,-4
+Labuan,라부안,-1
+Wrightstown,라이츠타운,-13
+Jinja,진자,-6
+Bushehr,부셰르,-5.5
+Lubbock,러벅,-15
+Monterrey,몬테레이,-15
+St. Anthony,세인트 앤서니,-12.5
+Sunshine Coast,선샤인 코스트,+1
+La Gomera,라 고메라,-9
+Gabes,가베스,-8
+Jauja,하우하,-14
+YacuIba,야쿠이바,-13
+Westport,웨스트포트,-13
+Chiayi,자이,-1
+CanTho,껀터,-2
+Stebbins,스테빈스,-18
+Dayton,데이턴,-14
+Lderitz,뤼데리츠,-8
+Cepu,체푸,-2
+Phonsavan,폰사반,-2
+Corumba,코룸바,-13
+Larantuka,라란투카,-2
+Cozumel,코수멜,-14
+Quaqtaq,콰크탁,-14
+Muskoka,머스코카,-14
+Arlington,알링턴,-15
+Las Vegas,라스베이거스,-16
+Straubing,슈트라우빙,-7
+Mangaia Island,망가이아 제도,-19
+Vallenar,바예나르,-13
+St. Lewis,세인트 루이스,-13.5
+Croker Island,크로커 아일랜드,+0.5
+Craig Cove,크레이그 코브,+2
+Victorville,빅터빌,-16
+Ile des Pins,일 데 팡,+2
+Fonte Boa,폰치 보아,-14
+Taveuni,타베우니,+3
+Zielona Gora,지에로나 구라,-7
+Anglesey,앵글시,-8
+Pituffik,피투픽,-13
+Tuticorin,투티코린,-3.5
+Flores Island,플로레스 제도,-10
+Gdansk,그단스크,-7
+Taganrog,타간로크,-6
+Kaluga,칼루가,-6
+Wales,웨일스,-17
+Mtwara,음트와라,-6
+Unalakleet,우날라클리트,-17
+Hassi R'Mel,하시 르멜,-8
+Abha,아브하,-6
+Muscle Shoals,머슬 쇼얼스,-15
+Tobruk,토브룩,-7
+Gorgan,고르간,-5.5
+Tambolaka,탐볼라카,-1
+Bantayan,반타얀,-1
+Nema,네마,-8
+Ivano-Frankivsk,이바노프란키우스크,-7
+Old Crow,올드 크로우,-16
+Lincoln,링컨,-15
+Abu Dhabi,아부다비,-5
+Varna,바르나,-7
+In Amenas,인 아메나스,-7
+Bhuj,부지,-3.5
+Fitiuta,피티우타,-20
+Wakkanai,왓카나이,+0
+Nansang,난상,-2.5
+Coto 47,코토 47,-15
+Zanjan,잔잔,-5.5
+Nairobi,나이로비,-6
+Darbhanga,다르방가,-3.5
+Valladolid,바야돌리드,-7
+Bhavnagar,바브나가르,-3.5
+Cooma,쿠마,+1
+Dhaka,다카,-3
+Resolute,레졸루트,-15
+Enarotali,에나로탈리,+0
+ReefIslands,리프 제도,+2
+SanPedro,산 페드로,-15
+Eindhoven,아인트호벤,-7
+Tuy Hoa,투이 호아,-2
+Bisha,비샤,-6
+Tashkurgan,타슈쿠르간,-3
+Redmond,레드먼드,-16
+Bishkek,비슈케크,-4
+Cali,칼리,-14
+Billund,빌룬드,-7
+Bursa,부르사,-6
+Mulu,물루,-1
+Hot Springs,핫 스프링스,-15
+Hachijo jima,하치조지마,+0
+Pereira,페레이라,-14
+Gothenburg,예테보리,-7
+Atoifi,아토이피,+2
+Key West,키 웨스트,-13
+Shannon,섀넌,-8
+Rurrenabaque,루레나바케,-13
+Platinum,플래티넘,-17
+Phoenix,피닉스,-16
+Hailar,하이랄,-1
+Bronnoysund,브뢴뇌이순,-7
+Vanimo,바니모,+1
+Danbury,댄버리,-13
+Chongjin,청진,+0
+Rouyn-Noranda,루앙-노르안다,-14
+Manono,마노노,-8
+Campo Grande,캄푸 그란데,-13
+Savusavu,사부사부,+3
+Jiayuguan,자위관,-1
+CayeCaulker,케이 코커,-15
+Edwards,에드워즈,-15
+Vitoria-Gasteiz,비토리아-가스테이스,-7
+Sanggu Buntok,상구 분톡,-2
+Ulan-Ude,울란우데,-1
+Tanjung Redeb,탄중 레뎁,-1
+DutchHarb,더치하버,-17
+Tampa,탬파,-13
+Innsbruck,인스브루크,-7
+Cijulang,치줄랑,-2
+Trois-Rivieres,트루아리비에르,-13
+Bikini Atoll,비키니 아톨,+3
+Darab,다라브,-5.5
+Awasa,아와사,-6
+Morotai Island,모로타이 제도,+0
+Hagfors,학포르스,-7
+Dubai,두바이,-5
+Al Ghaydah,알 가이다,-6
+Kaikoura,카이코우라,+3
+Mount Gordon Mine,마운트 고든 광산,+1
+Lazaro Cardenas,라자로 카르데나스,-15
+Akron,애크런,-14
+Nelson,넬슨,+3
+Bakersfield,베이커스필드,-16
+Iquitos,이키토스,-14
+Latrobe,래트로브,-13
+Camp Springs,캠프 스프링스,-13
+Zhob,조브,-4
+George,조지,-7
+Ciudad del Este,시우다드 델 에스테,-13
+Jamestown,제임스타운,-13
+Yakutat,야쿠타트,-17
+Siuna,시우나,-15
+Hotan,허톈,-3
+Baicheng,바이청,-1
+Andros Town,앤드로스 타운,-14
+Walaha,왈라하,+2
+Baltimore,볼티모어,-13
+Faro,파루,-9
+Bintulu,빈툴루,-1
+Upernavik,우페르나비크,-12
+Soyo,소요,-8
+Dumaguete,두마게테,-1
+Cochin,코친,-3.5
+Mestia,메스티아,-5
+Antique,안티크,-1
+Toronto,토론토,-14
+Quinhagak,퀸하각,-17
+Catbalogan,카트발로간,-1
+PortGentil,포르장티,-8
+Garachine,가라치네,-14
+Nome,놈,-17
+Semey,세메이,-4
+BaieComeau,베이코모,-13
+Murcia,무르시아,-7
+MbujiMayi,음부지마이,-7
+Thompson,톰슨,-15
+Meridian,메리디언,-15
+Kieta,키에타,+2
+Zhoushan,저우산,-1
+Taroom,타룸,+1
+Makurdi,마쿠르디,-8
+Whyalla,와이알라,+0.5
+Oki Island,오키 제도,+0
+Dessie,데시에,-6
+Bilaspur,빌라스푸르,-3.5
+Siegen,지겐,-7
+Lihir Island,리히르 제도,+2
+ValdOr,발도르,-14
+Pembrey,펨브리,-8
+Trujillo,트루히요,-14
+Burlington-Mount Vernon,벌링턴-마운트 버논,-16
+Mobile,모빌,-15
+Roche Harbor,로체 하버,-16
+Gemena,제메나,-8
+Jomsom,좀솜,-3.75
+Pantnagar,판트나가르,-3.5
+Tijuana,티후아나,-16
+Sebha,세바,-7
+Mombasa,몸바사,-6
+Malm,말뫼,-7
+Pescara,페스카라,-7
+Durham,더럼,-13
+Galkayo,갈카요,-6
+Sulaymaniyah,술라이마니야,-6
+Marakei,마라케이,+3
+Elko,엘코,-15
+Skukuza,스쿠쿠자,-7
+Pukapuka Island,푸카푸카 제도,-19
+Dillingham,딜링햄,-17
+Jakar,자카르,-3
+Ibadan,이바단,-8
+Khoy,호이,-5.5
+Maradi,마라디,-8
+HuangPing,황핑,-1
+HUsavIk,후사비크,-9
+Hemavan,헤마반,-7
+Bissau,비사우,-8
+epinal,에피날,-7
+Tegucigalpa,테구시갈파,-15
+Lizard Island,리자드 아일랜드,+1
+Baotou,바오터우,-1
+Clinton,클린턴,-14
+Campos dos Goytacazes,캄푸스 두스 고이타카제스,-12
+Manus Island,마누스 제도,+1
+Biloela,빌로엘라,+1
+Elrose Mine,엘로스 광산,-1
+Amgu,암구,+1
+Belmopan,벨모판,-15
+Batumi,바투미,-5
+Pekanbaru,페칸바루,-2
+Jiagedaqi,자가다치,-1
+Frankfurt,프랑크푸르트,-7
+Dhangadhi,당가디,-3.75
+Tanana,타나나,-17
+Borkum,보르쿰,-7
+Forli,포를리,-7
+Fort Wayne,포트 웨인,-14
+Jiansanjiang,젠산장,-1
+Kigali,키갈리,-6
+Puerto Deseado,푸에르토 데세아도,-12
+Ljubljana,류블랴나,-7
+Kerman,케르만,-5.5
+Boigu Island,보이구 제도,+1
+Sovetskaya Gavan,소베츠카야 가반,+1
+Memphis,멤피스,-14
+King Salmon,킹 새먼,-17
+Johnstown,존스타운,-13
+Killeen,킬린,-15
+Oshkosh,오시코시,-14
+Klamath Falls,클래머스 폴스,-16
+Warangal,와랑갈,-3.5
+Jijel,지젤,-7
+In Salah,인 살라,-8
+Ramingining,라밍기닝,+0.5
+Barahona,바라오나,-14
+Antsohihy,안초히히,-6
+Yogyakarta,족자카르타,-2
+Maota,마오타,+2
+Vilyuysk,빌류이스크,+0
+Zhaotong,자오퉁,-1
+Chernivtsi,체르니우치,-7
+Edmonton,에드먼턴,-15
+Los Roques,로스 로케스,-13
+Darnley Island,다안리 제도,+1
+Jeki,제키,+2
+Jharsuguda,자르수구다,-3.5
+Borongan,보롱안,-1
+Huaihua,화이화,-1
+Tachilek,타칠렉,-2
+Luau,루아우,-8
+Ranchi,란치,-3.5
+Sao Jorge Island,상 조르제 제도,-9
+Reus,레우스,-7
+Long Pasia,롱 파시아,-1
+Kyiv,키이우,-7
+Pamplona,팜플로나,-7
+Cruz,크루스,-12
+San Miguel de Allende,산 미겔 데 아옌데,-15
+Kitoi Bay,키토이 베이,-17
+Moorea,모레아,-19
+Aracati,아라카치,-12
+Honiara,호니아라,+2
+Rotterdam,로테르담,-7
+Hailey-Sun Valley,헤일리-선 밸리,-16
+Iwo Jima,이오지마,+0
+Gordon,고든,-13
+Morlaix,모를레,-7
+Allakaket,알라카켓,-17
+Longyearbyen,롱위에아르뷔엔,-7
+El Tigre,엘 티그레,-13
+Provideniya,프로비데니야,-18
+Rio Branco,히우 브랑쿠,-14
+Fort Nelson,포트 넬슨,-16
+Hamilton Island,해밀턴 아일랜드,+1
+Jatai,자타이,-13
+Huangshan,황산,-1
+Bagram,바그람,-4.5
+Tasiilaq,타실라크,-12
+Pembina,펨비나,-15
+Sevastopol,세바스토폴,-7
+Cartago,카르타고,-15
+Usinsk,우신스크,-5
+Oran,오랑,-8
+West Point,웨스트 포인트,-17
+Uralsk,우랄스크,-5
+Tangier,탕헤르,-8
+Dili,딜리,-0
+Karachi,카라치,-4
+Cabinda,카빈다,-8
+Basra,바스라,-6
+Honolulu,호놀룰루,-19
+Brindisi,브린디시,-7
+Bathurst Island,배서스트 아일랜드,+0.5
+Porlamar,포를라마르,-13
+Coimbatore,코임바토르,-3.5
+NImes,님,-7
+Brus Laguna,브루스 라구나,-15
+Redding,레딩,-16
+Buenos Aires,부에노스아이레스,-12
+Ingolstadt,잉골슈타트,-7
+Chos Malal,초스 말랄,-12
+Norwich,노리치,-8
+MuS,무슈,-6
+Rote Island,로테 제도,-1
+Invercargill,인버카길,+3
+Malolo Lailai,말로로 라일라이,+3
+Venetie,베네티,-17
+Cascais,카스카이스,-8
+Barreiras,바헤이라스,-12
+Wonju,원주,+0
+Kilimanjaro,킬리만자로,-6
+Caticlan,카티클란,-1
+Quesnel,퀘스넬,-16
+Deoghar,데오가르,-3.5
+Kabul,카불,-4.5
+Hingurakgoda,힌구라코다,-3.5
+In Guezzam,인 게잠,-8
+Wuzhou,우저우,-1
+Black Tickle,블랙 티클,-12.5
+Ciudad Guayana,시우다드 과야나,-13
+Thessaloniki,테살로니키,-7
+Pittston Township,피츠턴 타운십,-13
+Capurgana,카푸르가나,-14
+Zephyrhills,제퍼힐즈,-13
+Rockport,록포트,-13
+Trapani,트라파니,-7
+Kugaaruk,쿠가아루크,-15
+RIo Mayo,리오 마요,-12
+Shigatse,시가체,-1
+Handan,한다오,-1
+Houston,휴스턴,-15
+Elim,엘림,-18
+Lewistown,루이스턴,-15
+Augsburg,아우크스부르크,-7
+Homalin,호말린,-2.5
+Puerto Escondido,푸에르토 에스콘디도,-15
+Port-Menier,포르메니에,-13
+Itanhaem,이타냐잉,-12
+Oaxaca,오아하카,-15
+Wilhelmshaven,빌헬름스하펜,-7
+Saint-Augustin,생 오귀스탱,-13
+Ende,엔데,-2
+Turukhansk,투루한스크,-4
+Torsby,토르스비,-7
+Kherson,헤르손,-7
+Fort Yukon,포트 유콘,-17
+Qabala,가발라,-5
+Eagle River,이글 리버,-17
+Chignik Lagoon,치그닉 라군,-17
+Sylhet,실헷,-3
+Tela,텔라,-15
+Castres,카스트르,-7
+Solent,솔렌트,-8
+Sao Vicente,상 비센테,-10
+Block Island,블록 아일랜드,-13
+Namdrik Atoll,남드릭 아톨,+3
+Wenzhou,원저우,-1
+Sioux Falls,수폴스,-14
+Orange,오렌지,-16
+Lusanga,루산가,-8
+Khovd,호브드,-1
+Mbala,음발라,-7
+Xewkija,셰우키아,-7
+Teresina,테레시나,-12
+Highfill,하이필,-15
+Miri,미리,-1
+Nukutavake,누쿠타바케,-19
+Kramfors-Solleftea,크람포르스-솔레프테오,-7
+Ercan,에르잔,-7
+Dauphin,도핀,-15
+Casablanca,카사블랑카,-8
+Salt Cay,솔트 케이,-14
+Noyabrsk,노야브르스크,-4
+Hayden,헤이든,-15
+Palavi Palaviya,팔라비 팔라비야,-3.5
+Hooper Bay,후퍼 베이,-18
+Tiruchirappalli,티루치라팔리,-3.5
+Saratov,사라토프,-6
+Bonito,보니토,-13
+Zarafshan,자라프샨,-4
+Megisti,메기스티,-7
+Gorge Harbour,고지 하버,-16
+Carlisle,칼라일,-8
+Chateauroux,샤토루,-7
+Bloomington,블루밍턴,-14
+Foshan,포산,-1
+Kerry,케리,-8
+Olare Orok,올라레 오로크,-6
+Urmia,우르미아,-5.5
+Tirana,티라나,-7
+Wudalianchi,우다롄치,-1
+Brandon,브랜든,-15
+Mitchell,미첼,-15
+Hornafjordur,호르나피요르뒤르,-9
+Toyooka,도요오카,+0
+Sumbawanga,숨바왕가,-6
+Yerevan,예레반,-5
+Penajam,페나잠,-1
+Kashechewan,카셰체완,-14
+Saurimo,사우리모,-8
+Kismayo,키스마요,-6
+Makemo,마케모,-19
+La Tabatiere,라 타바티에르,-13
+Pormpuraaw,포름푸라우,+1
+Melilla,멜리야,-8
+Qurghonteppa,쿠르곤테파,-4
+Huaraz,우아라스,-14
+Salina,살리나,-15
+Chevak,체박,-17
+Ulanqab,울란차브,-1
+Santa Cruz Islands,산타크루즈 제도,+2
+Skavsta,스카브스타,-7
+South Fort Myers,사우스 포트 마이어스,-13
+Paphos,파포스,-7
+Loja,로하,-14
+Circle,서클,-17
+Lutselke,루셀케,-15
+Kefallinia,케팔로니아,-7
+Ascension Island,어센션 제도,-9
+Tianjin,톈진,-1
+Lancaster,랭커스터,-13
+Wunnummin Lake,운넘민 레이크,-15
+Fitzroy Crossing,피츠로이 크로싱,-1
+Dharavandhoo,다라반두,-4
+Arak,아라크,-5.5
+Omaha,오마하,-15
+Kandla,칸들라,-3.5
+Nadym,나딤,-5
+St. Mary's,세인트 메리즈,-17
+Balti,발티,-7
+Southampton,사우스햄튼,-8
+Cody,코디,-16
+Zhukovsky,주코프스키,-6
+Marathon,마라톤,-14
+Vipingo,비핑고,-6
+Sarajevo,사라예보,-7
+Dazhou,다저우,-1
+Oradea,오라데아,-7
+Kadanwari,카단와리,-4
+Crooked Creek,크루키드 크리크,-17
+Christmas Creek,크리스마스 크리크,-1
+Foz do Iguacu,포스 두 이구아수,-12
+Aksu,아커쑤,-3
+Agri,아르나스,-6
+Tupelo,투펠로,-15
+Prague,프라하,-7
+Mansfield,맨스필드,-13
+Governor's Harbour,거버너스 하버,-14
+Cherbourg-Octeville,셰르부르-옥트빌,-7
+Pisco,피스코,-14
+Bamako,바마코,-8
+Whanganui,왕가누이,+3
+Bordj Badji Mokhtar,보르지 바지 모크타르,-8
+Copan Ruinas,코판 루이나스,-15
+Erzurum,에르주룸,-6
+Mawlamyine,모울메인,-2.5
+Busuanga,부수앙가,-1
+Rajshahi,라지샤히,-3
+Kisangani,키상가니,-7
+Isfana,이스파나,-4
+Moruroa,모루로아,-19
+Waterford,워터포드,-8
+Syros,시로스,-7
+Jalal-Abad,잘랄아바드,-4
+Oskarshamn,오스카르스함,-7
+Chandigarh,찬디가르,-3.5
+Argyle,아르길,-1
+Hana,하나,-19
+Djambala,잠발라,-8
+San Vicente,산 비센테,-12
+Fernando de Noronha,페르난두 지 노로냐,-12
+Carnarvon,카나번,-1
+Mojave,모하비,-16
+Mendi,멘디,+1
+Bumba,붐바,-8
+Zonguldak,종굴다크,-6
+Tembagapura,템바가푸라,+0
+Kochi,고치,-3.5
+Trondheim,트론헤임,-7
+Springfield,스프링필드,-14
+Tiree,티리,-8
+Billings,빌링스,-16
+Preveza-Lefkada,프레베자-레프카다,-7
+Koror,코로르,+0
+Panama City,파나마 시티,-14
+Farrukhabad,파루카바드,-3.5
+Bafoussam,바푸삼,-8
+Tripoli,트리폴리,-7
+Durgapur,두르가푸르,-3.5
+Batam,바탐,-2
+Way Tuba,와이 투바,-2
+Gatokae,가토카에,+2
+Andizhan,안디잔,-4
+Montreal,몬트리올,-13
+Savannah,사바나,-13
+ACoruna,아 코루냐,-7
+Georgetown,조지타운,-13
+Nuiqsut,누이그숫,-17
+Olive Branch,올리브 브랜치,-14
+Modesto,모데스토,-16
+Basco,바스코,-1
+SanAndros,산 안드로스,-14
+Suva,수바,+3
+Massawa,마사와,-6
+Aasiaat,아시아트,-12
+Ulsan,울산,+0
+Laayoune,라윤,-8
+Toulouse,툴루즈,-7
+Queenstown,퀸스타운,+3
+Avannaata,아반나아타,-12
+Fasa,파사,-5.5
+Azamgarh,아잠가르,-3.5
+Nassau,나사우,-14
+Anadyr,아나디르,+3
+Portimao,포르티망,-8
+Khamti,캄티,-2.5
+Pucon,푸콘,-12
+Nador,나도르,-8
+Bemidji,베미지,-14
+Julia Creek,줄리아 크리크,+1
+Baglung,바글룽,-3.75
+Ibiza,이비자,-7
+Alakanuk,알라카누크,-18
+Jiamusi,자무시,-1
+Ahe,아헤,-19
+Sachs Harbour,삭스 하버,-16
+Langkawi,랑카위,-1
+Mara North,마라 노스,-6
+Foula,풀라,-8
+Yongchuan,융촨,-1
+Tanjung Balai,탄중 발라이,-2
+Kalbarri,칼바리,-1
+Arviat,아르비아트,-14
+Dalma Island,달마 섬,-5
+Selayar Islands,셀라야르 제도,-1
+Port Protection,포트 프로텍션,-17
+Teterboro,테터보로,-13
+Pasighat,파시가트,-3
+Siddharthanagar,싯다르타나가르,-3.75
+Bankstown,뱅크스타운,+1
+Namsos,남소스,-7
+Igdir,이그디르,-6
+Newquay,뉴키,-8
+Weifang,웨이팡,-1
+Chaoyang,차오양,-1
+Lyudao,뤼다오,-1
+Angra dos Reis,앙그라 두스 헤이스,-12
+Latur,라투르,-3.5
+Ndola,은돌라,-7
+Coari,코아리,-14
+Shahrekord,샤흐레코드,-5.5
+Hays,헤이스,-15
+Santa Isabel do Rio Negro,산타 이자벨 두 리우 네그루,-13
+Sandy River,샌디 리버,-17
+Florencia,플로렌시아,-14
+Kota Bharu,코타바루,-1
+Golovin,골로빈,-18
+Klagenfurt,클라겐푸르트,-7
+Inverness,인버네스,-8
+Aershan,아얼산,-1
+Gapuwiyak,가푸위약,+0.5
+King Island,킹 아일랜드,+1
+Tottori,돗토리,+0
+Palu,팔루,-1
+South Indian Lake,사우스 인디언 레이크,-15
+Port Heiden,포트 헤이든,-17
+Nagasaki,나가사키,+0
+Winter Haven,윈터 헤이븐,-13
+Moscow-Podolsk,모스크바-포돌스크,-6
+Pouso Alegre,포우수 알레그리,-12
+Norfolk Island,노퍽 제도,+2
+Elba,엘바,-7
+Kapuskasing,카푸스카싱,-14
+Toksook Bay,톡숙 베이,-17
+Beauvais,보베,-7
+Qilian,치롄,-1
+RIo Turbio,리오 투르비오,-12
+ReykjavIk,레이캬비크,-9
+Changsha,창사,-1
+Burbank,버뱅크,-16
+Kotlas,코틀라스,-6
+Jubail,주바일,-6
+Townsville,타운스빌,+1
+Bulolo,불롤로,+1
+Baubau,바우바우,-1
+Marsh Harbour,마시 하버,-14
+Uyuni,우유니,-13
+Phosphate Hill,포스페이트 힐,+1
+Eday,이데이,-8
+Puerto Maldonado,푸에르토 말도나도,-14
+TolU,톨루,-14
+Tatitlek,타티틀렉,-17
+Barra da Tijuca,바하 다 티주카,-12
+Mostar,모스타르,-7
+Ivujivik,이부지빅,-14
+Leonora,레오노라,-1
+Kawthaung,카우퉁,-2
+Alor Island,알로르 제도,-1
+Maamigili,마아미길리,-4
+San Diego,샌디에이고,-16
+Monticello,몬티첼로,-14
+Galway,골웨이,-8
+Madison,매디슨,-14
+Lafayette,라피엣,-15
+Urgench,우르겐치,-4
+Diu,디우,-3.5
+Bandar Seri Begawan,반다르 스리 브가완,-1
+Yenagoa Bayelsa,예나고아 바옐사,-8
+Casper,캐스퍼,-15
+Chignik,치그닉,-17
+Allahabad,알라하바드,-3.5
+Temuco,테무코,-12
+Ado-Ekiti,아도-에키티,-8
+Iasi,이아시,-7
+Erechim,에레싱,-12
+Panglao,팡라오,-1
+Aklavik,아클라빅,-16
+Dryden,드라이덴,-14
+Telfer,텔퍼,-1
+Cayo Santa MarIa,카요 산타 마리아,-14
+Aguachica,아과치카,-14
+Bella Coola,벨라 쿨라,-16
+Grosseto,그로세토,-7
+Dipolog,디폴로그,-1
+Pangkor Island,팡코르 제도,-1
+orland,올란,-7
+Surkhet,수르켓,-3.75
+North Bend,노스 벤드,-16
+Niau,니아우,-19
+Belo Horizonte,벨루 오리존치,-12
+Kegaska,케가스카,-13
+Palermo,팔레르모,-7
+RIo Cuarto,리오 콰르토,-12
+Maseru,마세루,-7
+Leknes,레크네스,-7
+Chitral,치트랄,-4
+Bulagtai,불라그타이,-1
+Prijedor Urije,프리예도르 우리예,-7
+Nanjing,난징,-1
+Ganzhou,간저우,-1
+Kazarman,카자르만,-4
+Erie,이리,-13
+Kagoshima,가고시마,+0
+Ulusaba,울루사바,-7
+Aarhus,오르후스,-7
+Antalya,안탈리아,-6
+Baoshan,바오산,-1
+Pakokku,파코쿠,-2.5
+Tangara,탕가라,-13
+Al Ain,알 아인,-5
+Deqing,더칭,-1
+Brive-la-Gaillarde,브리브 라 가이야르드,-7
+Norsup,노르섭,+2
+Puerto Williams,푸에르토 윌리엄스,-12
+Quadra Island,콰드라 아일랜드,-16
+GardenPnt,가든 포인트,-1
+Jajao,하하오,-1
+Napier,네이피어,+3
+Katiu,카티우,-19
+Musoma,무소마,-6
+Ayacucho,아야쿠초,-14
+Yueyang,웨양,-1
+Bonaventure,보나방튀르,-13
+Pelotas,펠로타스,-12
+Trincomalee,트린코말리,-3.5
+Cabo Frio,카보 프리오,-12
+Aracatuba,아라카투바,-12
+Malaga,말라가,-7
+Laurel,로럴,-14
+David,데이비드,-14
+Waisai,와이사이,+0
+Lipa,리파,-1
+Condoto,콘도토,-14
+Maintirano,마인티라노,-6
+Karratha,카라타,-1
+Arar,아라르,-6
+Shache,샤체,-3
+Al Najaf,알 나자프,-6
+PotosI,포토시,-13
+Kalskag,칼스카그,-17
+Visby,비스뷔,-7
+Saidpur,사이드푸르,-3
+Mansons Landing,맨슨즈 랜딩,-16
+Zaranj,자란즈,-4.5
+Paderborn,파더보른,-7
+Trepell,트레펠,-1
+Haven,헤이븐,-13
+Kitadaito,키타다이토,+0
+Rimini,리미니,-7
+Southwest Georgia,사우스웨스트 조지아,-13
+Szczecin,슈체친,-7
+Rivas,리바스,-15
+Ilam,일람,-3.75
+Saipan,사이판,+1
+Rondonopolis,론도노폴리스,-13
+Labuan Bajo,라부안 바조,-1
+Appleton,애플턴,-14
+Dawson Creek,도슨 크리크,-16
+Bratislava,브라티슬라바,-7
+Cayenne,카옌,-12
+Urad Middle Banner,우라드 중기,-1
+Postville,포스트빌,-12.5
+Gods River,갓스 리버,-15
+Saba,사바,-13
+Butte,뷰트,-16
+Barrow,배로우,-18
+Navoiy,나보이,-4
+Arlit,알리트,-8
+EskiSehir,에스키셰히르,-6
+Perpignan,페르피냥,-7
+Odense,오덴세,-7
+Ruteng,루텡,-2
+Siverskij,시베르스키,-6
+Melonguane,멜롱구안,-1
+Manzhouli,만저우리,-1
+Ha'Apai,하아파이,+4
+Jaisalmer,자이살메르,-3.5
+Ivalo,이발로,-7
+Raha,라하,-2
+Redcliffe,레드클리프,+1
+Hall Beach,홀 비치,-14
+Donetsk,도네츠크,-7
+Beja,베자,-8
+Isla de Coche,코체 섬,-13
+Tynda,틴다,-1
+Nhulunbuy,눌런바이,+0.5
+Oceanside,오션사이드,-16
+El Oued,엘 우에드,-8
+Skvde,쇠브데,-7
+Nunam Iqua,누남 이콰,-18
+San Carlos de Bariloche,산 카를로스 데 바릴로체,-12
+Catalina,카탈리나,-16
+Ipatinga,이파칭가,-12
+Syunik,시우니크,-5
+Wellington,웰링턴,+3
+Ji'an,지안,-1
+Maio Island,마이우 제도,-9
+Miyakejima,미야케지마,+0
+Mazatlan,마사틀란,-15
+Port Bailey,포트 베일리,-17
+Pato Branco,파토 브랑쿠,-12
+Tartu,타르투,-7
+Sao LuIs,상 루이스,-12
+OkaloosaC,오칼루사,-14
+Nukus,누쿠스,-4
+Hollis,홀리스,-17
+Ua Huka,우아 후카,-19.5
+Tauranga,타우랑가,+3
+Walvis Bay,왈비스 베이,-7
+Armacao dos BUzios,아르마상 두스 부지우스,-12
+Tomsk,톰스크,-2
+Tamchy,탐치,-4
+Cold Bay,콜드 베이,-17
+Keperveyem,케페르베옘,+1
+Uliastai,울리아스타이,-1
+Garissa,가리사,-6
+Aracaju,아라카주,-12
+San Angelo,산 안젤로,-15
+Brownsville,브라운스빌,-15
+Tres Lagoas,트레스 라고아스,-13
+Mayagez,마야게스,-13
+Dutse,두체,-8
+Tureia,투레이아,-19
+Banda Aceh,반다 아체,-2
+Managua,마나과,-15
+Aurangabad,아우랑가바드,-3.5
+Whitehorse,화이트호스,-16
+Kasos Island,카소스 제도,-7
+Dnipro,드니프로,-7
+Czestochowa,쳉스토호바,-7
+Natchez,내치스,-15
+Wabush,와부시,-13
+Bordeaux,보르도,-7
+Phalaborwa,팔라보르와,-7
+Seoul,서울,+0
+Mae Hong Son,매홍손,-2
+Wagga Wagga,와가 와가,+1
+Point Hope,포인트 호프,-18
+Jaffna,자프나,-3.5
+Green Bay,그린 베이,-14
+Ghazni,가즈니,-4.5
+Sorocaba,소로카바,-12
+Ninglang,닝랑,-1
+Sabadell,사바델,-7
+Lae Atoll,라에 아톨,+3
+Morro de Sao Paulo,모후 지 상 파울루,-12
+Entebbe,엔테베,-6
+Cordoba,코르도바,-12
+Pitalito,피탈리토,-14
+Heihe,헤이허,-1
+Alamogordo,알라모고도,-15
+Siirt,시르트,-6
+Bellona Island,벨로나 제도,+2
+Athan,아탄,-2
+Ipiales,이피알레스,-14
+Diyarbakir,디야르바키르,-6
+Gaspe,가스페,-13
+Heringsdorf,헤링스도르프,-7
+Voi,보이,-6
+Kasenga,카셍가,-7
+Pithoragarh,피토라가르,-3.5
+Land'sEnd,랜드 엔드,-8
+Daegu,대구,+0
+Youngstown,영스타운,-13
+Narathiwat,나라티왓,-2
+GeorgeTown,조지타운,-13
+Matsu,마츠,-1
+Prince Albert,프린스 앨버트,-15
+Eldoret,엘도레트,-6
+Memmingen,멤밍겐,-7
+Preobrazheniye,프레오브라젠스케,+1
+Belize City,벨리즈 시티,-15
+Kassel,카셀,-7
+Sandakan,산다칸,-1
+Saifai,사이파이,-3.5
+Guadalajara,과달라하라,-15
+Zhezkazgan,제즈카즈간,-4
+Jijiga,지지가,-6
+Quepos,케포스,-15
+Toccoa,토코아,-13
+Mbeya,음베야,-6
+Tingo MarIa,팅고 마리아,-14
+Shijiazhuang,스자좡,-1
+Moheli,모헬리,-6
+Parapat,파라팟,-2
+Puerto San Jose,푸에르토 산호세,-15
+Pleiku,플레이쿠,-2
+Sibolga,시볼가,-2
+Esperance,에스페랑스,+1
+Errachidia,에라치디아,-8
+Halls Creek,홀스 크리크,-1
+Isiro,이시로,-7
+Yavatmal,야바트말,-3.5
+Concord,콩코드,-13
+Arutua,아루투아,-19
+Kiunga,키웅가,+1
+Ishigaki,이시가키,+0
+Isparta,이스파르타,-6
+Muang Xay,무앙 사이,-2
+Coll,콜,-8
+Nowshahr,노우샤르,-5.5
+Mulatupo,물라투포,-14
+Figari,피가리,-7
+Kannur,칸누르,-3.5
+Masbate,마스바테,-1
+Terre Haute,테르 오트,-14
+Isalo,이살로,-6
+Twin Falls,트윈 폴스,-16
+Kwajalein,콰잘레인,+3
+Sibu,시부,-1
+Tahoua,타화,-8
+Sittwe,싯웨,-2.5
+Datong,다퉁,-1
+Uganik,우가닉,-17
+Mosul,모술,-6
+Lompoc,롬포크,-16
+Brak,브라크,-7
+North Platte,노스 플랫,-15
+Manta,만타,-14
+Tshikapa,치카파,-8
+Arrabury,아라버리,+1
+Agartala,아가르탈라,-3
+Takoradi,타코라디,-8
+Inishmore,이니시모어,-8
+Bhamo,바모,-2.5
+Jodhpur,조드푸르,-3.5
+Salem,살렘,-3.5
+Huntsville,헌츠빌,-15
+Kazan,카잔,-6
+Shiyan,스옌,-1
+Grise Fiord,그리즈 피오르드,-14
+Kiri,키리,-8
+New York,뉴욕,-13
+Joinville,조인빌,-12
+Jask,자스크,-5.5
+Rewa,레와,-3.5
+Hughenden,휴겐든,+1
+Florianopolis,플로리아노폴리스,-12
+Sao Borja,상 보르자,-12
+Shahrud,샤흐루드,-5.5
+Shushenskoye,슈셴스코예,-2
+Lethbridge,레스브리지,-16
+Asahikawa,아사히카와,+0
+Tetouan,테투안,-8
+Simferopol,심페로폴,-7
+Perito Moreno,페리토 모레노,-12
+Tiakur,티아쿠르,-1
+Siborong-Borong,시보롱-보롱,-2
+Oita,오이타,+0
+Key Largo,키 라르고,-13
+Volos,볼로스,-7
+Chattanooga,채터누가,-14
+Nuremberg,뉘른베르크,-7
+Karaj,카라지,-5.5
+Luozi,뤄지,-1
+Greenstone,그린스톤,-14
+Cartagena,카르타헤나,-14
+Takume,타쿠메,-19
+Tsushima,쓰시마,+0
+Imperatriz,임페라트리스,-12
+Cologne,쾰른,-7
+Port Alsworth,포트 앨스워스,-17
+Altamira,알타미라,-12
+Wiluna,윌루나,-1
+Taree,타리,+1
+Sohar,소하르,-5
+Moro,모로,-1
+Ulyanovsk,울리야놉스크,-6
+Salalah,살랄라,-5
+Al Wajh,알 와지흐,-6
+Sovetsky,소베츠키,-4
+Voronezh,보로네시,-6
+Nakuru,나쿠루,-6
+Webequie,위베퀴,-15
+Saginaw,새기너,-14
+McArthur River,맥아더 리버,+0.5
+Anaa,아나아,-19
+Zangilan,장길란,-5
+Semnan,셈난,-5.5
+Ambon,암본,+0
+Arvidsjaur,아르비즈야우르,-7
+Boulia,불리아,+1
+Nacala,나칼라,-7
+Umiujaq,우미우작,-14
+San Pedro Sula,산 페드로 술라,-15
+Valencia,발렌시아,-7
+Acapulco,아카풀코,-15
+Natal,나탈,-12
+Clarks Point,클락스 포인트,-17
+Abu Musa Island,아부 무사 섬,-5.5
+San Luis Potosi,산 루이스 포토시,-15
+Christmas Island,크리스마스 섬,-2
+Termez,테르메즈,-4
+Garoua,가루아,-8
+Muara,무아라,-1
+Hammerfest,하메르페스트,-7
+Aspen,아스펜,-15
+Gaua Island,가우아 제도,+2
+Bamyan,바미얀,-4.5
+Quzhou,취저우,-1
+Macon,메이컨,-13
+Bagdogra,바그도그라,-3
+Sanya,싼야,-1
+Aosta,아오스타,-7
+Herat,헤라트,-4.5
+Porto,포르투,-8
+Crotone,크로토네,-7
+Aurillac,오리악,-7
+El Centro,엘 센트로,-16
+Trombetas,트롬베타스,-12
+Ponta Delgada,폰타 델가다,-9
+Cobar,코바,+1
+Rome,로마,-7
+Moosonee,무소니,-14
+Abakaliki,아바칼리키,-8
+Lencois,렌소이스,-12
+Bengbu,벙부,-1
+Chittagong,치타공,-3
+Joacaba,조아사바,-12
+Xilinhot,시린하오터,-1
+Medina,메디나,-6
+Turpan,투르판,-3
+Puerto Princesa,푸에르토 프린세사,-1
+Ciudad Juarez,시우다드 후아레스,-15
+Pokhara,포카라,-3.75
+Badajoz,바다호스,-7
+San Vicente,산 비센테,-12
+Sundsvall-HArnsand,순스발-헤르뇌산드,-7
+Hanover,하노버,-7
+Hambantota,함반토타,-3.5
+Eastsound,이스트사운드,-16
+Vinh,빈,-2
+Tamanrasset,타만라세트,-8
+Beirut,베이루트,-7
+Sado,사도,+0
+Barbuda,바부다,-13
+Kanpur,칸푸르,-3.5
+Myitkyina,미치나,-2.5
+Bryansk,브랸스크,-6
+Helena,헬레나,-16
+Flin Flon,플린 플론,-15
+Fakahina,파카히나,-19
+Fuyun,푸윈,-3
+Gusau,구사우,-8
+Lahore,라호르,-4
+Aizawl,아이자울,-3
+Chelinda,첼린다,-7
+Dortmund,도르트문트,-7
+Hopedale,호프데일,-12.5
+Lviv,르비우,-7
+Anjouan,앙주앙,-6
+Orenburg,오렌부르크,-4
+Lodz,우치,-7
+Saidu Sharif,사이두 샤리프,-4
+PuertoPlata,푸에르토 플라타,-14
+Montes Claros,몬치스 클라루스,-12
+Goroka,고로카,+1
+Niue Island,니우에 제도,-20
+Gameti,가메티,-16
+Pondicherry,퐁디셰리,-3.5
+Kona,코나,-19
+Jinghong,징훙,-1
+South Bend,사우스 벤드,-14
+Maringa,마링가,-12
+Salluit,살루이트,-14
+Los Angeles,로스앤젤레스,-16
+Namlea,남레아,+0
+Syktyvkar,식팁카르,-6
+Pittsfield,피츠필드,-13
+Manassas,매너서스,-13
+Haikou,하이커우,-1
+Sivas,시바스,-6
+Sainte-Marie,생트마리,-6
+Majkin,마이킨,-2
+TrkmenbaSy,투르크멘바시,-4
+Qui Nhon,뀌년,-2
+Mersa Matruh,메르사 마트루흐,-7
+Popayan,포파얀,-14
+Wichita Falls,위치타 폴스,-15
+Sault Ste. Marie,수 세인트 마리,-14
+Maroua,마루아,-8
+Abidjan,아비장,-8
+Beni Mellal,베니 멜랄,-8
+Lensk,렌스크,+1
+La Romana,라 로마나,-14
+Jaffrey,재프리,-13
+Leticia,레티시아,-14
+Tamale,타말레,-8
+Wichita,위치타,-15
+Lewiston,루이스턴,-16
+Zihuatanejo,시우아타네호,-15
+Aleknagik,알렉나기크,-17
+Akiachak,아키아착,-17
+Ginbata,긴바타,+2
+Maicao,마이카오,-13
+Diffa,디파,-8
+Daytona Beach,데이토나 비치,-13
+Lapu-Lapu,라푸라푸,-1
+JyvAskylA,위베스킬레,-7
+Busan,부산,+0
+Libo,리보,-1
+Juliaca,훌리아카,-14
+Texarkana,텍사카나,-15
+Barisal,바리살,-3
+Kenora,케노라,-15
+Skelleftea,셸레프테오,-7
+Linhares,리냐레스,-12
+Kerema,케레마,+1
+Humberside,험버사이드,-8
+Bukhara,부하라,-4
+Alice,앨리스,-15
+Encarnacion,엔카르나시온,-13
+Beaufort County,뷰포트 카운티,-13
+Kathmandu,카트만두,-3.75
+Bazhong,바중,-1
+Plymouth,플리머스,-8
+Rivne,리우네,-7
+Masterton,마스터턴,+3
+Sinop,시노프,-6
+San Felix,산 펠릭스,-13
+Shravasti,슈라바스티,-3.5
+Moncton,멍크턴,-13
+Coimbra,코임브라,-8
+Huanuco,우아누코,-14
+Simara,시마라,-3.75
+Bridgetown,브리지타운,-13
+Lavan Island,라반 섬,-5.5
+Tadoule Lake,타둘 레이크,-15
+Cox's Bazar,콕스바자르,-3
+Campeche,캄페체,-15
+Una,우나,-12
+Nakashibetsu,나카시베쓰,+0
+El Aguacate,엘 아과카테,-15
+Hartford,하트포드,-13
+Campbell River,캠벨 리버,-16
+San Antonio del Tachira,산 안토니오 델 타치라,-13
+Quebec,퀘벡,-13
+San Sebastian,산 세바스티안,-7
+Lautzenhausen,라우첸하우젠,-7
+Londonderry,런던데리,-8
+Putussibau,푸투시바우,-2
+Binghamton,빙엄턴,-13
+Hun,훈,-7
+Ubari,우바리,-7
+Along,알롱,-3
+Ziro,지로,-3
+Tanjung Pandan,탄중 판단,-2
+Emo,이모,+1
+Palanga,팔랑가,-7
+Lac Brochet,락 브로셰,-15
+PukaPuka,푸카푸카,-19
+Alma,알마,-13
+Kadhdhoo Island,카드두 제도,-4
+The Granites,더 그래니츠,+0.5
+Rockland,록랜드,-13
+Usharal,우샤랄,-4
+Parkersburg,파커스버그,-13
+Rapid City,래피드 시티,-15
+Kabale,카발레,-6
+Valesdir,발레스디어,+2
+Sisimiut,시시미우트,-12
+Lake Murray,레이크 머레이,+1
+Worland,워랜드,-15
+Corvo Island,코르보 제도,-9
+Ataq,아타크,-6
+Bathurst,배서스트,+1
+Ahmedabad,아마다바드,-3.5
+Bouarfa,부아르파,-8
+Moyo Town,모요 타운,-6
+Beziers,베지에르,-7
+Njombe,은좀베,-6
+Chadron,채드론,-15
+Trunojoyo,트루노조요,-2
+Pantelleria,판텔레리아,-7
+Tulita,툴리타,-16
+Luhansk,루한스크,-7
+Ceiba,세이바,-13
+Whale Cove,웨일 코브,-14
+Busselton,버셀턴,+1
+Kangirsuk,캉기르수크,-14
+Tokat,토카트,-6
+Kailashahar,카일라샤하르,-3
+Plettenberg Bay,플레텐베르크 베이,-7
+Rennes,렌,-7
+Gilgit,길기트,-4
+Luxembourg,룩셈부르크,-7
+Kuria,쿠리아,+3
+Iturup,이투루프,+2
+Bialystok,비아위스토크,-7
+Purwokerto,푸르워케르토,-2
+Tiga Island,티가 제도,+2
+Suntar,순타르,+0
+Chania,하니아,-7
+Aalborg,올보르,-7
+North Eleuthera,노스 엘류테라,-14
+Dimapur,디마푸르,-3
+Makin Island,마킨 제도,+3
+Weeze,베체,-7
+Telupid,텔루피드,-1
+Parsabad,파르사바드,-5
+Stepanavan,스테파나반,-5
+Tanjung Pinang,탄중 피낭,-2
+Iqaluit,이칼루이트,-14
+Craiova,크라이오바,-7
+Wajir,와지르,-6
+Tucupita,투쿠피타,-13
+Dikson,딕손,-4
+Asosa,아소사,-6
+Tanna Island,탄나 제도,+2
+Tumbes,툼베스,-14
+Mykonos,미코노스,-7
+Bellingham,벨링햄,-16
+North Spirit Lake,노스 스피릿 레이크,-15
+Golog,궈뤄,-1
+Bandar Lengeh,반다르 렝게흐,-5.5
+Manokwari,마노크와리,+0
+Chaurjhari,차우르자르히,-3.75
+Perigueux,페리괴,-7
+Barcaldine,바칼딘,+1
+Agadez,아가데즈,-8
+Cienfuegos,시엔푸에고스,-14
+Sobral Regional,소브랄 리저널,-12
+Wollaston Lake,울라스톤 레이크,-15
+Lismore,리즘모어,+1
+Fakfak,팍팍,+0
+Tin City,틴 시티,-18
+Gunnison,거니슨,-15
+Maun,마운,-7
+Ronaldsway,로널즈웨이,-8
+Asmara,아스마라,-6
+Saransk,사란스크,-6
+Lubango,루방고,-8
+Telluride,텔루라이드,-15
+Anatom Island,아나톰 아일랜드,+2
+Gachsaran,가치사란,-5.5
+Jeddah,제다,-6
+Jalingo,잘링고,-8
+Havre,아브르,-7
+Yermolino,예르몰리노,-6
+Kalumbila,칼룸빌라,-7
+Bozeman,보즈먼,-16
+Acarigua,아카리그아,-13
+Abingdon,애빙던,-13
+Fuyang,푸양,-1
+Coventry,코번트리,-8
+Ohrid,오흐리드,-7
+Lokichogio,로키초지오,-6
+Richmond,리치먼드,-13
+Tabora,타보라,-6
+Lhasa,라싸,-1
+Flinders Island,플린더스 아일랜드,+1
+Williamsport,윌리엄스포트,-13
+RIo Hato,리오 아토,-14
+Lord Howe Island,로드 하우 아일랜드,+1
+Alotau,알로타우,+1
+Saint-Pierre,생피에르,-13
+Chuuk,추크,+1
+La Serena,라 세레나,-13
+Mpanda,음판다,-6
+Douala,두알라,-8
+Kasese,카세세,-6
+Jolo,홀로,-1
+Nanyuki,난유키,-6
+Fianarantsoa,피아나라찬초아,-6
+Turku,투르쿠,-7
+Wangi-wangi Island,왕이왕이 제도,-1
+Copenhagen,코펜하겐,-7
+Bastia,바스티아,-7
+Naryn,나린,-4
+Rock Sound,록 사운드,-14
+Ibaraki,이바라키,+0
+Rio de Janeiro,리우데자네이루,-12
+Edna Bay,에드나 베이,-17
+Bari,바리,-7
+Pagar Alam,파가르 알람,-2
+Tamworth,탐워스,+1
+Seghe,세게,+2
+Dunk Island,덩크 아일랜드,+1
+Baise,바이서,-1
+Dawson City,도슨 시티,-16
+Bhojpur,보즈푸르,-3.75
+Selebi-Phikwe,셀레비-피크웨,-7
+Raiatea,라이아테아,-19
+Leesburg,리스버그,-13
+Columbia,컬럼비아,-13
+Caucasia,카우카시아,-14
+Sudbury,서드버리,-14
+Hikueru,히쿠에루,-19
+Kaukura Atoll,카우쿠라 아톨,-19
+Mariscal Estigarribia,마리스칼 에스티가리비아,-13
+Derby,더비,-8
+Lille,릴,-7
+Sao Nicolau,상 니콜라우,-10
+MongHsat,몽삿,-2.5
+Kulhudhuffush,쿨후두프푸쉬,-4
+Kalaleh,칼랄레흐,-5.5
+Kandahar,칸다하르,-4.5
+Labasa,라바사,+3
+KArdla,케르들라,-7
+Gulu,굴루,-6
+Arathusa,아라투사,-15
+Kano,카노,-8
+Shaoyang,샤오양,-1
+Monkey Bay,몽키 베이,-7
+Ailuk Atoll,아일루크 아톨,+3
+Rygge,리그,-7
+Aguni,아구니,+0
+Narrabri,나라브라이,+1
+Grand Canyon,그랜드 캐니언,-16
+Fort Hope,포트 호프,-14
+Falgunand,팔구나드,-3.75
+Paama,파아마,+2
+Sunchales,순찰레스,-12
+Korhogo,코로고,-8
+Cedar City,시더 시티,-16
+Ixiamas,이시아마스,-13
+Kuressaare,쿠레사레,-7
+Taldykorgan,탈디코르간,-4
+Kythira,키티라,-7
+Tonghua,퉁화,-1
+Tete,테테,-7
+Mataiva,마타이바,-19
+Pocatello,포카텔로,-16
+JuIna,주이나,-13
+Burgos,부르고스,-7
+Rongelap Atoll,롱겔랍 아톨,+3
+UIge,울게,+0
+State College,스테이트 칼리지,-13
+Wadi ad-Dawasir,와디 앗 다와시르,-6
+St. Theresa Point,세인트 테레사 포인트,-15
+Harstad-Narvik,하르스타드-나르빅,-7
+Saga,사가,+0
+Sal,살,-9
+Hyderabad,하이데라바드,-4
+Nanortalik,나노르탈리크,-12
+North Ronaldsay,노스 로널드세이,-8
+Fort Good Hope,포트 굿 호프,-16
+Trelew,트렐레우,-12
+Valera,발레라,-13
+Rosita,로시타,-15
+Ranong,라농,-2
+Bayannur,바옌나오르,-1
+Bor,보르,-7
+Blackall,블랙올,+1
+Magan,마간,+1
+Cuernavaca,쿠에르나바카,-15
+Gdynia Kosakowo,그디니아 코사코보,-7
+Keekorok,케에코록,-6
+Buraidah,부라이다,-6
+Massena,마세나,-13
+Humaita,우마이타,-14
+RIo Gallegos,리오 가예고스,-12
+Hilversum,힐베르쉼,-7
+Sishen,시셴,-7
+Mauke Island,마우케 제도,-19
+Kemerovo,케메로보,-3
+Akureyri,아쿠레이리,-9
+Najran,나즈란,-6
+Annecy,안시,-7
+Medicine Hat,메디신 햇,-15
+Clermont,클레르몽,-7
+Mary's Harbour,메리 하버,-12.5
+Horta,오르타,-9
+Punto Fijo,푼토 피호,-13
+Ciudad BolIvar,시우다드 볼리바르,-13
+Grand Island,그랜드 아일랜드,-15
+Cilacap,칠라캅,-2
+Akita,아키타,+0
+Zaragoza,사라고사,-7
+Meixian,메이셴,-1
+Santa Cruz,산타 크루즈,-16
+Traverse City,트래버스 시티,-14
+Knoxville,녹스빌,-14
+Vina del Mar,비냐 델 마르,-13
+Lake Minchumina,레이크 민추미나,-17
+Amman,암만,-7
+Caravelas,카라벨라스,-12
+Cranbrook,크랜브룩,-16
+Jinju,진주,+0
+Auburn,오번,-13
+Morristown,모리스타운,-13
+Palangkaraya,팔랑카라야,-1
+Bodaybo,보다이보,-1
+Hoarafushi,호아라푸시,-4
+Curitiba,쿠리치바,-12
+Lisbon,리스본,-8

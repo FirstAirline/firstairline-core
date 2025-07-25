@@ -1,0 +1,72 @@
+en_airport	ko_airport	des	iata_code	icao_code	region	en_country	ko_country	en_city	ko_city	time_diff
+London Heathrow Airport	런던 히드로 공항	런던히드로	LHR	EGLL	유럽	United Kingdom	영국	London	런던	-8
+Buyant-Ukhaa International Airport	부얀트 우카 국제공항	부얀트 우카	UBN	ZMUB	아시아	Mongolia	몽골	Ulaanbaatar	울란바토르	-1
+Incheon International Airport	인천국제공항	인천	ICN	RKSI	아시아	South Korea	대한민국	Incheon	인천	0
+Heydar Aliyev International Airport	헤이다르 알리예프 국제공항	헤이다르 알리예프	GYD	UBBB	아시아/유럽	Azerbaijan	아제르바이잔	Baku	바쿠	-5
+Sacheon Airport	사천공항	사천	HIN	RKPS	아시아	South Korea	대한민국	Sacheon	사천	0
+Shijiazhuang Zhengding International Airport	석가장 정딩 국제공항	석가장	SJW	ZBSJ	아시아	China	중국	Shijiazhuang	석가장	-1
+Qingdao Jiaodong International Airport	청도 자오둥 국제공항	청도	TAO	ZSQD	아시아	China	중국	Qingdao	청도	-1
+Shenyang Taoxian International Airport	심양 타오셴 국제공항	심양	SHE	ZYTX	아시아	China	중국	Shenyang	심양	-1
+Chengdu Shuangliu International Airport	청두 솽류 국제공항	청두(성도)	CTU	ZUUU	아시아	China	중국	Chengdu	청두(성도)	-1
+Sunan Shuofang International Airport	수난 슈오팡 국제공항	수난 슈오팡 국제공항	WUX	ZSWX	아시아	China	중국	Wuxi	우시	-1
+Ordos Ejin Horo Airport	오르도스 에진 호로 국제공항	오르도스 에진 호로 국제 공항	DSN	ZBDS	아시아	China	중국	Ordos	오르도스	-1
+Gimpo International Airport	김포국제공항	김포	GMP	RKSS	아시아	South Korea	대한민국	Seoul	김포	0
+Guilin Liangjiang International Airport	계림 량장 국제공항	계림	KWL	ZGKL	아시아	China	중국	Guilin	계림	-1
+Beijing Daxing International Airport	베이징 다싱 국제공항	베이징 다싱 국제공항	PKX	ZBAD	아시아	China	중국	Beijing	베이징	-1
+Narita International Airport	나리타 국제공항	도쿄/나리타	NRT	RJAA	아시아	Japan	일본	Tokyo	도쿄/나리타	0
+Ezhou Huahu Airport	어저우 화후 공항	어저우화후	EHU	ZHEC	아시아	China	중국	Ezhou	어저우	-1
+Noi Bai International Airport	노이바이 국제공항	노이바이(하노이)	HAN	VVNB	아시아	Vietnam	베트남	Hanoi	하노이	-2
+Newark Liberty International Airport	뉴어크 리버티 국제공항	뉴어크 리버티 국제공항	EWR	KEWR	북아메리카	United States	미국	Newark	뉴어크	-13
+Salt Lake City International Airport	솔트레이크시티 국제공항	솔트레이크시티	SLC	KSLC	북아메리카	United States	미국	Salt Lake City	솔트레이크시티	-16
+Mudanjiang Hailang Airport	목단강 하이랑 공항	목단강	MDG	ZYMD	아시아	China	중국	Mudanjiang	목단강	-1
+Shanghai Pudong International Airport	상하이 푸동 국제공항	푸동	PVG	ZSPD	아시아	China	중국	Shanghai	푸동	-1
+Cam Ranh International Airport	깜라인 국제공항	깜라인(나트랑)	CXR	VVCR	아시아	Vietnam	베트남	Nha Trang	나트랑	-2
+Xiamen Gaoqi International Airport	샤먼 가오치 국제공항	샤먼 가오치 국제공항	XMN	ZSAM	아시아	China	중국	Xiamen	샤먼	-1
+Clark International Airport	클라크 국제공항	클라크 국제공항	CRK	RPLC	아시아	Philippines	필리핀	Angeles City	클라크	-1
+Viracopos International Airport	비라코프스 국제공항	비라코프스	VCP	SBKP	남아메리카	Brazil	브라질	Campinas	캄피나스	-12
+Phuket International Airport	푸껫 국제공항	푸껫	HKT	VTSP	아시아	Thailand	태국	Phuket	푸껫	-2
+Dalian Zhoushuizi International Airport	대련 저우수이쯔 국제공항	대련	DLC	ZYTL	아시아	China	중국	Dalian	대련	-1
+Phu Quoc International Airport	푸꾸옥 국제공항	푸꾸옥	PQC	VVDP	아시아	Vietnam	베트남	Phu Quoc	푸꾸옥	-2
+Changchun Longjia International Airport	장춘 롱지아 국제공항	장춘	CGQ	ZYCC	아시아	China	중국	Changchun	장춘	-1
+Kansai International Airport	간사이 국제공항	간사이	KIX	RJBB	아시아	Japan	일본	Osaka	오사카	0
+Taiwan Taoyuan International Airport	타이완 타오위안 국제공항	타이완 타오위안 국제 공항	TPE	RCTP	아시아	Taiwan	대만	Taipei	타이베이	-1
+Quebec City Jean Lesage International Airport	퀘벡 장 르사주 국제공항	퀘벡 장 르사주 국제공항	YQB	CYQB	북아메리카	Canada	캐나다	Quebec City	퀘벡	-13
+Joint Base Lewis-McChord (McChord Field)	맥코드 공군기지	맥코드공군기지	MCM	KMCF	북아메리카	United States	미국	Tacoma	타코마	-16
+Tavaux Airport	타흐브 흐데스 파이리니 공항	타흐브 흐데스 파이리니 공항	DLE	LFGJ	유럽	France	프랑스	Dole	돌	-7
+Shenzhen Bao'an International Airport	선전 바오안 국제공항	선전(심천)	SZX	ZGSZ	아시아	China	중국	Shenzhen	선전(심천)	-1
+Chinggis Khaan International Airport	칭기즈 칸 국제공항	칭기즈 칸(신 울란바토르) 국제공항	UBN	ZMUB	아시아	Mongolia	몽골	Ulaanbaatar	울란바토르	-1
+Osan Air Base	오산 공군기지	오산	OSN	RKSO	아시아	South Korea	대한민국	Pyeongtaek	오산	0
+Tianjin Binhai International Airport	천진 빈하이 국제공항	천진	TSN	ZBTJ	아시아	China	중국	Tianjin	천진	-1
+Kitakyushu Airport	기타큐슈 공항	기타규슈	KKJ	RJFF	아시아	Japan	일본	Kitakyushu	기타규슈	0
+Ngurah Rai International Airport	응우라 라이 국제공항	덴파사(응우라 라이)	DPS	WADD	아시아	Indonesia	인도네시아	Denpasar	덴파사	-2
+Phu Bai International Airport	푸바이 국제공항	푸바이 국제공항	HUI	VVHS	아시아	Vietnam	베트남	Hue	후에	-2
+Shanghai Hongqiao International Airport	상하이 홍차오 국제공항	상해/홍차우	SHA	ZSSS	아시아	China	중국	Shanghai	상해/홍차우	-1
+Changsha Huanghua International Airport	창사 황화 국제공항	창사(장사)	CSX	ZGHA	아시아	China	중국	Changsha	창사(장사)	-1
+Soekarno-Hatta International Airport	수카르노 하타 국제공항	자카르타(수카르노 하타) 국제 공항	CGK	WIII	아시아	Indonesia	인도네시아	Jakarta	자카르타	-2
+Shymkent International Airport	쉼켄트 국제공항	쉼켄트	CIT	UAII	아시아	Kazakhstan	카자흐스탄	Shymkent	쉼켄트	-4
+Jiamusi Dongjiao Airport	가목사 동교 공항	가목사	JMU	ZYJM	아시아	China	중국	Jiamusi	가목사	-1
+Katowice Airport	카토비체 공항	카트비	KTW	EPKT	유럽	Poland	폴란드	Katowice	카토비체	-8
+Chengdu Tianfu International Airport	청두 톈푸 국제공항	청두 티안푸국제공항	TFU	ZUOF	아시아	China	중국	Chengdu	청두	-1
+Suvarnabhumi Airport	수완나품 공항	수안나폼(방콕)	BKK	VTBS	아시아	Thailand	태국	Bangkok	방콕	-2
+Luxembourg Findel Airport	룩셈부르크 핀델 공항	룩셈부르크 핀델 공항	LUX	ELLX	유럽	Luxembourg	룩셈부르크	Luxembourg City	룩셈부르크	-7
+Mactan-Cebu International Airport	막탄-세부 국제공항	세부	CEB	RPVM	아시아	Philippines	필리핀	Cebu	세부	-1
+Fuzhou Changle International Airport	푸저우 창러 국제공항	푸저우(복주)	FOC	ZSFZ	아시아	China	중국	Fuzhou	푸저우(복주)	-1
+Nanjing Lukou International Airport	난징 루커우 국제공항	남경	NKG	ZSNJ	아시아	China	중국	Nanjing	남경	-1
+Zhangjiajie Hehua International Airport	장가계 허화 국제공항	장가계	DYG	ZGDY	아시아	China	중국	Zhangjiajie	장가계	-1
+Kobe Airport	고베 공항	고베	UKB	RJBE	아시아	Japan	일본	Kobe	고베	0
+Bohol-Panglao International Airport	보홀-팡라오 국제공항	팡라로	TAG	RPBO	아시아	Philippines	필리핀	Panglao	팡라오	-1
+Manas International Airport	마나스 국제공항	마나스 국제공항	FRU	UCFM	아시아	Kyrgyzstan	키르기스스탄	Bishkek	비슈케크	-4
+Copernicus Airport Wrocław	코페르니쿠스 공항 브로츠와프	코페르니쿠스 공항 브로츠와프	WRO	EPWR	유럽	Poland	폴란드	Wrocław	브로츠와프	-7
+Don Mueang International Airport	돈므앙 국제공항	돈므앙(방콕)	DMK	VTBD	아시아	Thailand	태국	Bangkok	방콕	-2
+Siem Reap–Angkor International Airport	씨엠립 앙코르 국제공항	씨엠립 앙코르 국제공항	SAI	VDSA	아시아	Cambodia	캄보디아	Siem Reap	씨엠립	-2
+Can Tho International Airport	껀터 국제공항	껀터 국제공항	VCA	VVCT	아시아	Vietnam	베트남	Can Tho	껀터	-2
+Al Maktoum International Airport	알막툼 국제공항	알막툼	DWC	OMDW	아시아	United Arab Emirates	아랍에미리트	Dubai	두바이	-5
+Weihai Dashuibo Airport	위해 다시수이보 공항	위해	WEH	ZSWH	아시아	China	중국	Weihai	위해	-1
+Yanji Chaoyangchuan International Airport	연길 차오양촨 국제공항	연길	YNJ	ZYYJ	아시아	China	중국	Yanji	연길	-1
+Gimhae International Airport	김해국제공항	김해	PUS	RKPK	아시아	South Korea	대한민국	Busan	김해	0
+Tokyo Haneda Airport	도쿄 하네다 공항	하네다	HND	RJTT	아시아	Japan	일본	Tokyo	하네다	0
+Yantai Penglai International Airport	연대 펑라이 국제공항	연대	YNT	ZSYT	아시아	China	중국	Yantai	연대	-1
+Abu Dhabi International Airport	아부다비 국제공항	아부다비 국제공항	AUH	OMAA	아시아	United Arab Emirates	아랍에미리트	Abu Dhabi	아부다비	-5
+Sanya Phoenix International Airport	산야 피닉스 국제공항	산야	SYX	ZJSY	아시아	China	중국	Sanya	산야	-1
+Washington Dulles International Airport	워싱턴 덜레스 국제공항	워싱톤	IAD	KIAD	북아메리카	United States	미국	Washington, D.C.	워싱턴	-13
+Payarev Airport	파야레바 공항	파야레바	PVR	-	남아메리카	Venezuela	베네수엘라	Puerto Ayacucho	푸에르토 아야쿠초	-13
