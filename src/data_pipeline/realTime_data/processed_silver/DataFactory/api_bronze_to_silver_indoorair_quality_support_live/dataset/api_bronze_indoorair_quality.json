@@ -1,0 +1,66 @@
+{
+    "name": "api_bronze_indoorair_quality",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "AzurePostgreSql",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "AzurePostgreSqlTable",
+        "schema": [
+            {
+                "name": "timestamp",
+                "type": "text",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "terminalid",
+                "type": "text",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "rtime",
+                "type": "text",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "co2",
+                "type": "text",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "pm10",
+                "type": "text",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "pm2_5",
+                "type": "text",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "co",
+                "type": "text",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "no2",
+                "type": "text",
+                "precision": 0,
+                "scale": 0
+            }
+        ],
+        "typeProperties": {
+            "schema": "bronze",
+            "table": "api_bronze_indoorair_quality"
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}

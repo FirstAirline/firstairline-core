@@ -1,0 +1,218 @@
+-- 누림: DEPARTURE WEATHER (적재성공)
+SELECT
+    hub.timestamp AS timestamp,
+    item.ArrayValue.flightId AS flightid,
+    item.ArrayValue.airline AS airline,
+    item.ArrayValue.airport AS airport,
+    item.ArrayValue.chkinrange AS chkinrange,
+    item.ArrayValue.remark AS remark,
+    item.ArrayValue.yoil AS yoil,
+    item.ArrayValue.terminalid AS terminalid,
+    item.ArrayValue.airportCode AS airportcode,
+    item.ArrayValue.wimage AS wimage,
+    item.ArrayValue.scheduleDateTime AS scheduledatetime,
+    item.ArrayValue.estimatedDateTime AS estimateddatetime,
+    item.ArrayValue.gatenumber AS gatenumber,
+    item.ArrayValue.exitnumber AS exitnumber,
+    item.ArrayValue.himidity AS himidity,
+    item.ArrayValue.wind AS wind,
+    item.ArrayValue.temp AS temp,
+    item.ArrayValue.senstemp AS senstemp
+INTO
+    [postgresql-api-bronze-departure-weather]
+FROM
+    [1dt-2nd-team1-hub] AS hub
+TIMESTAMP BY hub.timestamp
+CROSS APPLY GetArrayElements(hub.data.items) AS item
+WHERE
+    hub.source = 'api_bronze_departure_weather'
+GROUP BY
+    TumblingWindow(second, 10),
+    hub.timestamp,
+    item.ArrayValue.flightId,
+    item.ArrayValue.airline,
+    item.ArrayValue.airport,
+    item.ArrayValue.chkinrange,
+    item.ArrayValue.remark,
+    item.ArrayValue.yoil,
+    item.ArrayValue.terminalid,
+    item.ArrayValue.airportCode,
+    item.ArrayValue.wimage,
+    item.ArrayValue.scheduleDateTime,
+    item.ArrayValue.estimatedDateTime,
+    item.ArrayValue.gatenumber,
+    item.ArrayValue.exitnumber,
+    item.ArrayValue.himidity,
+    item.ArrayValue.wind,
+    item.ArrayValue.temp,
+    item.ArrayValue.senstemp;
+
+
+
+
+
+
+-- 누림: PARKING LOT (적재성공)
+SELECT
+    hub.timestamp AS timestamp,
+    item.ArrayValue.floor AS floor,
+    MAX(item.ArrayValue.parking) AS parking,
+    MAX(item.ArrayValue.parkingarea) AS parkingarea,
+    MAX(item.ArrayValue.datetm) AS datetm
+INTO
+    [postgresql-api-bronze-parkinglot]
+FROM
+    [1dt-2nd-team1-hub] AS hub
+TIMESTAMP BY hub.timestamp
+CROSS APPLY GetArrayElements(hub.data.items) AS item
+WHERE
+    hub.source = 'api_bronze_parkinglot'
+GROUP BY
+    TumblingWindow(second, 10),
+    hub.timestamp,
+    item.ArrayValue.floor;
+
+
+
+-- 누림: INDOOR AIR QUALITY (적재성공)
+SELECT
+    hub.timestamp AS timestamp,
+    item.ArrayValue.terminalid AS terminalid,
+    item.ArrayValue.rtime AS rtime,
+    item.ArrayValue.co2 AS co2,
+    item.ArrayValue.pm10 AS pm10,
+    item.ArrayValue.pm2_5 AS pm2_5,
+    item.ArrayValue.co AS co,
+    item.ArrayValue.no2 AS no2
+INTO
+    [postgresql-api-bronze-indoorair-quality]
+FROM
+    [1dt-2nd-team1-hub] AS hub
+TIMESTAMP BY hub.timestamp
+CROSS APPLY GetArrayElements(hub.data.items) AS item
+WHERE
+    hub.source = 'api_bronze_indoorair_quality'
+GROUP BY
+    TumblingWindow(second, 10),
+    hub.timestamp,
+    item.ArrayValue.terminalid,
+    item.ArrayValue.rtime,
+    item.ArrayValue.co2,
+    item.ArrayValue.pm10,
+    item.ArrayValue.pm2_5,
+    item.ArrayValue.co,
+    item.ArrayValue.no2;
+
+
+
+-- 승수: AREA WEATHER DATA  (적재성공)
+SELECT
+    hub.timestamp,
+    hub.data.date,
+    hub.data.time,
+    hub.data.report_type,
+    hub.data.raw_text,
+    hub.data.station_type,
+    hub.data.status,
+    hub.data.permissible_usage,
+    hub.data.temperature,
+    hub.data.dew_point_temperature,
+    hub.data.qnh,
+    hub.data.mean_wind_speed,
+    hub.data.max_wind_speed,
+    hub.data.mean_wind_direction,
+    hub.data.counter_clock_wind_direction AS wind_counter_clock_direction,
+    hub.data.clock_wind_direction AS wind_clock_direction,
+    hub.data.horizontal_visibility,
+    hub.data.clouds,
+    hub.data.change_indicator
+INTO
+    [postgresql-api-bronze-area-weather-data]
+FROM
+    [1dt-2nd-team1-hub2] AS hub
+TIMESTAMP BY hub.timestamp -- 다른 쿼리들과 표현식을 통일
+WHERE
+    hub.source = 'api_bronze_area_weather_data';
+
+
+
+-- 상원: DEPARTURE FORECAST  (적재성공)
+SELECT
+    hub.timestamp AS timestamp,
+    item.ArrayValue.adate AS adate,
+    item.ArrayValue.atime AS atime,
+    item.ArrayValue.t1sum1 AS t1sum1,
+    item.ArrayValue.t1sum2 AS t1sum2,
+    item.ArrayValue.t1sum3 AS t1sum3,
+    item.ArrayValue.t1sum4 AS t1sum4,
+    item.ArrayValue.t1sum5 AS t1sum5,
+    item.ArrayValue.t1sum6 AS t1sum6,
+    item.ArrayValue.t1sum7 AS t1sum7,
+    item.ArrayValue.t1sum8 AS t1sum8,
+    item.ArrayValue.t1sumset1 AS t1sumset1,
+    item.ArrayValue.t1sumset2 AS t1sumset2,
+    item.ArrayValue.t2sum1 AS t2sum1,
+    item.ArrayValue.t2sum2 AS t2sum2,
+    item.ArrayValue.t2sum3 AS t2sum3,
+    item.ArrayValue.t2sum4 AS t2sum4,
+    item.ArrayValue.t2sumset1 AS t2sumset1,
+    item.ArrayValue.t2sumset2 AS t2sumset2
+INTO
+    [postgresql-api-bronze-departure-forecast-1]
+FROM
+    [1dt-2nd-team1-hub2] AS hub
+TIMESTAMP BY hub.timestamp
+CROSS APPLY
+    GetArrayElements(hub.data.items) AS item
+WHERE
+    hub.source = 'api_bronze_departure_forecast'
+GROUP BY
+    TumblingWindow(second, 10),
+    hub.timestamp,
+    item.ArrayValue.adate,
+    item.ArrayValue.atime,
+    item.ArrayValue.t1sum1,
+    item.ArrayValue.t1sum2,
+    item.ArrayValue.t1sum3,
+    item.ArrayValue.t1sum4,
+    item.ArrayValue.t1sum5,
+    item.ArrayValue.t1sum6,
+    item.ArrayValue.t1sum7,
+    item.ArrayValue.t1sum8,
+    item.ArrayValue.t1sumset1,
+    item.ArrayValue.t1sumset2,
+    item.ArrayValue.t2sum1,
+    item.ArrayValue.t2sum2,
+    item.ArrayValue.t2sum3,
+    item.ArrayValue.t2sum4,
+    item.ArrayValue.t2sumset1,
+    item.ArrayValue.t2sumset2;
+
+-- silver 테이블 파이프라인 동작 함수 앱 실행 (수정된 쿼리)
+SELECT
+    source AS message
+INTO
+    [1dt-2nd-team1-app-api-silver-pipline]
+FROM (
+    -- 첫 번째 입력 소스([1dt-2nd-team1-hub])에서 'source' 필드를 선택합니다.
+    SELECT
+        hub.source
+    FROM
+        [1dt-2nd-team1-hub] AS hub
+    TIMESTAMP BY hub.timestamp
+
+    UNION ALL -- 두 스트림의 결과를 중복 제거 없이 모두 합칩니다.
+
+    -- 두 번째 입력 소스([1dt-2nd-team1-hub2])에서 'source' 필드를 선택합니다.
+    SELECT
+        hub.source
+    FROM
+        [1dt-2nd-team1-hub2] AS hub
+    TIMESTAMP BY hub.timestamp
+) AS CombinedInputStream
+GROUP BY
+    -- 10초의 시간 창과 source 필드를 기준으로 그룹화합니다.
+    -- 이렇게 하면 10초 내에 동일한 source가 여러 번 들어와도 단 하나의 메시지만 생성됩니다.
+    TumblingWindow(second, 10),
+    source
+

@@ -1,0 +1,6 @@
+selected resource name:		api_bronze_to_silver_indoorair_quality
+selected resource type:		pipeline
+factory name:			1dt-2nd-team1-dataFactory
+factory location:		koreacentral
+subscription id:		27db5ec6-d206-4028-b5e1-6004dca5eeef
+time of download (UTC):		Thu, 24 Jul 2025 09:23:41 GMT

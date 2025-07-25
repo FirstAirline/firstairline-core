@@ -1,0 +1,126 @@
+{
+    "name": "api_silver_indoorair_quality",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "AzurePostgreSql",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "AzurePostgreSqlTable",
+        "schema": [
+            {
+                "name": "timestamp",
+                "type": "text",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "rtime",
+                "type": "text",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "year",
+                "type": "character varying",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "month",
+                "type": "character varying",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "day",
+                "type": "character varying",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "hour_of_day",
+                "type": "character varying",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "terminalid",
+                "type": "text",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "co2",
+                "type": "text",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "pm10",
+                "type": "text",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "pm2_5",
+                "type": "text",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "co",
+                "type": "text",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "no2",
+                "type": "text",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "co2_label",
+                "type": "text",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "pm10_label",
+                "type": "text",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "pm2_5_label",
+                "type": "text",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "co_label",
+                "type": "text",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "no2_label",
+                "type": "text",
+                "precision": 0,
+                "scale": 0
+            },
+            {
+                "name": "total_indoorair_quality_label",
+                "type": "text",
+                "precision": 0,
+                "scale": 0
+            }
+        ],
+        "typeProperties": {
+            "schema": "silver",
+            "table": "api_silver_indoorair_quality"
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}
