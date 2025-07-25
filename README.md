@@ -12,6 +12,9 @@
 
 ![FirstAirline Demo](docs/images/항공편검색.gif)
 
+<img width="9778" height="5024" alt="2차 프로젝트 구조도_figzam_2" src="https://github.com/user-attachments/assets/09c2ee1b-1164-4a6a-b37e-3f3afaf70cd0" />
+
+
 ## 🏗️ 아키텍처 개요
 
 ```plaintext
